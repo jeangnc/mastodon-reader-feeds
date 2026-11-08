@@ -289,14 +289,13 @@ def render_page(post, base_url):
 
 
 def readable_title(status):
-    name = status["account"].get("display_name") or status["account"]["acct"]
     content = status.get("content") or (status.get("reblog") or {}).get("content") or ""
     text = re.sub(r"https?://\S+", "", PlainText(content).text()).strip()
     if not text:
         text = status.get("spoiler_text") or (status.get("card") or {}).get("title") or "Post with media, poll or quote"
-    if len(text) > 110:
-        text = text[:107].rsplit(" ", 1)[0] + "…"
-    return f'{name} · {status["created_at"][:10]} — {text}'
+    if len(text) > 70:
+        text = text[:69].rsplit(" ", 1)[0] + "…"
+    return text
 
 
 class PlainText(HTMLParser):
@@ -325,7 +324,9 @@ def render_status(status, visited=None):
     account = status["account"]
     name = account.get("display_name") or account["acct"]
     date = status["created_at"]
-    parts = [f'<p class="byline"><a class="p-author" href="{html.escape(account["url"], quote=True)}">{html.escape(name)}</a> · <time class="dt-published" datetime="{html.escape(date, quote=True)}">{html.escape(date)}</time></p>']
+    parts = []
+    if len(visited) > 1:
+        parts.append(f'<p class="byline"><a class="p-author" href="{html.escape(account["url"], quote=True)}">{html.escape(name)}</a> · <time class="dt-published" datetime="{html.escape(date, quote=True)}">{html.escape(date[:10])}</time></p>')
     if status.get("spoiler_text"):
         parts.append(f'<p><strong>Content warning: {html.escape(status["spoiler_text"])}</strong></p>')
     parts.append(status.get("content") or "")

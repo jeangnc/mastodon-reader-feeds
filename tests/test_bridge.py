@@ -55,6 +55,25 @@ class BridgeTests(unittest.TestCase):
     def setUp(self):
         self.account = bridge.Account("alice", "example.social", "7", "Alice")
 
+    def test_short_post_title_uses_only_the_post_text(self):
+        self.assertEqual(bridge.readable_title(status()), "Hello world")
+
+    def test_long_post_title_fits_seventy_characters(self):
+        title = bridge.readable_title(status(content="<p>" + "A long post " * 30 + "</p>"))
+        self.assertLessEqual(len(title), 70)
+        self.assertTrue(title.endswith("…"))
+
+    def test_root_post_body_does_not_repeat_reader_metadata(self):
+        body = bridge.render_status(status())
+        self.assertNotIn('class="byline"', body)
+        self.assertNotIn("2026-11-07T12:00:00Z", body)
+        self.assertIn("Hello world", body)
+
+    def test_quoted_post_keeps_its_author_and_readable_date(self):
+        body = bridge.render_status(status(quote={"quoted_status": status("99")}))
+        self.assertEqual(body.count('class="byline"'), 1)
+        self.assertIn('>2026-11-07</time>', body)
+
     def test_media_only_post_keeps_image_description_and_readable_title(self):
         value = status(content="", media_attachments=[{"type": "image", "url": "https://media.test/a.png", "description": 'A <cat> & "dog"'}])
         page = bridge.render_page({"host": "example.social", "status": value}, "https://feeds.test/project")
