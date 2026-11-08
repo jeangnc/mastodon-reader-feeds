@@ -1,0 +1,2894 @@
+{
+  "account": {
+    "host": "hachyderm.io",
+    "name": "Mitchell Hashimoto",
+    "user": "mitchellh"
+  },
+  "last_success": "2026-11-08",
+  "posts": {
+    "hachyderm.io/117108873196299801": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "mitchellh",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "mitchellh",
+              "url": ""
+            }
+          ],
+          "blurhash": "USRyjIRjxu%LtmkCoekC-VxuIoae?^ayWBR*",
+          "description": "A custom memory pool for Wasm that grows by exactly one item size per growth and shares the pool across the entire Wasm-module instead of  per-terminal.\nSome background on why std.heap.MemoryPool i...",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://media.hachyderm.io/cache/preview_cards/images/052/990/486/original/bf0aa1783ed6bb1b.png",
+          "image_description": "A custom memory pool for Wasm that grows by exactly one item size per growth and shares the pool across the entire Wasm-module instead of  per-terminal.\nSome background on why std.heap.MemoryPool i...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "libghostty: use custom memory pool for Wasm, reduce terminal memory by ~75% by mitchellh · Pull Request #13865 · ghostty-org/ghostty",
+          "type": "link",
+          "url": "https://github.com/ghostty-org/ghostty/pull/13865",
+          "width": 678
+        },
+        "content": "<p>I&#39;ve moved on to optimizing libghostty Wasm runtime memory usage and I am learning a lot! The first discovery: Zig&#39;s `std.heap.MemoryPool` is very bad for Wasm! We replaced it with a custom Wasm-specific pool that lowered libghostty&#39;s required terminal memory by 75% without any measurable throughput impact.</p><p>Some background: `std.heap.MemoryPool` is a very high performance memory pool implementation for identically sized items directly in the Zig standard library. For non-wasm targets, its very good! We use it a lot!</p><p>But there is a major problem due to the interaction of two separate behaviors: first, the Zig std memory pool grows by 1.5x whenever it has no free space. To grow, it asks the backing allocator, which is usually general-purpose. On Wasm targets, that general-purpose allocator is the BrkAllocator which grows by power-of-two for big allocation slots (what we were hitting).</p><p>On native (non-wasm) targets, this just gets increasingly large virtual memory allocations, which is fine! Good, even! Virtual memory mappings are cheap and the total mapped memory isn&#39;t resident/physical until it&#39;s used. Allocation syscalls are expensive and its better to get too much.</p><p>But wasm is not like that. Every linear memory growth is immediately measured, zeroed, wired memory. Second, memory growth doesn&#39;t require a &quot;syscall&quot; in the same sense/overhead of the word. </p><p>The result is you get really big linear memory growth in WebAssembly and it looks/feels bad in web inspector and saves absolutely nothing on future IO.</p><p>We replaced it with a very simple pool (~20 lines of effective code) that grows the linear memory by exactly 1 item size when it needs it and maintains a module-global free list (assumes single-threaded Wasm module) so same-item pools are shared globally.</p><p>PR here: <a href=\"https://github.com/ghostty-org/ghostty/pull/13865\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/ghostty-org/ghostty</span><span class=\"invisible\">/pull/13865</span></a></p><p>cc <span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.social/@andrewrk\" class=\"u-url mention\">@<span>andrewrk</span></a></span> I think you&#39;ll like this.</p>",
+        "created_at": "2026-08-17T04:06:33.467Z",
+        "edited_at": "2026-08-17T04:30:06.649Z",
+        "emojis": [],
+        "favourites_count": 66,
+        "id": "117108873196299801",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [
+          {
+            "acct": "andrewrk@mastodon.social",
+            "id": "108325706397799542",
+            "url": "https://mastodon.social/@andrewrk",
+            "username": "andrewrk"
+          }
+        ],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 18,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117108873196299801",
+        "url": "https://hachyderm.io/@mitchellh/117108873196299801",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117135178412268410": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>Ghostty (and libghostty!) now has a 100% complete implementation of the Kitty Graphics Protocol. We support every feature, every option. We are the first terminal beyond Kitty to do this. </p><p>Most terminals stop at basic image placements, then give up on the long tail of other features. Ghostty covers all of them:</p><p>- Unicode placeholders (so it works in tmux)<br />- Relative placements (so images can be positioned relative to other images)<br />- Animation <br />- Scroll region handling (so images scroll properly with terminal scroll regions)<br />- All transport mediums: shared memory, temp files, etc.<br />- etc...</p><p>All of these features don&#39;t impact steady-state use (CPU or memory, besides raw code size). And for libghostty consumers, you can use the compile-time features flags to disable them completely.</p><p>I read the spec myself a hundred times. I read Kitty&#39;s source code to validate behaviors (our implementation is markedly different, so no GPL violation). </p><p>I also utilized agents, primarily for validation. I spun Fable and Sol in a loop for 3 weeks (pausing only when their dedicated subs exhausted limits) with a prompt to find mismatches between the spec, Kitty&#39;s reference implementation, and Ghostty.</p><p>And now we&#39;re done. Ghostty is the most compliant Kitty Graphics implementation (ignoring Kitty itself of course). And, this is all in libghostty, so now everyone can be perfectly compliant.</p>",
+        "created_at": "2026-08-21T19:36:19.192Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 78,
+        "id": "117135178412268410",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 21,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117135178412268410",
+        "url": "https://hachyderm.io/@mitchellh/117135178412268410",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117135272147575020": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p class=\"quote-inline\">RE: <a href=\"https://hachyderm.io/@mitchellh/117135178412268410\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">hachyderm.io/@mitchellh/117135</span><span class=\"invisible\">178412268410</span></a></p><p>Part of the LLM-assisted work here is that Fable+Sol put together a test suite of over 400 cases that are bare shell scripts plus a harness that runs Kitty and Ghostty GUIs and captures their full pty stream AND screenshots (multiple, for animations).</p><p>For the pty stream we assert byte equality. So Ghostty&#39;s success and error messages and field order of responses (its k=v) directly matches Kitty byte for byte.</p><p>For screenshots, we can&#39;t do pixel-identical comparisons because the way Kitty and Ghostty calculate grids and do alpha blending doesn&#39;t match. But, LLMs are pretty good now at &quot;do they look the same&quot; PLUS I went through all the screenshots myself. </p><p>Super helpful AI assist. It allowed me to focus a lot of my brain energy and time on reading the spec, reading/writing the implementation, considering the right shape of things, while I had a couple very good interns in the background doing work like this.</p>",
+        "created_at": "2026-08-21T20:00:09.479Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 29,
+        "id": "117135272147575020",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": {
+          "quoted_status": {
+            "account": {
+              "acct": "mitchellh",
+              "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "avatar_description": "",
+              "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "bot": false,
+              "created_at": "2022-12-18T00:00:00.000Z",
+              "discoverable": true,
+              "display_name": "Mitchell Hashimoto",
+              "emojis": [],
+              "feature_approval": {
+                "automatic": [
+                  "public"
+                ],
+                "current_user": "denied",
+                "manual": []
+              },
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2022-12-18T19:41:39.630+00:00"
+                },
+                {
+                  "name": "GitHub",
+                  "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-02-04T04:24:45.982+00:00"
+                },
+                {
+                  "name": "Email",
+                  "value": "m@mitchellh.com",
+                  "verified_at": null
+                }
+              ],
+              "followers_count": 8925,
+              "following_count": 56,
+              "group": false,
+              "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "header_description": "",
+              "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "hide_collections": false,
+              "id": "109536300043773357",
+              "indexable": false,
+              "last_status_at": "2026-11-07",
+              "locked": false,
+              "noindex": false,
+              "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+              "roles": [],
+              "show_featured": true,
+              "show_media": true,
+              "show_media_replies": true,
+              "statuses_count": 1055,
+              "uri": "https://hachyderm.io/users/mitchellh",
+              "url": "https://hachyderm.io/@mitchellh",
+              "username": "mitchellh"
+            },
+            "application": {
+              "name": "Ivory for Mac",
+              "website": "https://tapbots.com/"
+            },
+            "card": null,
+            "content": "<p>Ghostty (and libghostty!) now has a 100% complete implementation of the Kitty Graphics Protocol. We support every feature, every option. We are the first terminal beyond Kitty to do this. </p><p>Most terminals stop at basic image placements, then give up on the long tail of other features. Ghostty covers all of them:</p><p>- Unicode placeholders (so it works in tmux)<br />- Relative placements (so images can be positioned relative to other images)<br />- Animation <br />- Scroll region handling (so images scroll properly with terminal scroll regions)<br />- All transport mediums: shared memory, temp files, etc.<br />- etc...</p><p>All of these features don&#39;t impact steady-state use (CPU or memory, besides raw code size). And for libghostty consumers, you can use the compile-time features flags to disable them completely.</p><p>I read the spec myself a hundred times. I read Kitty&#39;s source code to validate behaviors (our implementation is markedly different, so no GPL violation). </p><p>I also utilized agents, primarily for validation. I spun Fable and Sol in a loop for 3 weeks (pausing only when their dedicated subs exhausted limits) with a prompt to find mismatches between the spec, Kitty&#39;s reference implementation, and Ghostty.</p><p>And now we&#39;re done. Ghostty is the most compliant Kitty Graphics implementation (ignoring Kitty itself of course). And, this is all in libghostty, so now everyone can be perfectly compliant.</p>",
+            "created_at": "2026-08-21T19:36:19.192Z",
+            "edited_at": null,
+            "emojis": [],
+            "favourites_count": 78,
+            "id": "117135178412268410",
+            "in_reply_to_account_id": null,
+            "in_reply_to_id": null,
+            "language": "en",
+            "media_attachments": [],
+            "mentions": [],
+            "poll": null,
+            "quote": null,
+            "quote_approval": {
+              "automatic": [
+                "public"
+              ],
+              "current_user": "denied",
+              "manual": []
+            },
+            "quotes_count": 1,
+            "reblog": null,
+            "reblogs_count": 21,
+            "replies_count": 4,
+            "sensitive": false,
+            "spoiler_text": "",
+            "tagged_collections": [],
+            "tags": [],
+            "uri": "https://hachyderm.io/users/mitchellh/statuses/117135178412268410",
+            "url": "https://hachyderm.io/@mitchellh/117135178412268410",
+            "visibility": "public"
+          },
+          "state": "accepted"
+        },
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117135272147575020",
+        "url": "https://hachyderm.io/@mitchellh/117135272147575020",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117135315552468740": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>I still read and write code myself and love it. But, I think this is a perfect example of how AI assistance can practically help. Here is how I had Fable+Sol work together on the aforementioned validation set:</p><p>  1. Sol put together the harness.<br />  2. Fable + Sol (two separate agents) in parallel would write test cases and output them on disk in their own folders. These two are just in a ralph loop.<br />  3. Sol + Fable (reversed) with an adversarial prompt would judge the others work by picking up the changes on disk that step 2 wrote. They would determine how accurate/worthwhile it is to keep. They&#39;d put it in another folder.<br />  4. Sol finally woke up for changes to this final folder and would determine if its a dup or not and then add it to the final repo.</p><p>This happened mostly while I wasn&#39;t at the computer. Then, when I got back to the computer, I&#39;d manually pick up the bug reports, validate them myself, and either fix them myself or kick off new agents manually.</p><p>Finally, at the end, I re-ran both agents once against the full test suite to verify what I saw myself: everything passed, all images look the same. I verified this manually, but had them double check for me because why not.</p><p>Common question, what did this cost me: two subscriptions, each $200/month each, so $400 total. I didn&#39;t utilize them to their full limits and I use them for other tasks too so I don&#39;t have the exact quantified cost of this specific set of tasks.</p>",
+        "created_at": "2026-08-21T20:11:11.784Z",
+        "edited_at": "2026-08-21T20:12:14.091Z",
+        "emojis": [],
+        "favourites_count": 32,
+        "id": "117135315552468740",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117135315552468740",
+        "url": "https://hachyderm.io/@mitchellh/117135315552468740",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117156497043634646": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>OSC parsing in libghostty was our last non-SIMD optimized VT stream path. OSCs are usually small so it just never showed up on benchmarks. But now that we are potentially passing megabytes of data (Kitty clipboard), it got the SIMD treatment. 🫡</p>",
+        "created_at": "2026-08-25T13:57:55.691Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 23,
+        "id": "117156497043634646",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "U6RyshIU?Hxv~Wxuofay?HxuWBRj-;Rjt7ay",
+            "description": null,
+            "id": "117156496791531975",
+            "meta": {
+              "original": {
+                "aspect": 1.5633423180592991,
+                "height": 742,
+                "size": "1160x742",
+                "width": 1160
+              },
+              "small": {
+                "aspect": 1.5625,
+                "height": 384,
+                "size": "600x384",
+                "width": 600
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/156/496/791/531/975/small/eb00ba54c9904bf9.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/156/496/791/531/975/original/eb00ba54c9904bf9.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117156497043634646",
+        "url": "https://hachyderm.io/@mitchellh/117156497043634646",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117157690633814210": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>The Ghostty memory usage memes are dead with the upcoming 1.4 release, much to the dismay of internet trolls everywhere. ~10x less memory for a visible window. ~450x lower for a non-visible window. Very reasonable compared to other terminals with 10 tabs.</p><p>This was the result of a lot of incremental hard work, but there were two big wins. One I talked about before which was scrollback compression. I want to note that these charts do NOT include scrollback, so with scrollback the results are more dramatic!</p><p>The other big win is that we free almost all GPU resources when a window is fully occluded (covered by another window, minimized, etc.). We triple-buffer our screens so for large screens this has major savings.</p><p>Those account for a large chunk of the improvements, but we also had dozens of incremental 1% wins here, a few KB there, etc. throughout the 1.4 cycle. And there are more coming!</p><p>I noted before that Ghostty&#39;s memory waste was all in the app layer and we can see it here. libghostty has always been very tight in comparison and I&#39;ve shown comparisons to other embedded terminal libraries elsewhere.</p><p>And importantly, the charts below use the same grid sizes with a very small +/-2% difference due to differences in how cell metrics are calculated between terminals.</p>",
+        "created_at": "2026-08-25T19:01:28.431Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 66,
+        "id": "117157690633814210",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UDSs51WCxu%MM|Rjxtof%LaxRjj]~qM{IUof",
+            "description": null,
+            "id": "117157690047000657",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 1800,
+                "size": "3200x1800",
+                "width": 3200
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/157/690/047/000/657/small/f0c87a20a9d04dda.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/157/690/047/000/657/original/f0c87a20a9d04dda.png"
+          },
+          {
+            "blurhash": "UASPX{D*_2_2-:M{a#og~pax9FRlt9Rkoct3",
+            "description": null,
+            "id": "117157690380204589",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 1800,
+                "size": "3200x1800",
+                "width": 3200
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/157/690/380/204/589/small/2c2105a717a4a683.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/157/690/380/204/589/original/2c2105a717a4a683.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 7,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117157690633814210",
+        "url": "https://hachyderm.io/@mitchellh/117157690633814210",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117175283681274864": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "Mitchell Hashimoto",
+          "author_url": "https://www.youtube.com/@Mitchellh3",
+          "authors": [
+            {
+              "account": null,
+              "name": "Mitchell Hashimoto",
+              "url": "https://www.youtube.com/@Mitchellh3"
+            }
+          ],
+          "blurhash": "UIA.7DOXDNniAOxboGS1%iX7V?jvJ8Vts9ox",
+          "description": "",
+          "embed_url": "",
+          "height": 150,
+          "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/XyxShCZrGiw?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\" sandbox=\"allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms\"></iframe>",
+          "image": "https://media.hachyderm.io/cache/preview_cards/images/053/430/999/original/279889ecbebd4db3.jpg",
+          "image_description": "",
+          "language": null,
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "published_at": null,
+          "title": "Superlogical Pre-Alpha Demo",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=XyxShCZrGiw",
+          "width": 200
+        },
+        "content": "<p>Quick Superlogical demo to end the week: <a href=\"https://www.youtube.com/watch?v=XyxShCZrGiw\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/watch?v=XyxShCZrGiw</span><span class=\"invisible\"></span></a></p><p>This demo is just of the basic functionality, but I want to highlight just how FAST it is. There&#39;s a WHOLE lot more functionality already present and coming but I wanted to keep the demo short. But seriously, check out that speed.</p><p>I&#39;m showing the macOS app here and I get asked a lot so let me just say up front: its not macOS only. We&#39;re still figuring out exactly what platforms will be stable enough for the initial public release, but we&#39;re working on others. In particular, the web interface is very functional but I&#39;ll demo that another time (or someone else will).</p><p>This is also all showing off the architecture I previously talked about for terminal multiplexing which is significantly different from other mainstream multiplexers: this is all a custom binary protocol where the server is maintaining N replica distributed terminal state machines. It works!</p><p>Tons of hard work going into this by the team. Hope we can bring you something you can use soon. ❤️</p>",
+        "created_at": "2026-08-28T21:35:37.032Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 78,
+        "id": "117175283681274864",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 29,
+        "replies_count": 12,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117175283681274864",
+        "url": "https://hachyderm.io/@mitchellh/117175283681274864",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117175343438307850": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>I can&#39;t tell you the number of people over my career that have said &quot;I tried learning tmux&quot; First problem: the fact you have to &quot;learn it&quot; at all. The world&#39;s best multiplexer is the one you don&#39;t have to learn. It just works. That&#39;s what we&#39;re building (and then some 😜).</p>",
+        "created_at": "2026-08-28T21:50:48.852Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 59,
+        "id": "117175343438307850",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117175343438307850",
+        "url": "https://hachyderm.io/@mitchellh/117175343438307850",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117202903279918618": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>The Superlogical server is built to run anywhere and everywhere and serve a level of scale (terminals+clients) unmatched w/ prior solutions. So let&#39;s start talking about that, starting with memory usage and comparisons to other popular multiplexers.</p><p>I want to start by talking high level: why does terminal/client scale matter? This matters because we&#39;re seeing unprecedented terminal usage and client attachment mainly due to AI. They like to spawn more sessions than we&#39;ve ever seen, and they are all their own clients. So we have to optimize it. Even if you don&#39;t use AI/agents, this just makes the software better for humans, too.</p><p>Okay, onto the results. First thing to notice is that while tmux&#39;s empty states are excellent, Superlogical makes it up at scale and there is an early breakpoint with busy terminals and clients where we use significantly less memory than tmux or anyone else.</p><p>Zellij simply does very poorly. There is no other way to put it. Its default out of the box empty footprint is high. And its per-client attachment is simply unscalable. The best I can guess (I haven&#39;t talked to them)is that it was designed in its current form for small single-human low-terminal-count scale on relatively beefy servers.</p><p>The per-client attachment for Zellij was so unbelievable I had to dig into why. Out of the box (zero config) Zellij has a tab bar and status bar plugin. These are wasm-plugins and each tab gets an instantiation. Each instantiation is its own wasm runtime. Huge memory explosion. I also noticed the memory was never reclaimed when I closed the tabs (even when waiting for minutes for memory to settle) but didn&#39;t dig into that more.</p><p>Anyways, credit where credit is due tmux has excellent memory usage for empty states. The tmux project has always been great and they&#39;ve been really receptive to the bugs I&#39;ve found via Ghostty or the protocols we&#39;ve championed. Much respect. </p><p>I&#39;m going to talk more about how we achieve this in a follow-up video.</p>",
+        "created_at": "2026-09-02T18:39:38.659Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 40,
+        "id": "117202903279918618",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "U7SF;MIA_2-;~qD%E1x]_3NG4.%20LkD^+M_",
+            "description": null,
+            "id": "117202902108349794",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 900,
+                "size": "1600x900",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/small/9703f2004de78b29.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/original/9703f2004de78b29.png"
+          },
+          {
+            "blurhash": "U9S6MeRP_3%N?bD%Rkxv?uIoD*%20LtR?HM_",
+            "description": null,
+            "id": "117202902411910546",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 900,
+                "size": "1600x900",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/small/8a4233534ace8937.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/original/8a4233534ace8937.png"
+          },
+          {
+            "blurhash": "U6SPb4M_^*-=$$IUxvafrYM|ODSc0Ms:?aIo",
+            "description": null,
+            "id": "117202902713123106",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 900,
+                "size": "1600x900",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/small/27d7637e8ed30c09.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/original/27d7637e8ed30c09.png"
+          },
+          {
+            "blurhash": "U9S6PmM{^+%M?bD%Rjt8-:RQIVtR01t7?bRj",
+            "description": null,
+            "id": "117202903024826188",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 900,
+                "size": "1600x900",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/small/a4d2c38ab37d00c8.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/original/a4d2c38ab37d00c8.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 2,
+        "reblog": null,
+        "reblogs_count": 10,
+        "replies_count": 5,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117202903279918618",
+        "url": "https://hachyderm.io/@mitchellh/117202903279918618",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117203605799705501": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p class=\"quote-inline\">RE: <a href=\"https://hachyderm.io/@mitchellh/117202903279918618\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">hachyderm.io/@mitchellh/117202</span><span class=\"invisible\">903279918618</span></a></p><p>A video explaining a handful of the tricks we use to optimize for memory within the Superlogical server: in-memory compression, moving file descriptors between event-driven and blocked threads dynamically, full terminal state binary snapshot/restore in microseconds, and more!</p><p><a href=\"https://www.youtube.com/watch?v=T5gV6anSt-4\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/watch?v=T5gV6anSt-4</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-09-02T21:38:18.262Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 19,
+        "id": "117203605799705501",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": {
+          "quoted_status": {
+            "account": {
+              "acct": "mitchellh",
+              "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "avatar_description": "",
+              "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "bot": false,
+              "created_at": "2022-12-18T00:00:00.000Z",
+              "discoverable": true,
+              "display_name": "Mitchell Hashimoto",
+              "emojis": [],
+              "feature_approval": {
+                "automatic": [
+                  "public"
+                ],
+                "current_user": "denied",
+                "manual": []
+              },
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2022-12-18T19:41:39.630+00:00"
+                },
+                {
+                  "name": "GitHub",
+                  "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-02-04T04:24:45.982+00:00"
+                },
+                {
+                  "name": "Email",
+                  "value": "m@mitchellh.com",
+                  "verified_at": null
+                }
+              ],
+              "followers_count": 8925,
+              "following_count": 56,
+              "group": false,
+              "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "header_description": "",
+              "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "hide_collections": false,
+              "id": "109536300043773357",
+              "indexable": false,
+              "last_status_at": "2026-11-07",
+              "locked": false,
+              "noindex": false,
+              "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+              "roles": [],
+              "show_featured": true,
+              "show_media": true,
+              "show_media_replies": true,
+              "statuses_count": 1055,
+              "uri": "https://hachyderm.io/users/mitchellh",
+              "url": "https://hachyderm.io/@mitchellh",
+              "username": "mitchellh"
+            },
+            "application": {
+              "name": "Ivory for Mac",
+              "website": "https://tapbots.com/"
+            },
+            "card": null,
+            "content": "<p>The Superlogical server is built to run anywhere and everywhere and serve a level of scale (terminals+clients) unmatched w/ prior solutions. So let&#39;s start talking about that, starting with memory usage and comparisons to other popular multiplexers.</p><p>I want to start by talking high level: why does terminal/client scale matter? This matters because we&#39;re seeing unprecedented terminal usage and client attachment mainly due to AI. They like to spawn more sessions than we&#39;ve ever seen, and they are all their own clients. So we have to optimize it. Even if you don&#39;t use AI/agents, this just makes the software better for humans, too.</p><p>Okay, onto the results. First thing to notice is that while tmux&#39;s empty states are excellent, Superlogical makes it up at scale and there is an early breakpoint with busy terminals and clients where we use significantly less memory than tmux or anyone else.</p><p>Zellij simply does very poorly. There is no other way to put it. Its default out of the box empty footprint is high. And its per-client attachment is simply unscalable. The best I can guess (I haven&#39;t talked to them)is that it was designed in its current form for small single-human low-terminal-count scale on relatively beefy servers.</p><p>The per-client attachment for Zellij was so unbelievable I had to dig into why. Out of the box (zero config) Zellij has a tab bar and status bar plugin. These are wasm-plugins and each tab gets an instantiation. Each instantiation is its own wasm runtime. Huge memory explosion. I also noticed the memory was never reclaimed when I closed the tabs (even when waiting for minutes for memory to settle) but didn&#39;t dig into that more.</p><p>Anyways, credit where credit is due tmux has excellent memory usage for empty states. The tmux project has always been great and they&#39;ve been really receptive to the bugs I&#39;ve found via Ghostty or the protocols we&#39;ve championed. Much respect. </p><p>I&#39;m going to talk more about how we achieve this in a follow-up video.</p>",
+            "created_at": "2026-09-02T18:39:38.659Z",
+            "edited_at": null,
+            "emojis": [],
+            "favourites_count": 40,
+            "id": "117202903279918618",
+            "in_reply_to_account_id": null,
+            "in_reply_to_id": null,
+            "language": "en",
+            "media_attachments": [
+              {
+                "blurhash": "U7SF;MIA_2-;~qD%E1x]_3NG4.%20LkD^+M_",
+                "description": null,
+                "id": "117202902108349794",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/small/9703f2004de78b29.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/original/9703f2004de78b29.png"
+              },
+              {
+                "blurhash": "U9S6MeRP_3%N?bD%Rkxv?uIoD*%20LtR?HM_",
+                "description": null,
+                "id": "117202902411910546",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/small/8a4233534ace8937.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/original/8a4233534ace8937.png"
+              },
+              {
+                "blurhash": "U6SPb4M_^*-=$$IUxvafrYM|ODSc0Ms:?aIo",
+                "description": null,
+                "id": "117202902713123106",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/small/27d7637e8ed30c09.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/original/27d7637e8ed30c09.png"
+              },
+              {
+                "blurhash": "U9S6PmM{^+%M?bD%Rjt8-:RQIVtR01t7?bRj",
+                "description": null,
+                "id": "117202903024826188",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/small/a4d2c38ab37d00c8.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/original/a4d2c38ab37d00c8.png"
+              }
+            ],
+            "mentions": [],
+            "poll": null,
+            "quote": null,
+            "quote_approval": {
+              "automatic": [
+                "public"
+              ],
+              "current_user": "denied",
+              "manual": []
+            },
+            "quotes_count": 2,
+            "reblog": null,
+            "reblogs_count": 10,
+            "replies_count": 5,
+            "sensitive": false,
+            "spoiler_text": "",
+            "tagged_collections": [],
+            "tags": [],
+            "uri": "https://hachyderm.io/users/mitchellh/statuses/117202903279918618",
+            "url": "https://hachyderm.io/@mitchellh/117202903279918618",
+            "visibility": "public"
+          },
+          "state": "accepted"
+        },
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117203605799705501",
+        "url": "https://hachyderm.io/@mitchellh/117203605799705501",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117205062257892936": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p class=\"quote-inline\">RE: <a href=\"https://hachyderm.io/@mitchellh/117202903279918618\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">hachyderm.io/@mitchellh/117202</span><span class=\"invisible\">903279918618</span></a></p><p>Guess which one is Rust btw. 🤣</p><p>(The point is the language isn&#39;t a free lunch for performance. Rust could be just as small as any other here. It isn&#39;t a given. Fundamentals and system design trump everything else. Language wars are stupid as hell.)</p>",
+        "created_at": "2026-09-03T03:48:42.050Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 23,
+        "id": "117205062257892936",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": {
+          "quoted_status": {
+            "account": {
+              "acct": "mitchellh",
+              "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "avatar_description": "",
+              "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+              "bot": false,
+              "created_at": "2022-12-18T00:00:00.000Z",
+              "discoverable": true,
+              "display_name": "Mitchell Hashimoto",
+              "emojis": [],
+              "feature_approval": {
+                "automatic": [
+                  "public"
+                ],
+                "current_user": "denied",
+                "manual": []
+              },
+              "fields": [
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2022-12-18T19:41:39.630+00:00"
+                },
+                {
+                  "name": "GitHub",
+                  "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2023-02-04T04:24:45.982+00:00"
+                },
+                {
+                  "name": "Email",
+                  "value": "m@mitchellh.com",
+                  "verified_at": null
+                }
+              ],
+              "followers_count": 8925,
+              "following_count": 56,
+              "group": false,
+              "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "header_description": "",
+              "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+              "hide_collections": false,
+              "id": "109536300043773357",
+              "indexable": false,
+              "last_status_at": "2026-11-07",
+              "locked": false,
+              "noindex": false,
+              "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+              "roles": [],
+              "show_featured": true,
+              "show_media": true,
+              "show_media_replies": true,
+              "statuses_count": 1055,
+              "uri": "https://hachyderm.io/users/mitchellh",
+              "url": "https://hachyderm.io/@mitchellh",
+              "username": "mitchellh"
+            },
+            "application": {
+              "name": "Ivory for Mac",
+              "website": "https://tapbots.com/"
+            },
+            "card": null,
+            "content": "<p>The Superlogical server is built to run anywhere and everywhere and serve a level of scale (terminals+clients) unmatched w/ prior solutions. So let&#39;s start talking about that, starting with memory usage and comparisons to other popular multiplexers.</p><p>I want to start by talking high level: why does terminal/client scale matter? This matters because we&#39;re seeing unprecedented terminal usage and client attachment mainly due to AI. They like to spawn more sessions than we&#39;ve ever seen, and they are all their own clients. So we have to optimize it. Even if you don&#39;t use AI/agents, this just makes the software better for humans, too.</p><p>Okay, onto the results. First thing to notice is that while tmux&#39;s empty states are excellent, Superlogical makes it up at scale and there is an early breakpoint with busy terminals and clients where we use significantly less memory than tmux or anyone else.</p><p>Zellij simply does very poorly. There is no other way to put it. Its default out of the box empty footprint is high. And its per-client attachment is simply unscalable. The best I can guess (I haven&#39;t talked to them)is that it was designed in its current form for small single-human low-terminal-count scale on relatively beefy servers.</p><p>The per-client attachment for Zellij was so unbelievable I had to dig into why. Out of the box (zero config) Zellij has a tab bar and status bar plugin. These are wasm-plugins and each tab gets an instantiation. Each instantiation is its own wasm runtime. Huge memory explosion. I also noticed the memory was never reclaimed when I closed the tabs (even when waiting for minutes for memory to settle) but didn&#39;t dig into that more.</p><p>Anyways, credit where credit is due tmux has excellent memory usage for empty states. The tmux project has always been great and they&#39;ve been really receptive to the bugs I&#39;ve found via Ghostty or the protocols we&#39;ve championed. Much respect. </p><p>I&#39;m going to talk more about how we achieve this in a follow-up video.</p>",
+            "created_at": "2026-09-02T18:39:38.659Z",
+            "edited_at": null,
+            "emojis": [],
+            "favourites_count": 40,
+            "id": "117202903279918618",
+            "in_reply_to_account_id": null,
+            "in_reply_to_id": null,
+            "language": "en",
+            "media_attachments": [
+              {
+                "blurhash": "U7SF;MIA_2-;~qD%E1x]_3NG4.%20LkD^+M_",
+                "description": null,
+                "id": "117202902108349794",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/small/9703f2004de78b29.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/108/349/794/original/9703f2004de78b29.png"
+              },
+              {
+                "blurhash": "U9S6MeRP_3%N?bD%Rkxv?uIoD*%20LtR?HM_",
+                "description": null,
+                "id": "117202902411910546",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/small/8a4233534ace8937.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/411/910/546/original/8a4233534ace8937.png"
+              },
+              {
+                "blurhash": "U6SPb4M_^*-=$$IUxvafrYM|ODSc0Ms:?aIo",
+                "description": null,
+                "id": "117202902713123106",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/small/27d7637e8ed30c09.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/902/713/123/106/original/27d7637e8ed30c09.png"
+              },
+              {
+                "blurhash": "U9S6PmM{^+%M?bD%Rjt8-:RQIVtR01t7?bRj",
+                "description": null,
+                "id": "117202903024826188",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 900,
+                    "size": "1600x900",
+                    "width": 1600
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/small/a4d2c38ab37d00c8.png",
+                "remote_url": null,
+                "text_url": null,
+                "type": "image",
+                "url": "https://media.hachyderm.io/media_attachments/files/117/202/903/024/826/188/original/a4d2c38ab37d00c8.png"
+              }
+            ],
+            "mentions": [],
+            "poll": null,
+            "quote": null,
+            "quote_approval": {
+              "automatic": [
+                "public"
+              ],
+              "current_user": "denied",
+              "manual": []
+            },
+            "quotes_count": 2,
+            "reblog": null,
+            "reblogs_count": 10,
+            "replies_count": 5,
+            "sensitive": false,
+            "spoiler_text": "",
+            "tagged_collections": [],
+            "tags": [],
+            "uri": "https://hachyderm.io/users/mitchellh/statuses/117202903279918618",
+            "url": "https://hachyderm.io/@mitchellh/117202903279918618",
+            "visibility": "public"
+          },
+          "state": "accepted"
+        },
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117205062257892936",
+        "url": "https://hachyderm.io/@mitchellh/117205062257892936",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117237397684548220": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "Mitchell Hashimoto",
+          "author_url": "https://www.youtube.com/@Mitchellh3",
+          "authors": [
+            {
+              "account": null,
+              "name": "Mitchell Hashimoto",
+              "url": "https://www.youtube.com/@Mitchellh3"
+            }
+          ],
+          "blurhash": "U86bJi01_3IU4q_2D*%L%NNGs:WB%NIUxuRQ",
+          "description": "",
+          "embed_url": "",
+          "height": 150,
+          "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/PdwTjSBW6Y8?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\" sandbox=\"allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms\"></iframe>",
+          "image": "https://media.hachyderm.io/cache/preview_cards/images/053/816/888/original/ac431af640ea1320.jpg",
+          "image_description": "",
+          "language": null,
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "published_at": null,
+          "title": "Superlogical Remote Sessions Pre-Alpha Demo",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=PdwTjSBW6Y8",
+          "width": 200
+        },
+        "content": "<p>A quick look into remote persistent sessions with Superlogical! Not just remote sessions, but some functionality like remote directory lists, too. Superlogical can actually be a full SSH replacement (I don&#39;t run SSH on my servers anymore), and I talk about that briefly, too.</p><p><a href=\"https://www.youtube.com/watch?v=PdwTjSBW6Y8\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">youtube.com/watch?v=PdwTjSBW6Y8</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-09-08T20:52:01.506Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 29,
+        "id": "117237397684548220",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 6,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117237397684548220",
+        "url": "https://hachyderm.io/@mitchellh/117237397684548220",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117271724131710790": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "Mitchell Hashimoto",
+          "author_url": "https://www.youtube.com/@Mitchellh3",
+          "authors": [
+            {
+              "account": null,
+              "name": "Mitchell Hashimoto",
+              "url": "https://www.youtube.com/@Mitchellh3"
+            }
+          ],
+          "blurhash": "U55X+801_2D*4o^+9Z%LV@kCf5j]?b9G-;IV",
+          "description": "",
+          "embed_url": "",
+          "height": 150,
+          "html": "<iframe width=\"200\" height=\"150\" src=\"https://www.youtube.com/embed/9fcfDF8SBnc?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\" sandbox=\"allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms\"></iframe>",
+          "image": "https://media.hachyderm.io/cache/preview_cards/images/054/042/240/original/d4a1e3e30be04507.jpg",
+          "image_description": "",
+          "language": null,
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "published_at": null,
+          "title": "Superlogical Pre-Alpha Demo: CLI",
+          "type": "video",
+          "url": "https://youtu.be/9fcfDF8SBnc",
+          "width": 200
+        },
+        "content": "<p>New week new demo!  Today I want to showcase the CLI to control the Superlogical multiplexer. The CLI is an extremely powerful tool for automation and hooking into other tools like editors, agentic coding tools, and more. And, it&#39;s super fun!</p><p><a href=\"https://youtu.be/9fcfDF8SBnc\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">youtu.be/9fcfDF8SBnc</span><span class=\"invisible\"></span></a></p><p>Everything you can do in the GUI, you can do via the CLI. Actually, you can do more in the CLI. You can create sessions, run commands, make splits, move things around, change focus, simulate any input device (key/mouse/etc.), wait on scripts, and more.</p><p>There are a couple unique parts of Rex I&#39;m showing off here too: our streaming event system that any client can hook into (or script). And the terminal-specific API to retrieve information like a JSON object of the running process. </p><p>I hope this demo lets your imagination run free of where you might slot something like this into your existing tools.</p>",
+        "created_at": "2026-09-14T22:21:41.521Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 30,
+        "id": "117271724131710790",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 5,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117271724131710790",
+        "url": "https://hachyderm.io/@mitchellh/117271724131710790",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117288128094609938": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>Terminal programs bias to dark modes and explicit colors are hostile to light modes and themes. We now detect programs when they request colors too out of whack from your theme, apply some Oklab magic and hue rotation to match your theme. Harmonious themes, everywhere, always.</p>",
+        "created_at": "2026-09-17T19:53:26.131Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 138,
+        "id": "117288128094609938",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "U6Q,I2~AI1}u*0o@Iot2I3a2xoSdyZR%s9Rn",
+            "description": null,
+            "id": "117288127369773597",
+            "meta": {
+              "original": {
+                "aspect": 1.5585996955859969,
+                "height": 1314,
+                "size": "2048x1314",
+                "width": 2048
+              },
+              "small": {
+                "aspect": 1.5598958333333333,
+                "height": 384,
+                "size": "599x384",
+                "width": 599
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/288/127/369/773/597/small/46cb62a1b94686f9.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/288/127/369/773/597/original/46cb62a1b94686f9.png"
+          },
+          {
+            "blurhash": "U7Qm9t-SDZ^kyFtPNGt3nGxI%JS1%%Rjn$WG",
+            "description": null,
+            "id": "117288127831914459",
+            "meta": {
+              "original": {
+                "aspect": 1.5585996955859969,
+                "height": 1314,
+                "size": "2048x1314",
+                "width": 2048
+              },
+              "small": {
+                "aspect": 1.5598958333333333,
+                "height": 384,
+                "size": "599x384",
+                "width": 599
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/288/127/831/914/459/small/62b27fc0f140952d.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/288/127/831/914/459/original/62b27fc0f140952d.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 23,
+        "replies_count": 13,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117288128094609938",
+        "url": "https://hachyderm.io/@mitchellh/117288128094609938",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117395995815352040": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Mitchell Hashimoto",
+          "provider_url": "",
+          "published_at": "2026-10-06T00:00:00.000Z",
+          "title": "A Terminal Protocol for Program Status (OSC 7501)",
+          "type": "link",
+          "url": "https://mitchellh.com/writing/program-status-osc7501",
+          "width": 0
+        },
+        "content": "<p>I&#39;ve published a new, general-purpose terminal specification that gives any program a way to tell the terminal what it&#39;s doing: idle, working, waiting, finished, or failed, and why. It is easy to implement on both sides. I&#39;ve written more about why: <a href=\"https://mitchellh.com/writing/program-status-osc7501\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">mitchellh.com/writing/program-</span><span class=\"invisible\">status-osc7501</span></a></p><p>The problem this solves is generic and applies in compelling ways to all sorts of use cases (e.g. package managers, build tools), but it really rears a hideous head when it comes to AI and the &quot;agentic inbox&quot; problem.</p><p>I found over 250 different agent orchestrators (with various goals) that all individually implement a heuristic based approach to detecting whether things like Claude Code are working, blocked, done, etc. </p><p>If you look at Herdr’s commit history, you can see around 10 compatibility changes to detect Claude Code within just the past 3 months. (This isn&#39;t a dig at Herdr! They&#39;re doing great work with what they have, and everyone else is doing the same thing). </p><p>Heuristics are not the way. And over-indexing on agentic use cases isn&#39;t the way, because this problem is really interesting for other tools too: Homebrew, Terraform, Cargo, etc. etc. </p><p>Proprietary protocols and out of band APIs are not the way. They have an O(N) integration problem and require extra work to work over SSH or within local VMs/containers.</p><p>The program status specification (OSC 7501) solves this in a reliable, deterministic way that is general-purpose and can be easily adopted by the entire industry. </p><p>Read more: <a href=\"https://mitchellh.com/writing/program-status-osc7501\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">mitchellh.com/writing/program-</span><span class=\"invisible\">status-osc7501</span></a></p>",
+        "created_at": "2026-10-06T21:05:36.929Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 100,
+        "id": "117395995815352040",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 41,
+        "replies_count": 7,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117395995815352040",
+        "url": "https://hachyderm.io/@mitchellh/117395995815352040",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117400945629535264": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>The status of the program status specification I shared yesterday in alphabetical order: integrated in Amp, Factoryai, TUIOS, libghostty. Verbal support and in-progress PRs by Claude Code, cmux, Codex, Herdr, OpenCode, Pi. Requests in to many others. Not bad for 24 hours!</p>",
+        "created_at": "2026-10-07T18:04:25.099Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 32,
+        "id": "117400945629535264",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117400945629535264",
+        "url": "https://hachyderm.io/@mitchellh/117400945629535264",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117401363575721742": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>Been working hard on Rex server scalability. In short: we were able to run 10,000 active terminals simultaneously with 3.8 GB memory usage while maintaining responsiveness. We didn&#39;t try more yet, we want to improve some numbers before going bigger, but the goal is 100,000.</p><p>This wasn&#39;t free and to get to this point required a lot of very fun engineering challenges! Here are just a couple:</p><p>- Linux fork preallocates enough fd table space for the highest open fd at fork time to the nearest power of 2. For terminals beyond ~5000, that was 512KB per terminal process JUST for a fd table that had ~4 fds. We now use a trampoline written in C to unshare the fd table so it shrinks back down to fitting the minimum fds. </p><p>- We previously kept all active (non-snapshot) terminals blocked on pty read, but that takes up an OS thread which at this scale uses a prohibitively high amount of RAM. We now move all quiet pty fds (2 seconds without read activity) to a shared epoll thread. </p><p>I didn&#39;t compare to any other multiplexers at this time. I&#39;m not particularly interested at this state to have relative numbers against others, because the enemy I&#39;m trying to beat is myself. We&#39;ll continue to improve these numbers, these are still alpha-quality builds.</p>",
+        "created_at": "2026-10-07T19:50:42.452Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 33,
+        "id": "117401363575721742",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "U4Rysft6WE_3~XS1WCoyIpE0R5-:-;IUw{x]",
+            "description": null,
+            "id": "117401363322237223",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 1800,
+                "size": "3200x1800",
+                "width": 3200
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/401/363/322/237/223/small/c1b9c1604c1fd1c9.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/401/363/322/237/223/original/c1b9c1604c1fd1c9.png"
+          },
+          {
+            "blurhash": "U7Rfh2Mx-;_N^+IoM{xu.8ozD%M_IUWU-;f+",
+            "description": null,
+            "id": "117401363322237224",
+            "meta": {
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 1800,
+                "size": "3200x1800",
+                "width": 3200
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/401/363/322/237/224/small/fcd4730c6094ffbd.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/401/363/322/237/224/original/fcd4730c6094ffbd.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 4,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117401363575721742",
+        "url": "https://hachyderm.io/@mitchellh/117401363575721742",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117553644110176246": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>libghostty has always been fast, but it&#39;s also been getting significantly faster. Here are IO throughput measurements comparing Ghostty 1.3.1, 1.4.0, and main as of this morning. We&#39;ll be backporting most of these to a 1.4.1 release soon.</p><p>Here are some highlights of the changes since 1.4:</p><p>- Ghostty 1.4 had a fast-path for printing runs of plain text. But the fast-path only applied to limited cases. We now support mixed width characters and hyperlinks in the fast path.</p><p>- Our input path always widened the pty data to codepoints (8-bit to 32-bit) as part of UTF-8 decode, which also incurred a memory copy. We now have a SIMD fast path to detect pure-ASCII and we process the run direct from the read buffer (no copy, narrower data).</p><p>- New memory pages use most recent two pages actual utilization to pre-size themselves accordingly. This sped up styles, hyperlinks etc.</p><p>- When a VM page runs out of capacity for a certain type of data (e.g. hyperlinks, styles), we now project the usage so far to guess what you&#39;ll need, then shrink available rows to avoid a realloc. Before we&#39;d naively double. This caused a classic &quot;laddering&quot; problem.</p><p>- We recognized &quot;erase&quot; being a slow path for us, and it&#39;s a common sequence, so we use another bit in row headers to track blank (we had space). </p><p>- Styles are now processed once per SGR. Previously, a sequence like &quot;ESC[1;38;2;r;g;bm&quot; would apply each style as it came in (1, then 38, then 2, etc.). We now apply all attributes at once and write to the cursor atomically.</p><p>- Styles are now packed into 128-bit values and use aarch64 and x86_64-specific assembly for minimizing instructions to use it.</p><p>- On x86_64, we found that LLVM was lowering some row resets (hot path) to a 4-byte store followed by an 8-byte load which couldn&#39;t be store-forwarded. This caused an almost 10% (!!!) slowdown on scroll operations only on x86_64. The fix was to change our reset to build the full header in a register then do a single memmove per row.</p><p>Net results are what you see in the graph, but written out main to 1.4: ASCII 1.5x, heavy styling 1.5x, styled Unicode 1.8x, random UTF-8 1.4x, random OSC 8 2.7x, mixed styled text with links 4.8x, cursor/erase 16x, hyperlink-dense text 5.6x.</p>",
+        "created_at": "2026-11-03T17:17:39.006Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 37,
+        "id": "117553644110176246",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UER{#^D*_0~oWYWBt6oMoIs-WDM}%MWBRkWD",
+            "description": null,
+            "id": "117553643858830570",
+            "meta": {
+              "original": {
+                "aspect": 1.2997562956945572,
+                "height": 1231,
+                "size": "1600x1231",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 1.299287410926366,
+                "height": 421,
+                "size": "547x421",
+                "width": 547
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://media.hachyderm.io/media_attachments/files/117/553/643/858/830/570/small/ad28a9cae1a979c9.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://media.hachyderm.io/media_attachments/files/117/553/643/858/830/570/original/ad28a9cae1a979c9.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117553644110176246",
+        "url": "https://hachyderm.io/@mitchellh/117553644110176246",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117553656657493180": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": null,
+        "content": "<p>I&#39;ve enjoyed the how-fast-is-`cat` benchmark for a long time for terminals, but I am sad to say its done. We&#39;ve finished it. Libghostty processes plain text data faster than both the macOS and Linux kernel can feed it through a pty fd read. It can&#39;t get any faster without kernel changes. 😮‍💨</p><p>That doesn’t mean we process ALL data faster than a kernel read. Only plain text (both ascii and unicode with full grapheme clustering, btw). </p><p>There are still slow OSCs, especially those that have side effects (e.g. clipboard ops). So processing faster than the current can write still has benefits: when we get stalled on slow sequences, we can catch up through the buffer faster on text runs.</p>",
+        "created_at": "2026-11-03T17:20:50.462Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 60,
+        "id": "117553656657493180",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 16,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117553656657493180",
+        "url": "https://hachyderm.io/@mitchellh/117553656657493180",
+        "visibility": "public"
+      }
+    },
+    "hachyderm.io/117572093648264631": {
+      "host": "hachyderm.io",
+      "status": {
+        "account": {
+          "acct": "mitchellh",
+          "avatar": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "avatar_description": "",
+          "avatar_static": "https://media.hachyderm.io/accounts/avatars/109/536/300/043/773/357/original/b96ea497af143355.png",
+          "bot": false,
+          "created_at": "2022-12-18T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Mitchell Hashimoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://mitchellh.com\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">mitchellh.com</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-12-18T19:41:39.630+00:00"
+            },
+            {
+              "name": "GitHub",
+              "value": "<a href=\"https://github.com/mitchellh\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/mitchellh</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-04T04:24:45.982+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "m@mitchellh.com",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8925,
+          "following_count": 56,
+          "group": false,
+          "header": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "header_description": "",
+          "header_static": "https://media.hachyderm.io/accounts/headers/109/536/300/043/773/357/original/981579b516daed7f.png",
+          "hide_collections": false,
+          "id": "109536300043773357",
+          "indexable": false,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Co-founder of Superlogical. Creator of Ghostty. 👻 Prev founded HashiCorp, created Vagrant, Terraform, Vault, and others.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 1055,
+          "uri": "https://hachyderm.io/users/mitchellh",
+          "url": "https://hachyderm.io/@mitchellh",
+          "username": "mitchellh"
+        },
+        "application": {
+          "name": "Ivory for Mac",
+          "website": "https://tapbots.com/"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Mitchell Hashimoto",
+          "provider_url": "",
+          "published_at": "2026-11-06T00:00:00.000Z",
+          "title": "Libghostty 1.0",
+          "type": "link",
+          "url": "https://mitchellh.com/writing/libghostty-1-0",
+          "width": 0
+        },
+        "content": "<p>libghostty 1.0 is here! I started Ghostty ~5yrs ago to work towards this. Today, libghostty is in hundreds of projects used by tens of millions of people. 1.0 marks ABI stability, quality, and an invite for distros to begin packaging. <a href=\"https://mitchellh.com/writing/libghostty-1-0\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">mitchellh.com/writing/libghost</span><span class=\"invisible\">ty-1-0</span></a></p><p>Since starting the Ghostty project in 2022, the most common question I&#39;ve been asked is &quot;why?&quot;. Today, I&#39;ll answer this by showing the broad industry impact libghostty has already had.</p><p>On top of JetBrains and Neovim already mentioned (that alone being over 10 million users):<br />-KDE developers are experimenting with a Konsole replacement built on it. <br />- Vercel&#39;s Turborepo uses it to render task output in its TUI. <br />- devenv uses it to drive shells. <br />- Antithesis used it to fuzz TUI programs and found real bugs in btop and others. <br />-Ghostel brings it to Emacs. <br />- ghostty-web is the WASM build with an Xterm.js-compatible API. <br />- Commercial products like OrbStack embed it. <br />- And a whole wave of new terminals and &quot;agentic&quot; coding tools, such as herdr and cmux, have been built on it rather than writing yet another emulator.</p><p>There are community bindings for Rust, Go, JavaScript, Swift, Python, .NET, Elixir, Dart, Java, and more, and the awesome-libghostty list tracks well over a hundred projects.</p><p>More people today use a terminal powered by libghostty than use Ghostty the application, by a very large multiple. And libghostty is having a much larger impact than being &quot;just&quot; a terminal emulator.</p><p>I&#39;m excited to see where people take it from here.</p>",
+        "created_at": "2026-11-06T23:29:36.615Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 154,
+        "id": "117572093648264631",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 2,
+        "reblog": null,
+        "reblogs_count": 81,
+        "replies_count": 6,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://hachyderm.io/users/mitchellh/statuses/117572093648264631",
+        "url": "https://hachyderm.io/@mitchellh/117572093648264631",
+        "visibility": "public"
+      }
+    }
+  },
+  "sources": {
+    "mitchellh@hachyderm.io": "117572093648264631"
+  }
+}

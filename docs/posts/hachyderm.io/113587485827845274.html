@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Russ Cox · 2024-12-03 — Day 3 part 1. The function &#x27;c step s&#x27; steps the state machine state s to incorporate the new character c.…</title><link rel="canonical" href="https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113587485827845274.html"><meta property="og:type" content="article"><meta name="author" content="Russ Cox"><meta property="article:published_time" content="2024-12-03T06:31:26.384Z"><style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1rem;color:#20252b}h1{font-size:1.6rem;line-height:1.3}img,video{max-width:100%;height:auto}a{overflow-wrap:anywhere}figure{margin:1.5rem 0}figcaption,.byline,footer{font-size:.9rem;color:#505966}.invisible{display:none}blockquote{border-left:3px solid #bbb;padding-left:1rem}@media(prefers-color-scheme:dark){body{background:#171b20;color:#e9edf2}a{color:#8dbfff}figcaption,.byline,footer{color:#c3cbd4}}</style></head><body><main><article class="h-entry"><h1 class="p-name">Russ Cox · 2024-12-03 — Day 3 part 1. The function &#x27;c step s&#x27; steps the state machine state s to incorporate the new character c.…</h1><p class="byline"><a class="p-author" href="https://hachyderm.io/@rsc">Russ Cox</a> · <time class="dt-published" datetime="2024-12-03T06:31:26.384Z">2024-12-03T06:31:26.384Z</time></p>
+<p>Day 3 part 1. </p><p>The function &#39;c step s&#39; steps the state machine state s to incorporate the new character c. </p><p>(step/ flip x) runs the state machine over the whole string, left to right.</p><p>The reduction base case for &quot;...yz&quot; is &#39;y&#39; step &#39;z&#39;, which step rewrites to (&#39;y&#39; step &#39;z&#39; step initial-state).</p>
+<figure><img src="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png" alt="sample = read &quot;sample.txt&quot;
+input = read &quot;input1.txt&quot;
+
+digits = &quot;0123456789&quot;
+
+op i atoi c = (i*10) + (code c) - (code &#x27;0&#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &#x27;m&#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &#x27;u&#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &#x27;l&#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &#x27;(&#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &lt; 1000) and c == &#x27;,&#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &lt; 1000) and c == &#x27;)&#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+"><figcaption>sample = read &quot;sample.txt&quot;
+input = read &quot;input1.txt&quot;
+
+digits = &quot;0123456789&quot;
+
+op i atoi c = (i*10) + (code c) - (code &#x27;0&#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &#x27;m&#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &#x27;u&#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &#x27;l&#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &#x27;(&#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &lt; 1000) and c == &#x27;,&#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &lt; 1000) and c == &#x27;)&#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+</figcaption></figure>
+<p><a href="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png">sample = read &quot;sample.txt&quot;
+input = read &quot;input1.txt&quot;
+
+digits = &quot;0123456789&quot;
+
+op i atoi c = (i*10) + (code c) - (code &#x27;0&#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &#x27;m&#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &#x27;u&#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &#x27;l&#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &#x27;(&#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &lt; 1000) and c == &#x27;,&#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &lt; 1000) and c == &#x27;)&#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+</a></p>
+<footer><p><a href="https://hachyderm.io/@rsc/113587485827845274">Original Mastodon post</a></p></footer></article></main></body></html>

@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Russ Cox · 2024-12-03 — Day 3 part 2. The function &#x27;c step2 s&#x27; is the updated state machine, with an extra value tracking whether…</title><link rel="canonical" href="https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113587488470832402.html"><meta property="og:type" content="article"><meta name="author" content="Russ Cox"><meta property="article:published_time" content="2024-12-03T06:32:06.713Z"><style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1rem;color:#20252b}h1{font-size:1.6rem;line-height:1.3}img,video{max-width:100%;height:auto}a{overflow-wrap:anywhere}figure{margin:1.5rem 0}figcaption,.byline,footer{font-size:.9rem;color:#505966}.invisible{display:none}blockquote{border-left:3px solid #bbb;padding-left:1rem}@media(prefers-color-scheme:dark){body{background:#171b20;color:#e9edf2}a{color:#8dbfff}figcaption,.byline,footer{color:#c3cbd4}}</style></head><body><main><article class="h-entry"><h1 class="p-name">Russ Cox · 2024-12-03 — Day 3 part 2. The function &#x27;c step2 s&#x27; is the updated state machine, with an extra value tracking whether…</h1><p class="byline"><a class="p-author" href="https://hachyderm.io/@rsc">Russ Cox</a> · <time class="dt-published" datetime="2024-12-03T06:32:06.713Z">2024-12-03T06:32:06.713Z</time></p>
+<p>Day 3 part 2.</p><p>The function &#39;c step2 s&#39; is the updated state machine, with an extra value tracking whether mul(x,y) is enabled. step2 takes care of do()/don&#39;t() processing and invokes &#39;step&#39; (from part 1) to handle mul(x,y) when appropriate.</p>
+<figure><img src="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png" alt="op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &#x27;d&#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &#x27;o&#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &#x27;(&#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &#x27;)&#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &#x27;n&#x27;: -4, 0, 0, s[4], s[5]  # or don&#x27;t()...
+	(s[1] == -4) and c == &#x27;\&#x27;&#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &#x27;t&#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &#x27;(&#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &#x27;)&#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+"><figcaption>op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &#x27;d&#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &#x27;o&#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &#x27;(&#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &#x27;)&#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &#x27;n&#x27;: -4, 0, 0, s[4], s[5]  # or don&#x27;t()...
+	(s[1] == -4) and c == &#x27;\&#x27;&#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &#x27;t&#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &#x27;(&#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &#x27;)&#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+</figcaption></figure>
+<p><a href="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png">op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &#x27;d&#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &#x27;o&#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &#x27;(&#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &#x27;)&#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &#x27;n&#x27;: -4, 0, 0, s[4], s[5]  # or don&#x27;t()...
+	(s[1] == -4) and c == &#x27;\&#x27;&#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &#x27;t&#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &#x27;(&#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &#x27;)&#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+</a></p>
+<footer><p><a href="https://hachyderm.io/@rsc/113587488470832402">Original Mastodon post</a></p></footer></article></main></body></html>

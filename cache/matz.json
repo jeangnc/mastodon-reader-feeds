@@ -1,0 +1,2132 @@
+{
+  "account": {
+    "host": "ruby.social",
+    "name": "Yukihiro Matz Matsumoto",
+    "user": "matz"
+  },
+  "last_success": "2026-11-08",
+  "posts": {
+    "ruby.social/114164240722970098": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": null,
+        "content": "<p>確定申告、あとは医療費だけだ</p>",
+        "created_at": "2025-03-15T03:07:47.671Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 8,
+        "id": "114164240722970098",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://ruby.social/users/matz/statuses/114164240722970098",
+        "url": "https://ruby.social/@matz/114164240722970098",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114232195984016772": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UBRC[4tj~px[.RISSwM__NXl4nNG%gW;X7tR",
+          "description": "Are you running an old Ruby version? Get up to date with your Ruby! Follow this step-by-step Ruby upgrade guide to help successfully plan and execute your upgrade",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "A Step-by-Step Guide to Upgrading Your Ruby Version    ",
+          "provider_url": "",
+          "published_at": "2024-01-15T17:08:29.000Z",
+          "title": "A Step-by-Step Guide to Upgrading Your Ruby Version - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "https://www.fastruby.io/blog/step-by-step-ruby-upgrade.html?utm_source=matz&utm_medium=sponsorship&utm_campaign=re-sponsored-toot-mar-20-2025&utm_term=step-by-step&utm_content=ruby",
+          "width": 678
+        },
+        "content": "<p>Need to Upgrade <a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a>? </p><p>Here is a Free Step by Step Guide by <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> — The team behind Bonsai and the `next_rails` gem shares their best practices for upgrading to any Ruby version</p><p><a href=\"https://www.fastruby.io/blog/step-by-step-ruby-upgrade.html?utm_source=matz&amp;utm_medium=sponsorship&amp;utm_campaign=re-sponsored-toot-mar-20-2025&amp;utm_term=step-by-step&amp;utm_content=ruby\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">fastruby.io/blog/step-by-step-</span><span class=\"invisible\">ruby-upgrade.html?utm_source=matz&amp;utm_medium=sponsorship&amp;utm_campaign=re-sponsored-toot-mar-20-2025&amp;utm_term=step-by-step&amp;utm_content=ruby</span></a><br />[from my GitHub sponsor]</p>",
+        "created_at": "2025-03-27T03:09:42.668Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 16,
+        "id": "114232195984016772",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UBRC[4tj~px[.RISSwM__NXl4nNG%gW;X7tR",
+            "description": null,
+            "id": "114232192958454339",
+            "meta": {
+              "original": {
+                "aspect": 2.0,
+                "height": 800,
+                "size": "1600x800",
+                "width": 1600
+              },
+              "small": {
+                "aspect": 2.0,
+                "height": 339,
+                "size": "678x339",
+                "width": 678
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/114/232/192/958/454/339/small/cc2235301bcb8a41.jpeg",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://cdn.masto.host/rubysocial/media_attachments/files/114/232/192/958/454/339/original/cc2235301bcb8a41.jpeg"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 12,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114232195984016772",
+        "url": "https://ruby.social/@matz/114232195984016772",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114385553378820759": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "背景RubyKaigi2025の最後のキーノートでMatzさんが話題にしたのは、AI時代のプログラミングに関してだった。現時点でAIは人間に取って代わるほどの力はないが、AIの「alpha化」に…",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "ja",
+          "provider_name": "Qiita",
+          "provider_url": "",
+          "published_at": null,
+          "title": "「Because it's not fun when you're enslaved.」に込められた意味 - Qiita",
+          "type": "link",
+          "url": "https://qiita.com/kaisumi/items/a6dd7e3b649cebf7f83e",
+          "width": 0
+        },
+        "content": "<p>「Because it&#39;s not fun when you&#39;re enslaved.」に込められた意味 <a href=\"https://ruby.social/tags/AI\" class=\"mention hashtag\" rel=\"tag\">#<span>AI</span></a> - Qiita - <a href=\"https://qiita.com/kaisumi/items/a6dd7e3b649cebf7f83e\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">qiita.com/kaisumi/items/a6dd7e</span><span class=\"invisible\">3b649cebf7f83e</span></a></p>",
+        "created_at": "2025-04-23T05:10:30.804Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 11,
+        "id": "114385553378820759",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 6,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ai",
+            "url": "https://ruby.social/tags/ai"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114385553378820759",
+        "url": "https://ruby.social/@matz/114385553378820759",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114432978306466070": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERfOX8{R5?G-;Mxsos:_3?bR*IU~q%MWBNG",
+          "description": "Get your Ruby application current while your team keeps shipping your product roadmap. Senior-reviewed upgrades and security fixes, from $1,950/mo.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": null,
+          "image_description": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "language": "en",
+          "provider_name": "FastRuby.io",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "type": "link",
+          "url": "https://go.fastruby.io/ruby-maintenance",
+          "width": 662
+        },
+        "content": "<p>Make Your <a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> Upgrade Delightfully Boring with Bonsai by <a href=\"https://ruby.social/@fastruby\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">ruby.social/@fastruby</span><span class=\"invisible\"></span></a>!</p><p>The team behind `next_rails` and RailsBump.org offers gradual, 0-downtime upgrades, the slow &amp; steady way. Their monthly maintenance service keeps performance high &amp; fixed costs low.</p><p>👉 <a href=\"https://go.fastruby.io/ruby-maintenance\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">go.fastruby.io/ruby-maintenance</span><span class=\"invisible\"></span></a> <a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a> <a href=\"https://ruby.social/tags/Maintenance\" class=\"mention hashtag\" rel=\"tag\">#<span>Maintenance</span></a> <br />[from my GitHub sponsor]</p>",
+        "created_at": "2025-05-01T14:11:17.774Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 6,
+        "id": "114432978306466070",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [
+          {
+            "blurhash": "UCRyyuEJ~q~EwPw~x[NX~qWnIUnm?ubXM{nm",
+            "description": null,
+            "id": "114432978006204136",
+            "meta": {
+              "original": {
+                "aspect": 1.4657293497363797,
+                "height": 1138,
+                "size": "1668x1138",
+                "width": 1668
+              },
+              "small": {
+                "aspect": 1.4646464646464648,
+                "height": 396,
+                "size": "580x396",
+                "width": 580
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://cdn.masto.host/rubysocial/media_attachments/files/114/432/978/006/204/136/small/a609792f8bf517e8.jpeg",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://cdn.masto.host/rubysocial/media_attachments/files/114/432/978/006/204/136/original/a609792f8bf517e8.jpeg"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          },
+          {
+            "name": "maintenance",
+            "url": "https://ruby.social/tags/maintenance"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114432978306466070",
+        "url": "https://ruby.social/@matz/114432978306466070",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114612372768711055": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UEQ,L0o{~otP%zITSwRi~qXS9FX8%gkVSKoz",
+          "description": "Learn about a collection of open source tools maintained by FastRuby.io that are designed to help you perform Ruby on Rails upgrades by yourself.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "DIY Ruby on Rails Upgrades: Essential Open Source Tools",
+          "provider_url": "",
+          "published_at": "2025-05-09T21:26:58.000Z",
+          "title": "DIY Ruby on Rails Upgrades: Essential Open Source Tools - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "https://go.fastruby.io/os-tools",
+          "width": 678
+        },
+        "content": "<p>What do `next_rails`, `skunk`, and `RailsBump` have in common? All <a href=\"https://ruby.social/tags/opensource\" class=\"mention hashtag\" rel=\"tag\">#<span>opensource</span></a> tools maintained by the <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> team. Ready to ship your next upgrade? </p><p>Check out 8 tools they use in their fixed-cost monthly maintenance services for <a href=\"https://ruby.social/tags/rails\" class=\"mention hashtag\" rel=\"tag\">#<span>rails</span></a> applications</p><p>👉 <a href=\"https://go.fastruby.io/os-tools\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">go.fastruby.io/os-tools</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2025-06-02T06:33:40.030Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 6,
+        "id": "114612372768711055",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "opensource",
+            "url": "https://ruby.social/tags/opensource"
+          },
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114612372768711055",
+        "url": "https://ruby.social/@matz/114612372768711055",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114906175835504072": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": null,
+        "content": "<p>Boringly Reliable <a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> Upgrades are within reach with Bonsai by <a href=\"https://ruby.social/@fastruby\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">ruby.social/@fastruby</span><span class=\"invisible\"></span></a> </p><p>The team behind `next_rails` and `skunk` offers gradual, 0-downtime upgrades, perfect for small engineering teams </p><p>👉  go.fastruby.io/1c9 <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> <a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a> <a href=\"https://ruby.social/tags/Maintenance\" class=\"mention hashtag\" rel=\"tag\">#<span>Maintenance</span></a> </p><p> [from my GitHub sponsor]</p>",
+        "created_at": "2025-07-24T03:51:39.058Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "114906175835504072",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          },
+          {
+            "name": "maintenance",
+            "url": "https://ruby.social/tags/maintenance"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114906175835504072",
+        "url": "https://ruby.social/@matz/114906175835504072",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/114981309554046631": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "ja",
+          "provider_name": "Matzにっき",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Matzにっき(2025-08-07)",
+          "type": "link",
+          "url": "https://matz.rubyist.net/20250807.html",
+          "width": 0
+        },
+        "content": "<p>Link: BenQ ScreenBar Halo 2商品レビュー : <a href=\"https://matz.rubyist.net/20250807.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">matz.rubyist.net/20250807.html</span><span class=\"invisible\"></span></a><br /><a href=\"https://ruby.social/tags/BenQLighting\" class=\"mention hashtag\" rel=\"tag\">#<span>BenQLighting</span></a> <a href=\"https://ruby.social/tags/ScreenBarHalo2\" class=\"mention hashtag\" rel=\"tag\">#<span>ScreenBarHalo2</span></a> <a href=\"https://ruby.social/tags/Halo%E3%81%A7%E6%AC%A1%E3%81%AE%E6%AC%A1%E5%85%83\" class=\"mention hashtag\" rel=\"tag\">#<span>Haloで次の次元</span></a></p>",
+        "created_at": "2025-08-06T10:19:08.616Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "114981309554046631",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "benqlighting",
+            "url": "https://ruby.social/tags/benqlighting"
+          },
+          {
+            "name": "screenbarhalo2",
+            "url": "https://ruby.social/tags/screenbarhalo2"
+          },
+          {
+            "name": "haloで次の次元",
+            "url": "https://ruby.social/tags/halo%E3%81%A7%E6%AC%A1%E3%81%AE%E6%AC%A1%E5%85%83"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/114981309554046631",
+        "url": "https://ruby.social/@matz/114981309554046631",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/115064637388269211": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERfOX8{R5?G-;Mxsos:_3?bR*IU~q%MWBNG",
+          "description": "Get your Ruby application current while your team keeps shipping your product roadmap. Senior-reviewed upgrades and security fixes, from $1,950/mo.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": null,
+          "image_description": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "language": "en",
+          "provider_name": "FastRuby.io",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/pzp",
+          "width": 662
+        },
+        "content": "<p>Small Team? Big App? Bonsai Can Bridge the Gap. </p><p>Are you a team of one (or a few) juggling too much <a href=\"https://ruby.social/tags/techdebt\" class=\"mention hashtag\" rel=\"tag\">#<span>techdebt</span></a>? </p><p>Let the <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> team help you stay productive by handling your <a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> upgrades, dependency management, security patches, and more. </p><p>👉 <a href=\"http://go.fastruby.io/pzp\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/pzp</span><span class=\"invisible\"></span></a></p><p>[from my GitHub sponsor]</p>",
+        "created_at": "2025-08-21T03:30:30.460Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "115064637388269211",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          },
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          },
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/115064637388269211",
+        "url": "https://ruby.social/@matz/115064637388269211",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/115267395139562122": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UCRW0atj-.tP%gITXQNF_NXS4.Sg?vbbNFoz",
+          "description": "The automated roadmap to upgrade Rails. A fully automated version of FastRuby.io's Roadmap to Upgrade Rails, now available completely for free.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Automated Roadmap to Upgrade Rails",
+          "provider_url": "",
+          "published_at": "2025-09-10T19:14:50.000Z",
+          "title": "The Automated Roadmap to Upgrade Rails - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "https://www.fastruby.io/blog/automated-roadmap-announcement.html?utm_source=matz&utm_medium=paidplacement&utm_campaign=matz-post-september-2025&utm_term=AI-powered-process&utm_content=free-automated-roadmap",
+          "width": 678
+        },
+        "content": "<p>Need to Upgrade <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a>? Let FastRuby’s AI Agent Help!</p><p>Your Automated Step-by-Step Guide to Upgrading Rails is here! Their Free Automated Roadmap uses an <a href=\"https://ruby.social/tags/AI\" class=\"mention hashtag\" rel=\"tag\">#<span>AI</span></a> Agent to deliver a custom roadmap tailored to your application. 🚀</p><p><a href=\"https://www.fastruby.io/blog/automated-roadmap-announcement.html?utm_source=matz&amp;utm_medium=paidplacement&amp;utm_campaign=matz-post-september-2025&amp;utm_term=AI-powered-process&amp;utm_content=free-automated-roadmap\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">fastruby.io/blog/automated-roa</span><span class=\"invisible\">dmap-announcement.html?utm_source=matz&amp;utm_medium=paidplacement&amp;utm_campaign=matz-post-september-2025&amp;utm_term=AI-powered-process&amp;utm_content=free-automated-roadmap</span></a></p><p><a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a><br />[from my GitHub Sponsor]</p>",
+        "created_at": "2025-09-25T22:54:28.220Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 7,
+        "id": "115267395139562122",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          },
+          {
+            "name": "ai",
+            "url": "https://ruby.social/tags/ai"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/115267395139562122",
+        "url": "https://ruby.social/@matz/115267395139562122",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/115472191517638226": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UGA]jJtj0eDRXnb0ROV=0|rv-oX%#6bVp0oP",
+          "description": "The AI revolution is transforming how development teams work, and engineering leaders are grappling with critical questions: How ready is our development team for AI? Which AI tools will actually improve our engineering processes? How do we integrate AI into our development workflows without disrupting productivity? At OmbuLabs.ai, we’ve been...",
+          "embed_url": "",
+          "height": 400,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Posts by Amanda Bizzinotto at OmbuLabs Blog | Custom AI Solutions",
+          "provider_url": "",
+          "published_at": "2025-10-28T10:00:00.000Z",
+          "title": "AI Readiness & Transformation Assessment for Development Teams",
+          "type": "link",
+          "url": "https://www.ombulabs.ai/blog/ai-readiness-transformation-assessment.html?utm_source=matz&utm_medium=paidplacement&utm_campaign=matz-post-october-2025&utm_term=AI-powered-process&utm_content=AI-readiness-assessment",
+          "width": 400
+        },
+        "content": "<p>🤖<span class=\"h-card\" translate=\"no\"><a href=\"https://mastodon.online/@OmbuLabs\" class=\"u-url mention\">@<span>OmbuLabs</span></a></span></p><p> Is your engineering team ready for AI-assisted development?</p><p>If you don’t have a strategy for AI-tooling adoption, you need one: The @OmbuLabs.ai <a href=\"https://ruby.social/tags/AI\" class=\"mention hashtag\" rel=\"tag\">#<span>AI</span></a> Readiness Assessment helps CTOs uncover high-value opportunities </p><p>👉  <a href=\"https://www.ombulabs.ai/blog/ai-readiness-transformation-assessment.html?utm_source=matz&amp;utm_medium=paidplacement&amp;utm_campaign=matz-post-october-2025&amp;utm_term=AI-powered-process&amp;utm_content=AI-readiness-assessment\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">ombulabs.ai/blog/ai-readiness-</span><span class=\"invisible\">transformation-assessment.html?utm_source=matz&amp;utm_medium=paidplacement&amp;utm_campaign=matz-post-october-2025&amp;utm_term=AI-powered-process&amp;utm_content=AI-readiness-assessment</span></a> <br />[from my GitHub sponsor]</p>",
+        "created_at": "2025-11-01T02:56:52.955Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "115472191517638226",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [
+          {
+            "acct": "OmbuLabs@mastodon.online",
+            "id": "110102737851945491",
+            "url": "https://mastodon.online/@OmbuLabs",
+            "username": "OmbuLabs"
+          }
+        ],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ai",
+            "url": "https://ruby.social/tags/ai"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/115472191517638226",
+        "url": "https://ruby.social/@matz/115472191517638226",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/115785126275159622": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UoTRZxo}hKninOfkf+f6hee.dqg3pce.enfk",
+          "description": "Hire us to upgrade your Rails application: We wrote The Complete Guide to Upgrade Rails. Outsource upgrading Rails. Let us help with Ruby and Rails maintenance!",
+          "embed_url": "",
+          "height": 352,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Rails Upgrade Service",
+          "type": "link",
+          "url": "https://www.fastruby.io/?utm_source=matz&utm_medium=paidplacement&utm_campaign=matz-post-december-2025&utm_term=upgrade-services&utm_content=upgrade#contactus",
+          "width": 352
+        },
+        "content": "<p>Are you Ready for Ruby 4.0?</p><p>The <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> team can help 👉 <a href=\"https://www.fastruby.io/?utm_source=matz&amp;utm_medium=paidplacement&amp;utm_campaign=matz-post-december-2025&amp;utm_term=upgrade-services&amp;utm_content=upgrade#contactus\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">fastruby.io/?utm_source=matz&amp;u</span><span class=\"invisible\">tm_medium=paidplacement&amp;utm_campaign=matz-post-december-2025&amp;utm_term=upgrade-services&amp;utm_content=upgrade#contactus</span></a> <br />[from my GitHub Sponsor]</p>",
+        "created_at": "2025-12-26T09:20:18.408Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 7,
+        "id": "115785126275159622",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/115785126275159622",
+        "url": "https://ruby.social/@matz/115785126275159622",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/115964735431954080": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UoTRZxo}hKninOfkf+f6hee.dqg3pce.enfk",
+          "description": "The roadmap to upgrade Rails is a deep dive into your Rails app. A Ruby and Rails code audit report with an action plan to upgrade Rails.",
+          "embed_url": "",
+          "height": 352,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "The Roadmap to Rails Upgrades by FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/ypi",
+          "width": 352
+        },
+        "content": "<p>Behind on <a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> &amp; <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a> upgrades? </p><p>🤖 AI Can Only Get You So Far.</p><p>Start the new year with a <a href=\"https://ruby.social/tags/FastRuby\" class=\"mention hashtag\" rel=\"tag\">#<span>FastRuby</span></a> Roadmap. Get a thorough action plan with estimates backed by 60,000 dev/hours of historical data from real humans, no AI hallucinations.</p><p>👉 <a href=\"http://go.fastruby.io/ypi\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/ypi</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-01-27T02:37:16.646Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 5,
+        "id": "115964735431954080",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          },
+          {
+            "name": "fastruby",
+            "url": "https://ruby.social/tags/fastruby"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/115964735431954080",
+        "url": "https://ruby.social/@matz/115964735431954080",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116066381157025305": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UDQ]+ux[~pov.8ITSwR$?uXS9ZSgx[kWS1X8",
+          "description": "Need to migrate away from Heroku? Heroku has entered maintenance mode. Learn what this means for your Rails application and how FastRuby.io can help you migrate with zero downtime.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Time to Migrate from Heroku",
+          "provider_url": "",
+          "published_at": "2026-02-09T11:54:00.000Z",
+          "title": "Time to Migrate From Heroku - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "https://go.fastruby.io/ahy",
+          "width": 678
+        },
+        "content": "<p>Need to Migrate Away from Heroku? Contact FastRuby.io® </p><p>Now that <a href=\"https://ruby.social/tags/Heroku\" class=\"mention hashtag\" rel=\"tag\">#<span>Heroku</span></a> is in maintenance mode, maybe it’s time to consider migrating to a new platform? </p><p><a href=\"https://go.fastruby.io/ahy\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">go.fastruby.io/ahy</span><span class=\"invisible\"></span></a> <br />[from my GitHub sponsor]</p>",
+        "created_at": "2026-02-14T01:27:07.323Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "116066381157025305",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "heroku",
+            "url": "https://ruby.social/tags/heroku"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/116066381157025305",
+        "url": "https://ruby.social/@matz/116066381157025305",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116261917946162870": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UDQ]+ux[~pov.8ITSwR$?uXS9ZSgx[kWS1X8",
+          "description": "Need to migrate away from Heroku? Heroku has entered maintenance mode. Learn what this means for your Rails application and how FastRuby.io can help you migrate with zero downtime.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Time to Migrate from Heroku",
+          "provider_url": "",
+          "published_at": "2026-02-09T11:54:00.000Z",
+          "title": "Time to Migrate From Heroku - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "https://go.fastruby.io/3js",
+          "width": 678
+        },
+        "content": "<p>Need to Migrate Away from <a href=\"https://ruby.social/tags/Heroku\" class=\"mention hashtag\" rel=\"tag\">#<span>Heroku</span></a>? </p><p>Get a step-by-step plan with cost estimates before you commit. Migrate confidently with FastRuby.io®&#39;s team of experts.</p><p><a href=\"https://go.fastruby.io/3js\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">go.fastruby.io/3js</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-03-20T14:14:41.944Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 4,
+        "id": "116261917946162870",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "heroku",
+            "url": "https://ruby.social/tags/heroku"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/116261917946162870",
+        "url": "https://ruby.social/@matz/116261917946162870",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116261923550266765": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": null,
+        "content": "<p>I am working on something nice. See you at RubyKaigi 2026!!</p>",
+        "created_at": "2026-03-20T14:16:07.455Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 16,
+        "id": "116261923550266765",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "ja",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://ruby.social/users/matz/statuses/116261923550266765",
+        "url": "https://ruby.social/@matz/116261923550266765",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116635737046173530": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UHQ,L0o{?atPyCInSdRi~qbv9FR*%gbbX6oz",
+          "description": "Solo SaaS founder Tim Peterson found peace of mind outsourcing Rails upgrades, security, and PCI compliance to FastRuby.io's monthly maintenance service.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Why Reliable Monthly Maintenance Became Non-Negotiable for a Solo SaaS Founder",
+          "provider_url": "",
+          "published_at": "2026-03-13T09:15:00.000Z",
+          "title": "Why Reliable Monthly Maintenance Became Non-Negotiable for a Solo SaaS Founder - FastRuby.io | Rails Upgrade Service",
+          "type": "link",
+          "url": "http://go.fastruby.io/ss4",
+          "width": 678
+        },
+        "content": "<p>&quot;Their services are as essential as hosting—a non-negotiable.&quot;</p><p>Case study: For a solo Founder, FastRuby.io&#39;s Bonsai Team and their support became a non-negotiable part of running a SaaS business.</p><p>👉 <a href=\"http://go.fastruby.io/ss4\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/ss4</span><span class=\"invisible\"></span></a></p><p><a href=\"https://ruby.social/tags/RubyOnRails\" class=\"mention hashtag\" rel=\"tag\">#<span>RubyOnRails</span></a> <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a> <a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a></p>",
+        "created_at": "2026-05-25T14:41:48.737Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 4,
+        "id": "116635737046173530",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "rubyonrails",
+            "url": "https://ruby.social/tags/rubyonrails"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/116635737046173530",
+        "url": "https://ruby.social/@matz/116635737046173530",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116797403086939682": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERfOX8{R5?G-;Mxsos:_3?bR*IU~q%MWBNG",
+          "description": "Get your Ruby application current while your team keeps shipping your product roadmap. Senior-reviewed upgrades and security fixes, from $1,950/mo.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": null,
+          "image_description": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "language": "en",
+          "provider_name": "FastRuby.io",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/ep7",
+          "width": 662
+        },
+        "content": "<p>🔓 Stuck on Ruby 3.0 or older? Overwhelmed with <a href=\"https://ruby.social/tags/techdebt\" class=\"mention hashtag\" rel=\"tag\">#<span>techdebt</span></a> &amp; compliance issues? Upgrade to <a href=\"https://ruby.social/tags/Ruby4\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby4</span></a>.0 on a Budget with a pace that meets your needs. </p><p>🌳 Bonsai by  FastRuby.io® is the monthly upgrade service top-notch engineering teams trust. 🚀 Tap into our talent to get things done.</p><p>👉 <a href=\"http://go.fastruby.io/ep7\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/ep7</span><span class=\"invisible\"></span></a><br />[from my GitHub Sponsor]</p>",
+        "created_at": "2026-06-23T03:55:36.752Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "116797403086939682",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          },
+          {
+            "name": "ruby4",
+            "url": "https://ruby.social/tags/ruby4"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/116797403086939682",
+        "url": "https://ruby.social/@matz/116797403086939682",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/116969472959312137": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERC[5tj-:tP%gITSwR$~qXS4.SL-;kWSKbb",
+          "description": "Open-source APM for Rails without third-party vendors? 🚀 Learn how to self-host traces, metrics, and logs using OpenTelemetry, and more, and control your data.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Open-Source APM Tools for Rails",
+          "provider_url": "",
+          "published_at": "2026-07-09T04:00:00.000Z",
+          "title": "Open-Source APM Tools for Rails | FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/bc9",
+          "width": 678
+        },
+        "content": "<p>Looking for an APM without the SaaS price tag? <span class=\"h-card\" translate=\"no\"><a href=\"https://ruby.social/@FastRuby\" class=\"u-url mention\">@<span>FastRuby</span></a></span> compares open source, self-hosted options for Ruby teams that need performance insights while keeping sensitive data in-house.</p><p><a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> <a href=\"https://ruby.social/tags/Performance\" class=\"mention hashtag\" rel=\"tag\">#<span>Performance</span></a> <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a> </p><p>👉 <a href=\"http://go.fastruby.io/bc9\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/bc9</span><span class=\"invisible\"></span></a><br />[from my GitHub Sponsor]</p>",
+        "created_at": "2026-07-23T13:15:14.639Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 2,
+        "id": "116969472959312137",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [
+          {
+            "acct": "FastRuby",
+            "id": "109801714123796567",
+            "url": "https://ruby.social/@FastRuby",
+            "username": "FastRuby"
+          }
+        ],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "performance",
+            "url": "https://ruby.social/tags/performance"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/116969472959312137",
+        "url": "https://ruby.social/@matz/116969472959312137",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/117244734921683973": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERfOX8{R5?G-;Mxsos:_3?bR*IU~q%MWBNG",
+          "description": "Get your Ruby application current while your team keeps shipping your product roadmap. Senior-reviewed upgrades and security fixes, from $1,950/mo.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": null,
+          "image_description": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "language": "en",
+          "provider_name": "FastRuby.io",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/arf",
+          "width": 662
+        },
+        "content": "<p>Ruby &amp; Rails upgrades don&#39;t have to mean a giant, scary project. <br />🌳 Bonsai by FastRuby.io® is the monthly subscription that keeps your app current, a little at a time, on a budget that fits.<br /><a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a> <a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a><br />👉 <a href=\"http://go.fastruby.io/arf\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/arf</span><span class=\"invisible\"></span></a><br />[from my GitHub Sponsor]</p>",
+        "created_at": "2026-09-10T03:57:58.859Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 7,
+        "id": "117244734921683973",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/117244734921683973",
+        "url": "https://ruby.social/@matz/117244734921683973",
+        "visibility": "public"
+      }
+    },
+    "ruby.social/117403076695519868": {
+      "host": "ruby.social",
+      "status": {
+        "account": {
+          "acct": "matz",
+          "avatar": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "avatar_description": "",
+          "avatar_static": "https://cdn.masto.host/rubysocial/accounts/avatars/109/282/469/076/155/925/original/4d664211adb3743c.png",
+          "bot": false,
+          "created_at": "2022-11-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Yukihiro Matz Matsumoto",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [],
+          "followers_count": 2553,
+          "following_count": 42,
+          "group": false,
+          "header": "https://ruby.social/headers/original/missing.png",
+          "header_description": "",
+          "header_static": "https://ruby.social/headers/original/missing.png",
+          "hide_collections": false,
+          "id": "109282469076155925",
+          "indexable": false,
+          "last_status_at": "2026-10-08",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>The Creator of Ruby</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 41,
+          "uri": "https://ruby.social/users/matz",
+          "url": "https://ruby.social/@matz",
+          "username": "matz"
+        },
+        "application": null,
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UERfOX8{R5?G-;Mxsos:_3?bR*IU~q%MWBNG",
+          "description": "Get your Ruby application current while your team keeps shipping your product roadmap. Senior-reviewed upgrades and security fixes, from $1,950/mo.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": null,
+          "image_description": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "language": "en",
+          "provider_name": "FastRuby.io",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Monthly Ruby Maintenance Service | FastRuby.io",
+          "type": "link",
+          "url": "http://go.fastruby.io/zpo",
+          "width": 662
+        },
+        "content": "<p>🌳🌳 Stuck a few versions behind on Ruby? Bonsai by FastRuby.io® is the fixed-cost  monthly maintenance plan that chips away at upgrades, dependencies, and security patches — no giant migration required.<br /><a href=\"https://ruby.social/tags/Ruby\" class=\"mention hashtag\" rel=\"tag\">#<span>Ruby</span></a> <a href=\"https://ruby.social/tags/Rails\" class=\"mention hashtag\" rel=\"tag\">#<span>Rails</span></a> <a href=\"https://ruby.social/tags/TechDebt\" class=\"mention hashtag\" rel=\"tag\">#<span>TechDebt</span></a> <br />👉 <a href=\"http://go.fastruby.io/zpo\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">http://</span><span class=\"\">go.fastruby.io/zpo</span><span class=\"invisible\"></span></a><br />[from my GitHub sponsor]</p>",
+        "created_at": "2026-10-08T03:06:22.586Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "117403076695519868",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "ruby",
+            "url": "https://ruby.social/tags/ruby"
+          },
+          {
+            "name": "rails",
+            "url": "https://ruby.social/tags/rails"
+          },
+          {
+            "name": "techdebt",
+            "url": "https://ruby.social/tags/techdebt"
+          }
+        ],
+        "uri": "https://ruby.social/users/matz/statuses/117403076695519868",
+        "url": "https://ruby.social/@matz/117403076695519868",
+        "visibility": "public"
+      }
+    }
+  },
+  "sources": {
+    "matz@ruby.social": "117403076695519868"
+  }
+}

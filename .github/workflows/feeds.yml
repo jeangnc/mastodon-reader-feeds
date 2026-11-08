@@ -1,0 +1,81 @@
+name: Publish readable Mastodon feeds
+
+on:
+  schedule:
+    - cron: '7,27,47 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - bridge.py
+      - tests/**
+      - .github/workflows/feeds.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mastodon-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      degraded: ${{ steps.generate.outputs.degraded }}
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Verify generator
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public posts and generate site
+        id: generate
+        env:
+          BASE_URL: ${{ vars.BASE_URL || steps.pages.outputs.base_url }}
+        run: |
+          python bridge.py
+          python -c 'import json; h=json.load(open("docs/health.json")); print("degraded=" + str(any(not s["ok"] for s in h["sources"].values())).lower())' >> "$GITHUB_OUTPUT"
+          python -c 'import json; h=json.load(open("docs/health.json")); print("Source health:"); [print(k + ": " + ("OK" if v["ok"] else v["error"])) for k,v in h["sources"].items()]' >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve generated posts and checkpoints
+        run: |
+          git add docs cache
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh readable Mastodon feeds'
+            git push
+          fi
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+  source-health:
+    needs: [build, deploy]
+    if: ${{ needs.build.outputs.degraded == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report retained stale sources
+        run: |
+          echo '::error::Some Mastodon sources failed. Healthy feeds deployed; failed sources retain their previous publication. See the build summary and /health.json.'
+          exit 1

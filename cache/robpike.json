@@ -1,0 +1,2270 @@
+{
+  "account": {
+    "host": "cosocial.ca",
+    "name": "@robpike.io",
+    "user": "robpike"
+  },
+  "last_success": "2026-11-08",
+  "posts": {
+    "cosocial.ca/117260147453883348": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Our tech overlords believe that&#39;s OK. Maybe it is. I like calculators, I like maps. But I worry every day about what LLMs are doing to people&#39;s brains.</p><p>It&#39;s why I won&#39;t touch the damn things. I like my ability to think.</p>",
+        "created_at": "2026-09-12T21:17:35.435Z",
+        "edited_at": "2026-09-12T21:18:12.027Z",
+        "emojis": [],
+        "favourites_count": 312,
+        "id": "117260147453883348",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117260142225119158",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 89,
+        "replies_count": 13,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117260147453883348",
+        "url": "https://cosocial.ca/@robpike/117260147453883348",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117272356884364654": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>People constantly say they &quot;can&#39;t do math&quot; in their heads, when what they really mean is &quot;arithmetic&quot;. But &quot;arithmetic&quot; is harder to say than &quot;math&quot;. So let&#39;s start calling arithmetic &quot;rith&quot;, which is easy to say (and also sounds a bit like &quot;rizz&quot;, which is fun).</p><p>Also, I _can_ do rith in my head, but I know that&#39;s nerdy and maybe you can&#39;t.</p>",
+        "created_at": "2026-09-15T01:02:36.563Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 56,
+        "id": "117272356884364654",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 10,
+        "replies_count": 8,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117272356884364654",
+        "url": "https://cosocial.ca/@robpike/117272356884364654",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117288496807336776": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Let me say again how much I dislike scrolling down a page only to get stopped in my scroll as a map starts zooming because, as a Google Product Manager once said to me (really, truly) when I asked why a scrolling action on a map zooms, &quot;what else would scroll do?&quot;</p><p>Pure insanity. Also, for the record, insane that a continuous action can change meaning half-way through. That&#39;s on web design itself.</p>",
+        "created_at": "2026-09-17T21:27:12.244Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 244,
+        "id": "117288496807336776",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 76,
+        "replies_count": 11,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117288496807336776",
+        "url": "https://cosocial.ca/@robpike/117288496807336776",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117359358914733827": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Writing some code today, a massive refactor to enable some long-needed functionality, and just when I thought I was going to hit the wall and need a major detour to align huge disparate parts, it turned out an old abstraction fitted perfectly and the hardest problem was already solved. Pure joy. Euphoria.</p><p>And then I thought, if I had an LLM agent do this, there would be no joy. None for me, because I wouldn&#39;t have found it, and none for it, because LLMs are just automata.</p><p>I won today.</p>",
+        "created_at": "2026-09-30T09:48:22.200Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 383,
+        "id": "117359358914733827",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 135,
+        "replies_count": 9,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117359358914733827",
+        "url": "https://cosocial.ca/@robpike/117359358914733827",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117359360681154881": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>These things kill joy. They are killjoys. Automated killjoys.</p>",
+        "created_at": "2026-09-30T09:48:49.140Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 86,
+        "id": "117359360681154881",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117359358914733827",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 9,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117359360681154881",
+        "url": "https://cosocial.ca/@robpike/117359360681154881",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117374105315811483": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Running MacOS 27.0.1. I usually wait for the .1 release but was trying unsuccessfully to resolve an issue.</p><p>I notice two small things.</p><p>1) There is a noticeable delay in waking up after fingerprint unlock, perhaps a full second. There was no detectable delay before.<br />2) Scrolling in Safari is jumpy now, quantized. Again, new behavior.</p><p>Wondering if others see this.</p><p>Please don&#39;t tell me to run some other OS or web browser, as I already do so in other contexts. I have my reasons to do what I do.</p>",
+        "created_at": "2026-10-03T00:18:34.417Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 20,
+        "id": "117374105315811483",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 13,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117374105315811483",
+        "url": "https://cosocial.ca/@robpike/117374105315811483",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117390363998377735": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p class=\"quote-inline\">RE: <a href=\"https://mastodon.social/@arstechnica/117389906323212713\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">mastodon.social/@arstechnica/1</span><span class=\"invisible\">17389906323212713</span></a></p><p>I would delete it all if Apple provided an official way to do it, which they should. I have a secret safe way to make Apple Intelligence never work (don&#39;t want to say what publicly, to avoid them noticing and fixing it) but I would like Apple and every other company to acknowledge that a large fraction of us don&#39;t want any of this.</p>",
+        "created_at": "2026-10-05T21:13:22.232Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 228,
+        "id": "117390363998377735",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": {
+          "quoted_status": {
+            "account": {
+              "acct": "arstechnica@mastodon.social",
+              "avatar": "https://m.f-h.co/cosocial-ca/cache/accounts/avatars/110/272/491/897/322/318/original/d126187bff48289a.png",
+              "avatar_description": "",
+              "avatar_static": "https://m.f-h.co/cosocial-ca/cache/accounts/avatars/110/272/491/897/322/318/original/d126187bff48289a.png",
+              "bot": false,
+              "created_at": "2023-04-26T00:00:00.000Z",
+              "discoverable": true,
+              "display_name": "Ars Technica",
+              "emojis": [],
+              "feature_approval": {
+                "automatic": [
+                  "public"
+                ],
+                "current_user": "denied",
+                "manual": []
+              },
+              "fields": [
+                {
+                  "name": "Ars Technica",
+                  "value": "<a href=\"https://arstechnica.com\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">arstechnica.com</span><span class=\"invisible\"></span></a>",
+                  "verified_at": null
+                }
+              ],
+              "followers_count": 233731,
+              "following_count": 6,
+              "group": false,
+              "header": "https://m.f-h.co/cosocial-ca/cache/accounts/headers/110/272/491/897/322/318/original/fa3bd2f9b19b6e4c.jpg",
+              "header_description": "",
+              "header_static": "https://m.f-h.co/cosocial-ca/cache/accounts/headers/110/272/491/897/322/318/original/fa3bd2f9b19b6e4c.jpg",
+              "hide_collections": false,
+              "id": "110272491897322318",
+              "indexable": false,
+              "last_status_at": "2026-11-07",
+              "locked": false,
+              "note": "<p>Original news, reviews, analysis of tech trends, and expert advice on the most fundamental aspects of tech.</p><p>Official Ars Technica account. 🟠</p>",
+              "show_featured": true,
+              "show_media": true,
+              "show_media_replies": true,
+              "statuses_count": 13539,
+              "uri": "https://mastodon.social/users/arstechnica",
+              "url": "https://mastodon.social/@arstechnica",
+              "username": "arstechnica"
+            },
+            "card": null,
+            "content": "<p>Command-line tool quickly removes Apple Intelligence from macOS 27</p><p>The tool can free up over 12GB of storage.<br><a href=\"https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/?utm_brand=arstechnica&amp;utm_social-type=owned&amp;utm_source=mastodon&amp;utm_medium=social\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">arstechnica.com/apple/2026/10/</span><span class=\"invisible\">command-line-tool-quickly-removes-apple-intelligence-from-macos-27/?utm_brand=arstechnica&amp;utm_social-type=owned&amp;utm_source=mastodon&amp;utm_medium=social</span></a></p>",
+            "created_at": "2026-10-05T19:16:58.000Z",
+            "edited_at": null,
+            "emojis": [],
+            "favourites_count": 258,
+            "id": "117389907580710017",
+            "in_reply_to_account_id": null,
+            "in_reply_to_id": null,
+            "language": "en",
+            "media_attachments": [
+              {
+                "blurhash": "UXM@_-%M~qM{IpRjoft7_3ITIU%Mxvt7WBRj",
+                "description": null,
+                "id": "117389907322651647",
+                "meta": {
+                  "original": {
+                    "aspect": 1.7777777777777777,
+                    "height": 648,
+                    "size": "1152x648",
+                    "width": 1152
+                  },
+                  "small": {
+                    "aspect": 1.7777777777777777,
+                    "height": 360,
+                    "size": "640x360",
+                    "width": 640
+                  }
+                },
+                "preview_remote_url": null,
+                "preview_url": "https://m.f-h.co/cosocial-ca/cache/media_attachments/files/117/389/907/322/651/647/small/529bdd36e0de2c99.jpeg",
+                "remote_url": "https://files.mastodon.social/media_attachments/files/117/389/906/198/087/836/original/3aaf31f232b149d0.jpeg",
+                "text_url": null,
+                "type": "image",
+                "url": "https://m.f-h.co/cosocial-ca/cache/media_attachments/files/117/389/907/322/651/647/original/529bdd36e0de2c99.jpeg"
+              }
+            ],
+            "mentions": [],
+            "poll": null,
+            "quote": null,
+            "quote_approval": {
+              "automatic": [
+                "public"
+              ],
+              "current_user": "denied",
+              "manual": []
+            },
+            "quotes_count": 5,
+            "reblog": null,
+            "reblogs_count": 214,
+            "replies_count": 4,
+            "sensitive": false,
+            "spoiler_text": "",
+            "tagged_collections": [],
+            "tags": [],
+            "uri": "https://mastodon.social/users/arstechnica/statuses/117389906323212713",
+            "url": "https://mastodon.social/@arstechnica/117389906323212713",
+            "visibility": "public"
+          },
+          "state": "accepted"
+        },
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 110,
+        "replies_count": 13,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117390363998377735",
+        "url": "https://cosocial.ca/@robpike/117390363998377735",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117390367158864604": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>I like that this tool exists, but am nervous about running something that does so much scrubbing. It&#39;s probably safe, but I am doubly cautious.</p>",
+        "created_at": "2026-10-05T21:14:10.445Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 29,
+        "id": "117390367158864604",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117390363998377735",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117390367158864604",
+        "url": "https://cosocial.ca/@robpike/117390367158864604",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117446890499171158": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p class=\"quote-inline\">RE: <a href=\"https://abyssdomain.expert/@filippo/117446384400332319\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">abyssdomain.expert/@filippo/11</span><span class=\"invisible\">7446384400332319</span></a></p><p>Next up: Time zones!</p>",
+        "created_at": "2026-10-15T20:48:48.177Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 39,
+        "id": "117446890499171158",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": {
+          "quoted_status": {
+            "account": {
+              "acct": "filippo@abyssdomain.expert",
+              "avatar": "https://m.f-h.co/cosocial-ca/cache/accounts/avatars/110/076/404/565/444/923/original/ab38bebc57509c1f.jpeg",
+              "avatar_description": "",
+              "avatar_static": "https://m.f-h.co/cosocial-ca/cache/accounts/avatars/110/076/404/565/444/923/original/ab38bebc57509c1f.jpeg",
+              "bot": false,
+              "created_at": "2022-12-07T00:00:00.000Z",
+              "discoverable": true,
+              "display_name": "Filippo Valsorda",
+              "emojis": [],
+              "feature_approval": {
+                "automatic": [
+                  "public"
+                ],
+                "current_user": "denied",
+                "manual": []
+              },
+              "fields": [
+                {
+                  "name": "Location",
+                  "value": "Rome 🇮🇹",
+                  "verified_at": null
+                },
+                {
+                  "name": "Pronouns",
+                  "value": "he/him",
+                  "verified_at": null
+                },
+                {
+                  "name": "Website",
+                  "value": "<a href=\"https://filippo.io\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">filippo.io</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2026-11-04T00:53:56.438+00:00"
+                },
+                {
+                  "name": "GitHub",
+                  "value": "<a href=\"https://github.com/FiloSottile\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/FiloSottile</span><span class=\"invisible\"></span></a>",
+                  "verified_at": "2026-11-04T00:53:56.845+00:00"
+                }
+              ],
+              "followers_count": 14011,
+              "following_count": 36,
+              "group": false,
+              "header": "https://m.f-h.co/cosocial-ca/cache/accounts/headers/110/076/404/565/444/923/original/69d26800c3bc0476.jpg",
+              "header_description": "",
+              "header_static": "https://m.f-h.co/cosocial-ca/cache/accounts/headers/110/076/404/565/444/923/original/69d26800c3bc0476.jpg",
+              "hide_collections": false,
+              "id": "110076404565444923",
+              "indexable": true,
+              "last_status_at": "2026-11-03",
+              "locked": false,
+              "note": "<p>RC F'13, F2'17<br>Cryptogopher / Go cryptography maintainer<br>Geomys founder (<a href=\"https://geomys.org\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">geomys.org</span><span class=\"invisible\"></span></a>)</p><p><a href=\"https://mkcert.dev\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">mkcert.dev</span><span class=\"invisible\"></span></a> / <a href=\"https://age-encryption.org\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">age-encryption.org</span><span class=\"invisible\"></span></a> / <a href=\"https://sunlight.dev\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">sunlight.dev</span><span class=\"invisible\"></span></a></p><p>🕳️ “Gaze not into the abyss, lest you become recognized as an abyss domain expert, and they expect you keep gazing into the damn thing.” —<span class=\"h-card\" translate=\"no\"><a href=\"https://abyssdomain.expert/@nickm\" class=\"u-url mention\" rel=\"nofollow noopener\" target=\"_blank\">@<span>nickm</span></a></span></p><p><a href=\"https://filippo.io/newsletter\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">filippo.io/newsletter</span><span class=\"invisible\"></span></a></p>",
+              "show_featured": false,
+              "show_media": false,
+              "show_media_replies": true,
+              "statuses_count": 1138,
+              "uri": "https://abyssdomain.expert/users/filippo",
+              "url": "https://abyssdomain.expert/@filippo",
+              "username": "filippo"
+            },
+            "card": {
+              "author_name": "",
+              "author_url": "",
+              "authors": [],
+              "blurhash": null,
+              "description": "",
+              "embed_url": "",
+              "height": 0,
+              "html": "",
+              "image": null,
+              "image_description": "",
+              "language": "en",
+              "provider_name": "BIPM",
+              "provider_url": "",
+              "published_at": null,
+              "title": "Resolution 5 (2026) - BIPM",
+              "type": "link",
+              "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+              "width": 0
+            },
+            "content": "<p>No more leap seconds, ever! There isn’t one in December and they will be abolished in May.</p><p>The last one will forever be the 2016(?!) one. Didn’t realize having experienced leap seconds in prod dates me.</p><p>I’m not going to miss time going backwards, I’ll be honest.</p><p><a href=\"https://www.bipm.org/en/cgpm-2026/resolution-5\" rel=\"nofollow noopener\" translate=\"no\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">bipm.org/en/cgpm-2026/resoluti</span><span class=\"invisible\">on-5</span></a></p>",
+            "created_at": "2026-10-15T18:40:05.000Z",
+            "edited_at": null,
+            "emojis": [],
+            "favourites_count": 156,
+            "id": "117446387444171405",
+            "in_reply_to_account_id": null,
+            "in_reply_to_id": null,
+            "language": "en",
+            "media_attachments": [],
+            "mentions": [],
+            "poll": null,
+            "quote": null,
+            "quote_approval": {
+              "automatic": [
+                "public"
+              ],
+              "current_user": "denied",
+              "manual": []
+            },
+            "quotes_count": 2,
+            "reblog": null,
+            "reblogs_count": 96,
+            "replies_count": 6,
+            "sensitive": false,
+            "spoiler_text": "",
+            "tagged_collections": [],
+            "tags": [],
+            "uri": "https://abyssdomain.expert/users/filippo/statuses/117446384400332319",
+            "url": "https://abyssdomain.expert/@filippo/117446384400332319",
+            "visibility": "public"
+          },
+          "state": "accepted"
+        },
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 11,
+        "replies_count": 8,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117446890499171158",
+        "url": "https://cosocial.ca/@robpike/117446890499171158",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117458497837134870": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>For no real reason, I decided to look at the frequency of gaps between the prime numbers: 1 between 2 and 3,  2 between 3 and 5, 2 again between 5 and 7, and so on. The results are noisier than I expected. Pretty consistently up to hundreds of millions, the most frequent gap by a large margin is 6, first appearing between 23 and 29.</p><p>The ivy code:</p><p>op gaps n =<br />\tp = primes n<br />\tgaps = (1 drop p) - -1 drop p<br />\tu = u[up u = unique gaps]<br />\ttransp (2, (rho u)) rho u, (+/%@ u @== gaps)</p>",
+        "created_at": "2026-10-17T22:00:42.100Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 23,
+        "id": "117458497837134870",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117458497837134870",
+        "url": "https://cosocial.ca/@robpike/117458497837134870",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117458501634248320": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>gaps 1e6<br />  1     1<br />  2  8169<br />  4  8143<br />  6 13549<br />  8  5569<br /> 10  7079<br /> 12  8005<br /> 14  4233<br /> 16  2881<br /> 18  4909<br /> 20  2401<br /> 22  2172<br /> 24  2682<br /> 26  1175<br /> 28  1234<br /> 30  1914<br /> 32   550<br /> 34   557<br /> 36   767<br /> 38   330<br /> 40   424<br /> 42   476<br /> 44   202<br /> 46   155<br /> 48   196<br /> 50   106<br /> 52    77<br /> 54   140<br /> 56    53<br /> 58    54<br /> 60    96<br /> 62    16<br /> 64    24<br /> 66    48<br /> 68    13<br /> 70    22<br /> 72    13<br /> 74    12<br /> 76     6<br /> 78    13<br /> 80     3<br /> 82     5<br /> 84     6<br /> 86     4<br /> 88     1<br />...<br />plus a few more.</p>",
+        "created_at": "2026-10-17T22:01:40.031Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 5,
+        "id": "117458501634248320",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117458497837134870",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117458501634248320",
+        "url": "https://cosocial.ca/@robpike/117458501634248320",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117458505579865843": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Curious how much is known about this pattern, whether 6 is known to be dominant forever, and if the spikiness persists.</p><p>Experimental number theory only gets me so far.</p>",
+        "created_at": "2026-10-17T22:02:40.237Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 5,
+        "id": "117458505579865843",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117458497837134870",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117458505579865843",
+        "url": "https://cosocial.ca/@robpike/117458505579865843",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117460592844659864": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>I made a graph (using primitive tools) that shows the shape of the histogram up to gaps of 100 for primes up to 10 million.</p><p>It definitely has features. It certainly has a decay, which would be expected intuitively, but it also appears almost periodic, which would not.</p>",
+        "created_at": "2026-10-18T06:53:29.370Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 24,
+        "id": "117460592844659864",
+        "in_reply_to_account_id": "116797067566758377",
+        "in_reply_to_id": "117458505579865843",
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "U5Ss50ofM{-;~qofM{RjIUof%Mt7_3ofRjof",
+            "description": "A spiky graph showing the shape of the histogram of gaps between the primes.",
+            "id": "117460592667128400",
+            "meta": {
+              "original": {
+                "aspect": 0.9788135593220338,
+                "height": 944,
+                "size": "924x944",
+                "width": 924
+              },
+              "small": {
+                "aspect": 0.979381443298969,
+                "height": 485,
+                "size": "475x485",
+                "width": 475
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/460/592/667/128/400/small/a1b71d5e6ac70f27.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/460/592/667/128/400/original/a1b71d5e6ac70f27.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 4,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117460592844659864",
+        "url": "https://cosocial.ca/@robpike/117460592844659864",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117481612995474063": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>OK this is funny. From the banking site having a special event for the month.</p>",
+        "created_at": "2026-10-21T23:59:11.429Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 15,
+        "id": "117481612995474063",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UFR:7[8ww{%MyXyDx^ae$*i_MxWBxuofs:Rj",
+            "description": "Cyber Action Month 2026",
+            "id": "117481612846339215",
+            "meta": {
+              "original": {
+                "aspect": 1.8339350180505416,
+                "height": 554,
+                "size": "1016x554",
+                "width": 1016
+              },
+              "small": {
+                "aspect": 1.8333333333333333,
+                "height": 354,
+                "size": "649x354",
+                "width": 649
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/481/612/846/339/215/small/9cdb919feb3629bc.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/481/612/846/339/215/original/9cdb919feb3629bc.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117481612995474063",
+        "url": "https://cosocial.ca/@robpike/117481612995474063",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117492520653047622": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Avi Lewis, head of the NDP (and husband of Naomi Klein) wants the Canadian government to rescue BioWare. Good for him. It&#39;s vital to do everything we can, however futile, to try to stop the Reapers, oops I mean investment funds from destroying everything.</p>",
+        "created_at": "2026-10-23T22:13:09.070Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 53,
+        "id": "117492520653047622",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 10,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117492520653047622",
+        "url": "https://cosocial.ca/@robpike/117492520653047622",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117512672263811873": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Can you see what I mean here? Look closely.</p>",
+        "created_at": "2026-10-27T11:37:58.248Z",
+        "edited_at": "2026-10-27T11:38:28.680Z",
+        "emojis": [],
+        "favourites_count": 53,
+        "id": "117512672263811873",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UKRW3jR*xu%M%MWBRjoe~qM{IUog~qjsoeay",
+            "description": "@oneiros @fluepke I would counter that human language is too intricate, variable, and nuanced to be captured in simple nerd-originating rules, and I'm fine with that. UTF-8 codified a tiny subset of that space.\n\nTagged \"Translate from German\"",
+            "id": "117512672124363653",
+            "meta": {
+              "original": {
+                "aspect": 4.397058823529412,
+                "height": 272,
+                "size": "1196x272",
+                "width": 1196
+              },
+              "small": {
+                "aspect": 4.397379912663755,
+                "height": 229,
+                "size": "1007x229",
+                "width": 1007
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/512/672/124/363/653/small/7fe7bedc95bcd0df.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://m.f-h.co/cosocial-ca/media_attachments/files/117/512/672/124/363/653/original/7fe7bedc95bcd0df.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 1,
+        "reblog": null,
+        "reblogs_count": 8,
+        "replies_count": 7,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117512672263811873",
+        "url": "https://cosocial.ca/@robpike/117512672263811873",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117518333140808980": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Bought a colored vinyl record today. Takes me back.</p>",
+        "created_at": "2026-10-28T11:37:36.375Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 46,
+        "id": "117518333140808980",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117518333140808980",
+        "url": "https://cosocial.ca/@robpike/117518333140808980",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117545256448692415": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>Hey Reflect Orbital, you nitwits, shining a floodlight on a field is not a test of the utility, practicality, or sensibility of a mirror in orbit. We already know how to light a field without your &quot;technology&quot;, and apparently so do you. Give it up now before we all get properly angry.</p>",
+        "created_at": "2026-11-02T05:44:33.456Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 121,
+        "id": "117545256448692415",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 64,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117545256448692415",
+        "url": "https://cosocial.ca/@robpike/117545256448692415",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117549855108938728": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": null,
+        "content": "<p>One &quot;member benefit&quot; I would love is not getting logged out ever day, forcing me to log in again to get my existing &quot;member benefits&quot;, which I am yet to discover let alone benefit from.</p>",
+        "created_at": "2026-11-03T01:14:03.438Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 41,
+        "id": "117549855108938728",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 8,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117549855108938728",
+        "url": "https://cosocial.ca/@robpike/117549855108938728",
+        "visibility": "public"
+      }
+    },
+    "cosocial.ca/117550764477485879": {
+      "host": "cosocial.ca",
+      "status": {
+        "account": {
+          "acct": "robpike",
+          "avatar": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "avatar_description": "",
+          "avatar_static": "https://m.f-h.co/cosocial-ca/accounts/avatars/116/797/067/566/758/377/original/4893f93c7489bb10.png",
+          "bot": false,
+          "created_at": "2026-06-23T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "@robpike.io",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "GitHub",
+              "value": "github.com/robpike",
+              "verified_at": null
+            },
+            {
+              "name": "Web",
+              "value": "herpolhode.com/rob",
+              "verified_at": null
+            },
+            {
+              "name": "BlueSky",
+              "value": "@robpike.io",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 15106,
+          "following_count": 42,
+          "group": false,
+          "header": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "header_description": "",
+          "header_static": "https://m.f-h.co/cosocial-ca/accounts/headers/116/797/067/566/758/377/original/993eecd625b69755.jpeg",
+          "hide_collections": null,
+          "id": "116797067566758377",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>Long career as a dilettante at Bell Labs Research and Google, mostly building weird stuff no one uses, but occasionally getting it right, such as with UTF-8 and Go.</p><p>Also: tootfinder</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 234,
+          "uri": "https://cosocial.ca/ap/users/116797067566758377",
+          "url": "https://cosocial.ca/@robpike",
+          "username": "robpike"
+        },
+        "application": {
+          "name": "Phanpy",
+          "website": "https://phanpy.social"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "U44xoO-;M{RjM{Rjj[t700IUxut7%NxuWBRj",
+          "description": "Five companies want 1.26 million data center satellites in an orbit already dodging collisions every 90 seconds. Sourced numbers, no hype.",
+          "embed_url": "",
+          "height": 348,
+          "html": "",
+          "image": "https://m.f-h.co/cosocial-ca/cache/preview_cards/images/015/221/329/original/7cff5dadfca59b70.png",
+          "image_description": "",
+          "language": "en",
+          "provider_name": "Budget Engineer Blog",
+          "provider_url": "",
+          "published_at": "2026-11-02T16:11:06.802Z",
+          "title": "1.26 Million Data Center Satellites? Orbit Says No",
+          "type": "link",
+          "url": "https://blog.budget-engineer.com/space-data-centers-have-you-looked-up-lately",
+          "width": 662
+        },
+        "content": "<p>Nice article about my current scream-inducer.</p><p><a href=\"https://blog.budget-engineer.com/space-data-centers-have-you-looked-up-lately\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">blog.budget-engineer.com/space</span><span class=\"invisible\">-data-centers-have-you-looked-up-lately</span></a></p>",
+        "created_at": "2026-11-03T05:05:19.308Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 37,
+        "id": "117550764477485879",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 21,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://cosocial.ca/ap/users/116797067566758377/statuses/117550764477485879",
+        "url": "https://cosocial.ca/@robpike/117550764477485879",
+        "visibility": "public"
+      }
+    }
+  },
+  "sources": {
+    "robpike@cosocial.ca": "117550764477485879"
+  }
+}

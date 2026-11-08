@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Russ Cox · Mastodon readable feed</title><link>https://jeangnc.github.io/mastodon-reader-feeds/</link><description>Readable public posts by rsc@hachyderm.io</description><item><title>Russ Cox · 2026-01-21 — An amazing letter that intersects with my two recent posts ( and  Donald Knuth writing to the IEEE 754…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/115930422876397275.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:115930422876397275</guid><pubDate>Wed, 21 Jan 2026 01:11:08 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-21T01:11:08.599Z"&gt;2026-01-21T01:11:08.599Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;An amazing letter that intersects with my two recent posts (&lt;a href="https://research.swtch.com/fp-knuth" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-knuth&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; and &lt;a href="https://research.swtch.com/fp" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;): Donald Knuth writing to the IEEE 754 committee in favor of subnormal numbers and gradual underflow:&lt;/p&gt;&lt;p&gt;“Thus I strongly hope that the IEEE standard will be based on the concept of gradual underflow. At last we have a chance to get floatingpoint arithmetic that will attract scientific minds, instead of repelling them. Maybe in ten years we will even be able to have portable programs that routinely give the same answers on different computers. Unfortunately I am now having to change any TEX program to do only integer arithmetic, because as things stand in 1980 I dare not use floating point.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.arithmazium.org/library/lib/knuth_to_delp_apr1980.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;arithmazium.org/library/lib/kn&lt;/span&gt;&lt;span class="invisible"&gt;uth_to_delp_apr1980.pdf&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/115/930/417/898/648/723/original/382bb09d870d1a35.png" alt="Scan of letter, showing text quoted in post."&gt;&lt;figcaption&gt;Scan of letter, showing text quoted in post.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/115/930/417/898/648/723/original/382bb09d870d1a35.png"&gt;Scan of letter, showing text quoted in post.&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115930422876397275"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-21T01:11:08.599Z"&gt;2026-01-21T01:11:08.599Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;An amazing letter that intersects with my two recent posts (&lt;a href="https://research.swtch.com/fp-knuth" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-knuth&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; and &lt;a href="https://research.swtch.com/fp" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;): Donald Knuth writing to the IEEE 754 committee in favor of subnormal numbers and gradual underflow:&lt;/p&gt;&lt;p&gt;“Thus I strongly hope that the IEEE standard will be based on the concept of gradual underflow. At last we have a chance to get floatingpoint arithmetic that will attract scientific minds, instead of repelling them. Maybe in ten years we will even be able to have portable programs that routinely give the same answers on different computers. Unfortunately I am now having to change any TEX program to do only integer arithmetic, because as things stand in 1980 I dare not use floating point.”&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.arithmazium.org/library/lib/knuth_to_delp_apr1980.pdf" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;arithmazium.org/library/lib/kn&lt;/span&gt;&lt;span class="invisible"&gt;uth_to_delp_apr1980.pdf&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/115/930/417/898/648/723/original/382bb09d870d1a35.png" alt="Scan of letter, showing text quoted in post."&gt;&lt;figcaption&gt;Scan of letter, showing text quoted in post.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/115/930/417/898/648/723/original/382bb09d870d1a35.png"&gt;Scan of letter, showing text quoted in post.&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115930422876397275"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2026-01-19 — “Floating-Point Printing and Parsing Can Be Simple And Fast” The fastest known floating-point printer and…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/115924064984026510.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:115924064984026510</guid><pubDate>Mon, 19 Jan 2026 22:14:14 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-19T22:14:14.864Z"&gt;2026-01-19T22:14:14.864Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Floating-Point Printing and Parsing Can Be Simple And Fast”&lt;/p&gt;&lt;p&gt;The fastest known floating-point printer and parsing algorithms - fixed-width printing, shortest-width printing, and parsing, all in 400 lines of Go.&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/fp" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;br /&gt;&lt;a href="https://research.swtch.com/fp-proof" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-proof&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/fp"&gt;research!rsc: Floating-Point Printing and Parsing Can Be Simple And Fast (Floating Point Formatting, Part 3)&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115924064984026510"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-19T22:14:14.864Z"&gt;2026-01-19T22:14:14.864Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Floating-Point Printing and Parsing Can Be Simple And Fast”&lt;/p&gt;&lt;p&gt;The fastest known floating-point printer and parsing algorithms - fixed-width printing, shortest-width printing, and parsing, all in 400 lines of Go.&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/fp" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;br /&gt;&lt;a href="https://research.swtch.com/fp-proof" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-proof&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/fp"&gt;research!rsc: Floating-Point Printing and Parsing Can Be Simple And Fast (Floating Point Formatting, Part 3)&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115924064984026510"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2026-01-10 — “Pulling a New Proof from Knuth's Fixed-Point Printer” Happy 88th Birthday to Don Knuth! And thanks again…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/115871289155431512.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:115871289155431512</guid><pubDate>Sat, 10 Jan 2026 14:32:39 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-10T14:32:39.622Z"&gt;2026-01-10T14:32:39.622Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Pulling a New Proof from Knuth&amp;#39;s Fixed-Point Printer”&lt;/p&gt;&lt;p&gt;Happy 88th Birthday to Don Knuth!&lt;/p&gt;&lt;p&gt;And thanks again to Rob Pike for Ivy.&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/fp-knuth" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-knuth&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/fp-knuth"&gt;research!rsc: Pulling a New Proof from Knuth’s Fixed-Point Printer (Floating Point Formatting, Part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115871289155431512"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2026-01-10T14:32:39.622Z"&gt;2026-01-10T14:32:39.622Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Pulling a New Proof from Knuth&amp;#39;s Fixed-Point Printer”&lt;/p&gt;&lt;p&gt;Happy 88th Birthday to Don Knuth!&lt;/p&gt;&lt;p&gt;And thanks again to Rob Pike for Ivy.&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/fp-knuth" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/fp-knuth&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/fp-knuth"&gt;research!rsc: Pulling a New Proof from Knuth’s Fixed-Point Printer (Floating Point Formatting, Part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115871289155431512"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2025-12-10 — This was a fun conversation. Thanks to ACM ByteCast for having me on.</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/115695583318331526.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:115695583318331526</guid><pubDate>Wed, 10 Dec 2025 13:48:21 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-12-10T13:48:21.314Z"&gt;2025-12-10T13:48:21.314Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;This was a fun conversation. Thanks to ACM ByteCast for having me on.&lt;/p&gt;&lt;p&gt;&lt;a href="https://learning.acm.org/bytecast/ep78-russ-cox" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;learning.acm.org/bytecast/ep78&lt;/span&gt;&lt;span class="invisible"&gt;-russ-cox&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115695583318331526"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-12-10T13:48:21.314Z"&gt;2025-12-10T13:48:21.314Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;This was a fun conversation. Thanks to ACM ByteCast for having me on.&lt;/p&gt;&lt;p&gt;&lt;a href="https://learning.acm.org/bytecast/ep78-russ-cox" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;learning.acm.org/bytecast/ep78&lt;/span&gt;&lt;span class="invisible"&gt;-russ-cox&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/115695583318331526"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2025-04-25 — Another fun magic trick! Differential Coverage for Debugging</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/114399379235492440.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:114399379235492440</guid><pubDate>Fri, 25 Apr 2025 15:46:36 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-04-25T15:46:36.638Z"&gt;2025-04-25T15:46:36.638Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Another fun magic trick! &lt;/p&gt;&lt;p&gt;Differential Coverage for Debugging&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/diffcover" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/diffcover&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/diffcover"&gt;research!rsc: Differential Coverage for Debugging&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/114399379235492440"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-04-25T15:46:36.638Z"&gt;2025-04-25T15:46:36.638Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Another fun magic trick! &lt;/p&gt;&lt;p&gt;Differential Coverage for Debugging&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/diffcover" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/diffcover&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/diffcover"&gt;research!rsc: Differential Coverage for Debugging&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/114399379235492440"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2025-01-13 — Does anyone know the effective time limit for GitHub comment edits being included in the comment text that…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113822490864888820.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113822490864888820</guid><pubDate>Mon, 13 Jan 2025 18:36:18 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-01-13T18:36:18.676Z"&gt;2025-01-13T18:36:18.676Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Does anyone know  the effective time limit for GitHub comment edits being included in the comment text that is emailed to issue subscribers? &lt;/p&gt;&lt;p&gt;GitHub renders &amp;quot;- #12345&amp;quot; differently on web (nice link with title and issue status) vs email (literally a useless blue #12345). &lt;/p&gt;&lt;p&gt;I &amp;quot;fix&amp;quot; this by writing an explicit link [TITLE HERE #12345](https://...), which shows the link number and title in both contexts, but that isn&amp;#39;t as nice as the default web display, omits issue status, and so on. &lt;/p&gt;&lt;p&gt;If I could post the explicit link, wait appropriately long, and then edit the comment to use an implicit link, then maybe email would have something useful and web would be even better, at least after the time delay.&lt;/p&gt;&lt;p&gt;But what is the time delay?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113822490864888820"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2025-01-13T18:36:18.676Z"&gt;2025-01-13T18:36:18.676Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Does anyone know  the effective time limit for GitHub comment edits being included in the comment text that is emailed to issue subscribers? &lt;/p&gt;&lt;p&gt;GitHub renders &amp;quot;- #12345&amp;quot; differently on web (nice link with title and issue status) vs email (literally a useless blue #12345). &lt;/p&gt;&lt;p&gt;I &amp;quot;fix&amp;quot; this by writing an explicit link [TITLE HERE #12345](https://...), which shows the link number and title in both contexts, but that isn&amp;#39;t as nice as the default web display, omits issue status, and so on. &lt;/p&gt;&lt;p&gt;If I could post the explicit link, wait appropriately long, and then edit the comment to use an implicit link, then maybe email would have something useful and web would be even better, at least after the time delay.&lt;/p&gt;&lt;p&gt;But what is the time delay?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113822490864888820"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-04 — Day 4 part 2 #AdventOfCode d shift3 m produces the 3 matrices shifted by d*-1 0 1. d MAS m identifies the…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113595107313769183.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113595107313769183</guid><pubDate>Wed, 04 Dec 2024 14:49:41 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-04T14:49:41.034Z"&gt;2024-12-04T14:49:41.034Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 4 part 2 &lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;d shift3 m produces the 3 matrices shifted by d*-1 0 1.&lt;br /&gt;d MAS m identifies the A in MAS in direction d.&lt;br /&gt;d xMAS m identifies the A in MAS in direction d or -d.&lt;br /&gt;xMAS m identifies the A in an X-MAS.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png" alt="op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+"&gt;&lt;figcaption&gt;op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png"&gt;op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113595107313769183"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-04T14:49:41.034Z"&gt;2024-12-04T14:49:41.034Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 4 part 2 &lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;d shift3 m produces the 3 matrices shifted by d*-1 0 1.&lt;br /&gt;d MAS m identifies the A in MAS in direction d.&lt;br /&gt;d xMAS m identifies the A in MAS in direction d or -d.&lt;br /&gt;xMAS m identifies the A in an X-MAS.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png" alt="op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+"&gt;&lt;figcaption&gt;op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png"&gt;op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &amp;#x27;MAS&amp;#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113595107313769183"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-04 — Day 4 part 1  #AdventOfCode pad dot-pads the matrix to avoid wraparound. x y shift m rotates the matrix x…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113595092322653648.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113595092322653648</guid><pubDate>Wed, 04 Dec 2024 14:45:52 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-04T14:45:52.287Z"&gt;2024-12-04T14:45:52.287Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 4 part 1 &lt;a href="https://adventofcode.com/2024/day/4" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;adventofcode.com/2024/day/4&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;pad dot-pads the matrix to avoid wraparound.&lt;br /&gt;x y shift m rotates the matrix x left, y down.&lt;br /&gt;d(=x y) shift4 m produces the 4 matrices shifted by d*0 1 2 3.&lt;br /&gt;d XMAS m identifies the X in XMAS in direction d.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/595/090/787/793/299/original/a3ff2a4a8c2c6132.png" alt="sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+"&gt;&lt;figcaption&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/595/090/787/793/299/original/a3ff2a4a8c2c6132.png"&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adventofcode.com/2024/day/4"&gt;Day 4 - Advent of Code 2024&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113595092322653648"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-04T14:45:52.287Z"&gt;2024-12-04T14:45:52.287Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 4 part 1 &lt;a href="https://adventofcode.com/2024/day/4" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;adventofcode.com/2024/day/4&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt; &lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;pad dot-pads the matrix to avoid wraparound.&lt;br /&gt;x y shift m rotates the matrix x left, y down.&lt;br /&gt;d(=x y) shift4 m produces the 4 matrices shifted by d*0 1 2 3.&lt;br /&gt;d XMAS m identifies the X in XMAS in direction d.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/595/090/787/793/299/original/a3ff2a4a8c2c6132.png" alt="sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+"&gt;&lt;figcaption&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/595/090/787/793/299/original/a3ff2a4a8c2c6132.png"&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input.txt&amp;quot;
+
+dirs = d, -d=4 2 rho 1 0, 0 1, 1 1, -1 1
+
+op T x = transp x
+op pad x = T (T x, &amp;#x27;.&amp;#x27;), &amp;#x27;.&amp;#x27;
+op d shift m = T d[2] rot T d[1] rot m
+op d shift4 m = (0 1 2 3 @* d) @shift m
+op d XMAS m = T and/ &amp;#x27;XMAS&amp;#x27; == T d shift4 m
+op solve x = +/+/+/ dirs @XMAS pad x
+
+solve sample
+solve input
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adventofcode.com/2024/day/4"&gt;Day 4 - Advent of Code 2024&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113595092322653648"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-03 — Well, it's been 2/3 of a year since the xz attack. Is software safer now? Serious question. What…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113589506520146226.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113589506520146226</guid><pubDate>Tue, 03 Dec 2024 15:05:19 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T15:05:19.705Z"&gt;2024-12-03T15:05:19.705Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Well, it&amp;#39;s been 2/3 of a year since the xz attack. &lt;br /&gt;Is software safer now? &lt;br /&gt;Serious question. &lt;br /&gt;What improvements have we made?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113589506520146226"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T15:05:19.705Z"&gt;2024-12-03T15:05:19.705Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Well, it&amp;#39;s been 2/3 of a year since the xz attack. &lt;br /&gt;Is software safer now? &lt;br /&gt;Serious question. &lt;br /&gt;What improvements have we made?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113589506520146226"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-03 — Day 3 part 2. The function 'c step2 s' is the updated state machine, with an extra value tracking whether…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113587488470832402.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113587488470832402</guid><pubDate>Tue, 03 Dec 2024 06:32:06 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T06:32:06.713Z"&gt;2024-12-03T06:32:06.713Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 3 part 2.&lt;/p&gt;&lt;p&gt;The function &amp;#39;c step2 s&amp;#39; is the updated state machine, with an extra value tracking whether mul(x,y) is enabled. step2 takes care of do()/don&amp;#39;t() processing and invokes &amp;#39;step&amp;#39; (from part 1) to handle mul(x,y) when appropriate.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png" alt="op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+"&gt;&lt;figcaption&gt;op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png"&gt;op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113587488470832402"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T06:32:06.713Z"&gt;2024-12-03T06:32:06.713Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 3 part 2.&lt;/p&gt;&lt;p&gt;The function &amp;#39;c step2 s&amp;#39; is the updated state machine, with an extra value tracking whether mul(x,y) is enabled. step2 takes care of do()/don&amp;#39;t() processing and invokes &amp;#39;step&amp;#39; (from part 1) to handle mul(x,y) when appropriate.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png" alt="op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+"&gt;&lt;figcaption&gt;op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/587/487/744/948/102/original/c7bcb87925e40bbc.png"&gt;op c step2 s =
+	(rho s) == 0: c step2 s step2 (0 0 0 0 +1)
+	c == &amp;#x27;d&amp;#x27;: -1, 0, 0, s[4], s[5]                   # do() ...
+	(s[1] == -1) and c == &amp;#x27;o&amp;#x27;: -2, 0, 0, s[4], s[5]
+	(s[1] == -2) and c == &amp;#x27;(&amp;#x27;: -3, 0, 0, s[4], s[5]
+	(s[1] == -3) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], +1
+	(s[1] == -2) and c == &amp;#x27;n&amp;#x27;: -4, 0, 0, s[4], s[5]  # or don&amp;#x27;t()...
+	(s[1] == -4) and c == &amp;#x27;\&amp;#x27;&amp;#x27;: -5, 0, 0, s[4], s[5]
+	(s[1] == -5) and c == &amp;#x27;t&amp;#x27;: -6, 0, 0, s[4], s[5]
+	(s[1] == -6) and c == &amp;#x27;(&amp;#x27;: -7, 0, 0, s[4], s[5]
+	(s[1] == -7) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4], -1
+	s[5] == +1: (c step -1 drop s), s[5]
+	0, 0, 0, s[4], s[5]
+
+op solve2 x = (step2/ flip x)[4]
+
+solve2 sample
+solve2 input
+
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113587488470832402"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-03 — Day 3 part 1. The function 'c step s' steps the state machine state s to incorporate the new character c.…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113587485827845274.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113587485827845274</guid><pubDate>Tue, 03 Dec 2024 06:31:26 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T06:31:26.384Z"&gt;2024-12-03T06:31:26.384Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 3 part 1. &lt;/p&gt;&lt;p&gt;The function &amp;#39;c step s&amp;#39; steps the state machine state s to incorporate the new character c. &lt;/p&gt;&lt;p&gt;(step/ flip x) runs the state machine over the whole string, left to right.&lt;/p&gt;&lt;p&gt;The reduction base case for &amp;quot;...yz&amp;quot; is &amp;#39;y&amp;#39; step &amp;#39;z&amp;#39;, which step rewrites to (&amp;#39;y&amp;#39; step &amp;#39;z&amp;#39; step initial-state).&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png" alt="sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+"&gt;&lt;figcaption&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png"&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113587485827845274"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-03T06:31:26.384Z"&gt;2024-12-03T06:31:26.384Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 3 part 1. &lt;/p&gt;&lt;p&gt;The function &amp;#39;c step s&amp;#39; steps the state machine state s to incorporate the new character c. &lt;/p&gt;&lt;p&gt;(step/ flip x) runs the state machine over the whole string, left to right.&lt;/p&gt;&lt;p&gt;The reduction base case for &amp;quot;...yz&amp;quot; is &amp;#39;y&amp;#39; step &amp;#39;z&amp;#39;, which step rewrites to (&amp;#39;y&amp;#39; step &amp;#39;z&amp;#39; step initial-state).&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png" alt="sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+"&gt;&lt;figcaption&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://media.hachyderm.io/media_attachments/files/113/587/485/081/350/443/original/99727e8e3da4736d.png"&gt;sample = read &amp;quot;sample.txt&amp;quot;
+input = read &amp;quot;input1.txt&amp;quot;
+
+digits = &amp;quot;0123456789&amp;quot;
+
+op i atoi c = (i*10) + (code c) - (code &amp;#x27;0&amp;#x27;)
+
+op c step s =
+	(rho s) == 0: c step s step (0 0 0 0)
+	c == &amp;#x27;m&amp;#x27;: 1, 0, 0, s[4]
+	(s[1] == 1) and c == &amp;#x27;u&amp;#x27;: 2, 0, 0, s[4]
+	(s[1] == 2) and c == &amp;#x27;l&amp;#x27;: 3, 0, 0, s[4]
+	(s[1] == 3) and c == &amp;#x27;(&amp;#x27;: 4, 0, 0, s[4]
+	(s[1] == 4) and c in digits: 4, (s[2] atoi c), 0, s[4]
+	(s[1] == 4) and (s[2] &amp;lt; 1000) and c == &amp;#x27;,&amp;#x27;: 5, s[2], 0, s[4]
+	(s[1] == 5) and c in digits: 5, s[2], (s[3] atoi c), s[4]
+	(s[1] == 5) and (s[3] &amp;lt; 1000) and c == &amp;#x27;)&amp;#x27;: 0, 0, 0, s[4]+s[2]*s[3]
+	0, 0, 0, s[4]
+
+op solve x = (step/ flip x)[4]
+
+solve sample
+solve input
+&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113587485827845274"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-02 — Day 2: sample = read "sample.txt" op delta x = (1 drop x) - -1 drop x op safeInc x = &amp;/ (delta x) in 1 2 3…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113583960885156441.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113583960885156441</guid><pubDate>Mon, 02 Dec 2024 15:35:00 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-02T15:35:00.028Z"&gt;2024-12-02T15:35:00.028Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 2:&lt;/p&gt;&lt;p&gt;sample = read &amp;quot;sample.txt&amp;quot;&lt;/p&gt;&lt;p&gt;op delta x = (1 drop x) - -1 drop x&lt;br /&gt;op safeInc x = &amp;amp;/ (delta x) in 1 2 3&lt;br /&gt;op safeDec x = &amp;amp;/ (delta x) in -1 -2 -3&lt;br /&gt;op safe x = (safeInc x) | safeDec x&lt;br /&gt;op solve x = +/ safe@ x&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;op i delete x = (i != iota rho x) sel x&lt;br /&gt;op safe2 x = |/ safe@ (iota rho x) @delete x&lt;br /&gt;op solve2 x = +/ safe2@ x&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;(Using the non-standard map operator-modifier &amp;#39;@&amp;#39; that I added to my copy in 2021. &lt;a href="https://github.com/rsc/ivy" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;github.com/rsc/ivy&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rsc/ivy"&gt;GitHub - rsc/ivy: ivy, an APL-like calculator&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113583960885156441"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-02T15:35:00.028Z"&gt;2024-12-02T15:35:00.028Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Day 2:&lt;/p&gt;&lt;p&gt;sample = read &amp;quot;sample.txt&amp;quot;&lt;/p&gt;&lt;p&gt;op delta x = (1 drop x) - -1 drop x&lt;br /&gt;op safeInc x = &amp;amp;/ (delta x) in 1 2 3&lt;br /&gt;op safeDec x = &amp;amp;/ (delta x) in -1 -2 -3&lt;br /&gt;op safe x = (safeInc x) | safeDec x&lt;br /&gt;op solve x = +/ safe@ x&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;op i delete x = (i != iota rho x) sel x&lt;br /&gt;op safe2 x = |/ safe@ (iota rho x) @delete x&lt;br /&gt;op solve2 x = +/ safe2@ x&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;(Using the non-standard map operator-modifier &amp;#39;@&amp;#39; that I added to my copy in 2021. &lt;a href="https://github.com/rsc/ivy" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;github.com/rsc/ivy&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rsc/ivy"&gt;GitHub - rsc/ivy: ivy, an APL-like calculator&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113583960885156441"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-12-02 — Ivy remains a good choice for #AdventOfCode. Day 1: sample = transp read "sample.txt" op sort x = x[up x]…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113583957246564177.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113583957246564177</guid><pubDate>Mon, 02 Dec 2024 15:34:04 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-02T15:34:04.512Z"&gt;2024-12-02T15:34:04.512Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Ivy remains a good choice for &lt;br /&gt;&lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Day 1:&lt;/p&gt;&lt;p&gt;sample = transp read &amp;quot;sample.txt&amp;quot;&lt;/p&gt;&lt;p&gt;op sort x = x[up x]&lt;br /&gt;op solve x = +/abs (sort x[1]) - sort x[2]&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;op solve2 x = +/x[1] * +/x[1] o.== x[2]&lt;br /&gt;solve2 sample&lt;/p&gt;&lt;p&gt;&lt;a href="https://adventofcode.com" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;adventofcode.com&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;(Ivy in 2021: &lt;a href="https://www.youtube.com/playlist?list=PLrwpzH1_9ufMLOB6BAdzO08Qx-9jHGfGg" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;youtube.com/playlist?list=PLrw&lt;/span&gt;&lt;span class="invisible"&gt;pzH1_9ufMLOB6BAdzO08Qx-9jHGfGg&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adventofcode.com/"&gt;Advent of Code 2026&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113583957246564177"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-12-02T15:34:04.512Z"&gt;2024-12-02T15:34:04.512Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Ivy remains a good choice for &lt;br /&gt;&lt;a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;AdventOfCode&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Day 1:&lt;/p&gt;&lt;p&gt;sample = transp read &amp;quot;sample.txt&amp;quot;&lt;/p&gt;&lt;p&gt;op sort x = x[up x]&lt;br /&gt;op solve x = +/abs (sort x[1]) - sort x[2]&lt;br /&gt;solve sample&lt;/p&gt;&lt;p&gt;op solve2 x = +/x[1] * +/x[1] o.== x[2]&lt;br /&gt;solve2 sample&lt;/p&gt;&lt;p&gt;&lt;a href="https://adventofcode.com" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;adventofcode.com&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;(Ivy in 2021: &lt;a href="https://www.youtube.com/playlist?list=PLrwpzH1_9ufMLOB6BAdzO08Qx-9jHGfGg" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://www.&lt;/span&gt;&lt;span class="ellipsis"&gt;youtube.com/playlist?list=PLrw&lt;/span&gt;&lt;span class="invisible"&gt;pzH1_9ufMLOB6BAdzO08Qx-9jHGfGg&lt;/span&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://adventofcode.com/"&gt;Advent of Code 2026&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113583957246564177"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-10-05 — SVG, HTML5 Canvas, Apple Core Graphics, PDF, and probably many others all use the same core vector…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113255023064181849.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:113255023064181849</guid><pubDate>Sat, 05 Oct 2024 13:21:47 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-10-05T13:21:47.204Z"&gt;2024-10-05T13:21:47.204Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;SVG, HTML5 Canvas, Apple Core Graphics, PDF, and probably many others all use the same core vector graphics model and operators, which I think of as from PostScript.&lt;/p&gt;&lt;p&gt;Did the creators of PostScript invent these, did they originate in some even earlier system?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113255023064181849"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-10-05T13:21:47.204Z"&gt;2024-10-05T13:21:47.204Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;SVG, HTML5 Canvas, Apple Core Graphics, PDF, and probably many others all use the same core vector graphics model and operators, which I think of as from PostScript.&lt;/p&gt;&lt;p&gt;Did the creators of PostScript invent these, did they originate in some even earlier system?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/113255023064181849"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-08-01 — Starting September 1, Austin Clements will be taking over as the tech lead of Go: both the Go team at…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112888231811005415.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112888231811005415</guid><pubDate>Thu, 01 Aug 2024 18:41:56 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-08-01T18:41:56.842Z"&gt;2024-08-01T18:41:56.842Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Starting September 1, Austin Clements will be taking over as the tech lead of Go: both the Go team at Google and the overall Go project. Austin is currently the tech lead for what we sometimes call the “Go core”, which encompasses compiler toolchain, runtime, and releases. Cherry Mui will be stepping up to lead those areas.&lt;/p&gt;&lt;p&gt;I am not leaving the Go project, but I think the time is right for a change.&lt;/p&gt;&lt;p&gt;Details here: &lt;a href="https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;groups.google.com/g/golang-dev&lt;/span&gt;&lt;span class="invisible"&gt;/c/0OqBkS2RzWw&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw"&gt;passing torches to Austin and Cherry&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112888231811005415"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-08-01T18:41:56.842Z"&gt;2024-08-01T18:41:56.842Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Starting September 1, Austin Clements will be taking over as the tech lead of Go: both the Go team at Google and the overall Go project. Austin is currently the tech lead for what we sometimes call the “Go core”, which encompasses compiler toolchain, runtime, and releases. Cherry Mui will be stepping up to lead those areas.&lt;/p&gt;&lt;p&gt;I am not leaving the Go project, but I think the time is right for a change.&lt;/p&gt;&lt;p&gt;Details here: &lt;a href="https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;groups.google.com/g/golang-dev&lt;/span&gt;&lt;span class="invisible"&gt;/c/0OqBkS2RzWw&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw"&gt;passing torches to Austin and Cherry&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112888231811005415"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-07-18 — Learn a new magic trick! Hash-Based Bisect Debugging in Compilers and Runtimes</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112807999140038872.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112807999140038872</guid><pubDate>Thu, 18 Jul 2024 14:37:43 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-07-18T14:37:43.441Z"&gt;2024-07-18T14:37:43.441Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Learn a new magic trick! &lt;/p&gt;&lt;p&gt;Hash-Based Bisect Debugging in Compilers and Runtimes&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/bisect" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/bisect&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/bisect"&gt;research!rsc: Hash-Based Bisect Debugging in Compilers and Runtimes&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112807999140038872"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-07-18T14:37:43.441Z"&gt;2024-07-18T14:37:43.441Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Learn a new magic trick! &lt;/p&gt;&lt;p&gt;Hash-Based Bisect Debugging in Compilers and Runtimes&lt;/p&gt;&lt;p&gt;&lt;a href="https://research.swtch.com/bisect" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;research.swtch.com/bisect&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://research.swtch.com/bisect"&gt;research!rsc: Hash-Based Bisect Debugging in Compilers and Runtimes&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112807999140038872"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-06-11 — I saw a reference to JSONL recently and looked it up and thought "that's just Go's json.Encoder format".…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112599285725984946.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112599285725984946</guid><pubDate>Tue, 11 Jun 2024 17:59:09 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-06-11T17:59:09.481Z"&gt;2024-06-11T17:59:09.481Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;I saw a reference to JSONL recently and looked it up and thought &amp;quot;that&amp;#39;s just Go&amp;#39;s json.Encoder format&amp;quot;. Which it is.&lt;/p&gt;&lt;p&gt;jsonlines.org was created in 2013. github.com/ndjson/ndjson-spec&amp;#39;s earliest commit is also 2013. &lt;/p&gt;&lt;p&gt;But Go implemented newline-separated JSON in April 2010. &lt;/p&gt;&lt;p&gt;Now I&amp;#39;m curious: did the concept originate with Go? Was it the earliest implementation?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112599285725984946"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-06-11T17:59:09.481Z"&gt;2024-06-11T17:59:09.481Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;I saw a reference to JSONL recently and looked it up and thought &amp;quot;that&amp;#39;s just Go&amp;#39;s json.Encoder format&amp;quot;. Which it is.&lt;/p&gt;&lt;p&gt;jsonlines.org was created in 2013. github.com/ndjson/ndjson-spec&amp;#39;s earliest commit is also 2013. &lt;/p&gt;&lt;p&gt;But Go implemented newline-separated JSON in April 2010. &lt;/p&gt;&lt;p&gt;Now I&amp;#39;m curious: did the concept originate with Go? Was it the earliest implementation?&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112599285725984946"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-05-10 — This article attributes the xz attack to a Chinese hacker who texted about it, including claiming that…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112416680288189721.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112416680288189721</guid><pubDate>Fri, 10 May 2024 12:00:11 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-10T12:00:11.625Z"&gt;2024-05-10T12:00:11.625Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;This article attributes the xz attack to a Chinese hacker who texted about it, including claiming that they have at least one other open source bug.&lt;/p&gt;&lt;p&gt;&lt;a href="https://thenightly.com.au/world/chinese-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;thenightly.com.au/world/chines&lt;/span&gt;&lt;span class="invisible"&gt;e-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://thenightly.com.au/world/chinese-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200"&gt;Chinese Government official’s son gloats about multi-year hack targeting Australian Intelligence agencies&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112416680288189721"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-10T12:00:11.625Z"&gt;2024-05-10T12:00:11.625Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;This article attributes the xz attack to a Chinese hacker who texted about it, including claiming that they have at least one other open source bug.&lt;/p&gt;&lt;p&gt;&lt;a href="https://thenightly.com.au/world/chinese-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;thenightly.com.au/world/chines&lt;/span&gt;&lt;span class="invisible"&gt;e-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://thenightly.com.au/world/chinese-government-officials-son-gloats-about-multi-year-hack-on-australian-intelligence-agencies-c-14617200"&gt;Chinese Government official’s son gloats about multi-year hack targeting Australian Intelligence agencies&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112416680288189721"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-05-02 — Fascinating to me that  doesn't show up anywhere on the front N pages of HN even though it has more votes…</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112372532213573652.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112372532213573652</guid><pubDate>Thu, 02 May 2024 16:52:45 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-02T16:52:45.464Z"&gt;2024-05-02T16:52:45.464Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Fascinating to me that &lt;a href="https://news.ycombinator.com/item?id=40237491" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;news.ycombinator.com/item?id=4&lt;/span&gt;&lt;span class="invisible"&gt;0237491&lt;/span&gt;&lt;/a&gt; doesn&amp;#39;t show up anywhere on the front N pages of HN even though it has more votes in less time than some posts that do show up. It&amp;#39;s like it got killfiled. &lt;/p&gt;&lt;p&gt;HN doesn&amp;#39;t like secure randomness I guess.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=40237491"&gt;Secure Randomness in Go 1.22 | Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112372532213573652"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-02T16:52:45.464Z"&gt;2024-05-02T16:52:45.464Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;Fascinating to me that &lt;a href="https://news.ycombinator.com/item?id=40237491" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;news.ycombinator.com/item?id=4&lt;/span&gt;&lt;span class="invisible"&gt;0237491&lt;/span&gt;&lt;/a&gt; doesn&amp;#39;t show up anywhere on the front N pages of HN even though it has more votes in less time than some posts that do show up. It&amp;#39;s like it got killfiled. &lt;/p&gt;&lt;p&gt;HN doesn&amp;#39;t like secure randomness I guess.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=40237491"&gt;Secure Randomness in Go 1.22 | Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112372532213573652"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item><item><title>Russ Cox · 2024-05-02 — “Secure Randomness in Go 1.22” by rsc and valsorda. #golang</title><dc:creator>Russ Cox</dc:creator><link>https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/112372232894250612.html</link><guid isPermaLink="false">urn:mastodon:hachyderm.io:112372232894250612</guid><pubDate>Thu, 02 May 2024 15:36:38 +0000</pubDate><description>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-02T15:36:38.218Z"&gt;2024-05-02T15:36:38.218Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Secure Randomness in Go 1.22” by rsc and valsorda. &lt;a href="https://hachyderm.io/tags/golang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;golang&lt;/span&gt;&lt;/a&gt; &lt;br /&gt;&lt;a href="https://go.dev/blog/chacha8rand" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;go.dev/blog/chacha8rand&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://go.dev/blog/chacha8rand"&gt;Secure Randomness in Go 1.22 - The Go Programming Language&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112372232894250612"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</description><content:encoded>&lt;p class="byline"&gt;&lt;a class="p-author" href="https://hachyderm.io/@rsc"&gt;Russ Cox&lt;/a&gt; · &lt;time class="dt-published" datetime="2024-05-02T15:36:38.218Z"&gt;2024-05-02T15:36:38.218Z&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;“Secure Randomness in Go 1.22” by rsc and valsorda. &lt;a href="https://hachyderm.io/tags/golang" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;golang&lt;/span&gt;&lt;/a&gt; &lt;br /&gt;&lt;a href="https://go.dev/blog/chacha8rand" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;go.dev/blog/chacha8rand&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://go.dev/blog/chacha8rand"&gt;Secure Randomness in Go 1.22 - The Go Programming Language&lt;/a&gt;&lt;/p&gt;
+&lt;footer&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@rsc/112372232894250612"&gt;Original Mastodon post&lt;/a&gt;&lt;/p&gt;&lt;/footer&gt;</content:encoded></item></channel></rss>

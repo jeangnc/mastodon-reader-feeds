@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Russ Cox · 2024-12-04 — Day 4 part 2 #AdventOfCode d shift3 m produces the 3 matrices shifted by d*-1 0 1. d MAS m identifies the…</title><link rel="canonical" href="https://jeangnc.github.io/mastodon-reader-feeds/posts/hachyderm.io/113595107313769183.html"><meta property="og:type" content="article"><meta name="author" content="Russ Cox"><meta property="article:published_time" content="2024-12-04T14:49:41.034Z"><style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1rem;color:#20252b}h1{font-size:1.6rem;line-height:1.3}img,video{max-width:100%;height:auto}a{overflow-wrap:anywhere}figure{margin:1.5rem 0}figcaption,.byline,footer{font-size:.9rem;color:#505966}.invisible{display:none}blockquote{border-left:3px solid #bbb;padding-left:1rem}@media(prefers-color-scheme:dark){body{background:#171b20;color:#e9edf2}a{color:#8dbfff}figcaption,.byline,footer{color:#c3cbd4}}</style></head><body><main><article class="h-entry"><h1 class="p-name">Russ Cox · 2024-12-04 — Day 4 part 2 #AdventOfCode d shift3 m produces the 3 matrices shifted by d*-1 0 1. d MAS m identifies the…</h1><p class="byline"><a class="p-author" href="https://hachyderm.io/@rsc">Russ Cox</a> · <time class="dt-published" datetime="2024-12-04T14:49:41.034Z">2024-12-04T14:49:41.034Z</time></p>
+<p>Day 4 part 2 <a href="https://hachyderm.io/tags/AdventOfCode" class="mention hashtag" rel="tag">#<span>AdventOfCode</span></a></p><p>d shift3 m produces the 3 matrices shifted by d*-1 0 1.<br />d MAS m identifies the A in MAS in direction d.<br />d xMAS m identifies the A in MAS in direction d or -d.<br />xMAS m identifies the A in an X-MAS.</p>
+<figure><img src="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png" alt="op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &#x27;MAS&#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+"><figcaption>op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &#x27;MAS&#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+</figcaption></figure>
+<p><a href="https://media.hachyderm.io/media_attachments/files/113/595/106/455/978/952/original/c6108a682ec13179.png">op d shift3 m = (-1 0 1 @* d) @shift m
+op d MAS m = T and/ &#x27;MAS&#x27; == T d shift3 m
+op d xMAS m = (d MAS m) or (-d) MAS m
+op xMAS m = (1 1 xMAS m) and 1 -1 xMAS m
+op solve2 x = +/+/ xMAS pad x
+
+solve2 sample
+solve2 input
+</a></p>
+<footer><p><a href="https://hachyderm.io/@rsc/113595107313769183">Original Mastodon post</a></p></footer></article></main></body></html>

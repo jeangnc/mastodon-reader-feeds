@@ -1,0 +1,2266 @@
+{
+  "account": {
+    "host": "mastodon.social",
+    "name": "daniel:// stenberg://",
+    "user": "bagder"
+  },
+  "last_success": "2026-11-08",
+  "posts": {
+    "mastodon.social/117551753117506903": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UJG8vGS{?bxw~Wxtx]xuWFNt4:$*EzITaeMx",
+          "description": "I recently blogged about how the curl project switched to doing all handling of vulnerabilities at severity LOW and MEDIUM in the public. Let me now describe how you can follow along this process and help out. Add your opinions, comments and assessments to help the curl project stay honest, do even better and manage … Continue reading Scrutinize our assessments →",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/213/292/193/original/e879aa6be35c71af.jpg",
+          "image_description": "",
+          "language": "en",
+          "provider_name": "daniel.haxx.se",
+          "provider_url": "",
+          "published_at": "2026-11-03T09:16:17.000Z",
+          "title": "Scrutinize our assessments",
+          "type": "link",
+          "url": "https://daniel.haxx.se/blog/2026/11/03/scrutinize-our-assessments/",
+          "width": 678
+        },
+        "content": "<p>Scrutinize the <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> vulnerability assessments:</p><p><a href=\"https://daniel.haxx.se/blog/2026/11/03/scrutinize-our-assessments/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">daniel.haxx.se/blog/2026/11/03</span><span class=\"invisible\">/scrutinize-our-assessments/</span></a></p>",
+        "created_at": "2026-11-03T09:16:44.750Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 13,
+        "id": "117551753117506903",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 8,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117551753117506903",
+        "url": "https://mastodon.social/@bagder/117551753117506903",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117552369707240387": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "Daniel Stenberg",
+          "author_url": "https://www.youtube.com/@DanielStenberg",
+          "authors": [
+            {
+              "account": null,
+              "name": "Daniel Stenberg",
+              "url": "https://www.youtube.com/@DanielStenberg"
+            }
+          ],
+          "blurhash": "U56a-ctR9stkxHxaaeIU00RP-qeokVIVt7-;",
+          "description": "",
+          "embed_url": "",
+          "height": 113,
+          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Xk_GK1ZAqkc?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\" sandbox=\"allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms\"></iframe>",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/213/309/200/original/bfcf3f173c03be5c.jpg",
+          "image_description": "",
+          "language": null,
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "published_at": null,
+          "title": "curl 30 years gource visualization with Daniel's comments",
+          "type": "video",
+          "url": "https://youtu.be/Xk_GK1ZAqkc",
+          "width": 200
+        },
+        "content": "<p><a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> 30 years gource visualization with Daniel&#39;s comments</p><p><a href=\"https://youtu.be/Xk_GK1ZAqkc\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">youtu.be/Xk_GK1ZAqkc</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-11-03T11:53:33.163Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 23,
+        "id": "117552369707240387",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 16,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117552369707240387",
+        "url": "https://mastodon.social/@bagder/117552369707240387",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117552544228600794": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>and why not 25% faster date parsing in <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a>?</p>",
+        "created_at": "2026-11-03T12:37:56.150Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 30,
+        "id": "117552544228600794",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UHSF@TxubGxu~qf7RjafD%j[ofj[_3WBWBay",
+            "description": "performance graph showing performance test results in nanoseconds over many builds with a steep drop at the right end going down from 28 to 21.",
+            "id": "117552540624560328",
+            "meta": {
+              "focus": {
+                "x": 0.81,
+                "y": 0.05
+              },
+              "original": {
+                "aspect": 3.1496437054631827,
+                "height": 842,
+                "size": "2652x842",
+                "width": 2652
+              },
+              "small": {
+                "aspect": 3.1481481481481484,
+                "height": 270,
+                "size": "850x270",
+                "width": 850
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://files.mastodon.social/media_attachments/files/117/552/540/624/560/328/small/863a289655635e1e.png",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://files.mastodon.social/media_attachments/files/117/552/540/624/560/328/original/863a289655635e1e.png"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 4,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117552544228600794",
+        "url": "https://mastodon.social/@bagder/117552544228600794",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117552546263296456": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "bagder",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "bagder",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "check for timezones without bsearch, switch() on the 32 bit value directly\nmake the tzone array local\nuse switch() to determine name and month better\nparse 8-digit numbers faster\nsimplify match_tim...",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "check for timezones without bsearch, switch() on the 32 bit value directly\nmake the tzone array local\nuse switch() to determine name and month better\nparse 8-digit numbers faster\nsimplify match_tim...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "parsedate: minor performance tweaks and cleanups by bagder · Pull Request #23723 · curl/curl",
+          "type": "link",
+          "url": "https://github.com/curl/curl/pull/23723",
+          "width": 0
+        },
+        "content": "<p>caused by this PR: <a href=\"https://github.com/curl/curl/pull/23723\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/curl/curl/pull/23723</span><span class=\"invisible\"></span></a></p>",
+        "created_at": "2026-11-03T12:38:27.188Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 5,
+        "id": "117552546263296456",
+        "in_reply_to_account_id": "39207",
+        "in_reply_to_id": "117552544228600794",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117552546263296456",
+        "url": "https://mastodon.social/@bagder/117552546263296456",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117552550455236055": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>the graph is here: <a href=\"https://curl.se/perf/index.html#dateparser\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">curl.se/perf/index.html#datepa</span><span class=\"invisible\">rser</span></a></p>",
+        "created_at": "2026-11-03T12:39:31.153Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 5,
+        "id": "117552550455236055",
+        "in_reply_to_account_id": "39207",
+        "in_reply_to_id": "117552546263296456",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117552550455236055",
+        "url": "https://mastodon.social/@bagder/117552550455236055",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117556982178251584": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UlQlg__4yEV@v}RPtlWV_NI9RjtRbwxuaday",
+          "description": "Good things come to those who wait? When I created and started hosting the first websites for curl I didn't care about the URL or domain names used for them, but after a few years I started to think that maybe it would be cool to register a curl domain for its home. By then … Continue reading The journey to a curl domain →",
+          "embed_url": "",
+          "height": 360,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/025/929/506/original/29f6b4e33990ee46.jpg",
+          "image_description": "",
+          "language": "en",
+          "provider_name": "daniel.haxx.se",
+          "provider_url": "",
+          "published_at": "2020-11-04T11:44:03.000Z",
+          "title": "The journey to a curl domain",
+          "type": "link",
+          "url": "https://daniel.haxx.se/blog/2020/11/04/the-journey-to-a-curl-domain/",
+          "width": 640
+        },
+        "content": "<p>Today we celebrate curl.se (the domain) - six years since we finally got our hands on it. <a href=\"https://daniel.haxx.se/blog/2020/11/04/the-journey-to-a-curl-domain/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">daniel.haxx.se/blog/2020/11/04</span><span class=\"invisible\">/the-journey-to-a-curl-domain/</span></a></p>",
+        "created_at": "2026-11-04T07:26:33.883Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 38,
+        "id": "117556982178251584",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 10,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117556982178251584",
+        "url": "https://mastodon.social/@bagder/117556982178251584",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117557063789956724": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "KEYNOTE: Deluge, Distill, Defend: Mastering the AI Vulnerability Overflow – Nordic Software Security Summit",
+          "type": "link",
+          "url": "https://nsss.se/f2026/talks/deluge-distill-defend/",
+          "width": 0
+        },
+        "content": "<p>If you&#39;re in Stockholm this week. Sign up for NSSS and let&#39;s meet on Thursday when I talk &quot;Deluge, Distill, Defend: Mastering the AI Vulnerability Overflow&quot; <a href=\"https://nsss.se/f2026/talks/deluge-distill-defend/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">nsss.se/f2026/talks/deluge-dis</span><span class=\"invisible\">till-defend/</span></a></p>",
+        "created_at": "2026-11-04T07:47:19.178Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 9,
+        "id": "117557063789956724",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 8,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117557063789956724",
+        "url": "https://mastodon.social/@bagder/117557063789956724",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117557188608645247": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>yesterday the <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> project got an email from a person announcing their grand new project to security audit a range of Open Source projects. Got a fancy project name and all. Asked for permission.</p><p>Two hours later the same person emailed us again, announcing that he shuts down this effort blaming &quot;widespread failure affecting Codex&quot;.</p><p>We never got to respond. Moving on.</p>",
+        "created_at": "2026-11-04T08:19:03.765Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 82,
+        "id": "117557188608645247",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 19,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117557188608645247",
+        "url": "https://mastodon.social/@bagder/117557188608645247",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117557505346243771": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>I mean, a presentation this week deserves a slide like this...</p>",
+        "created_at": "2026-11-04T09:39:36.795Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 48,
+        "id": "117557505346243771",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [
+          {
+            "blurhash": "UH4|1lflR1fRkDayfPfkMwayo#fPflfQjsay",
+            "description": "Celebrates its 30th anniversary next week (curl)",
+            "id": "117557502845133746",
+            "meta": {
+              "focus": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "original": {
+                "aspect": 1.7777777777777777,
+                "height": 1080,
+                "size": "1920x1080",
+                "width": 1920
+              },
+              "small": {
+                "aspect": 1.7777777777777777,
+                "height": 360,
+                "size": "640x360",
+                "width": 640
+              }
+            },
+            "preview_remote_url": null,
+            "preview_url": "https://files.mastodon.social/media_attachments/files/117/557/502/845/133/746/small/1d7ed9a602f4c5fd.jpg",
+            "remote_url": null,
+            "text_url": null,
+            "type": "image",
+            "url": "https://files.mastodon.social/media_attachments/files/117/557/502/845/133/746/original/1d7ed9a602f4c5fd.jpg"
+          }
+        ],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 8,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117557505346243771",
+        "url": "https://mastodon.social/@bagder/117557505346243771",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117562565336773778": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Tusky",
+          "website": "https://tusky.app"
+        },
+        "card": null,
+        "content": "<p>This morning, we (#curl) received 45 new vulnerability reports - one MEDIUM, 44 LOW. I will convert them to github issues going forward. Stay tuned.</p>",
+        "created_at": "2026-11-05T07:06:26.121Z",
+        "edited_at": "2026-11-05T07:08:35.538Z",
+        "emojis": [],
+        "favourites_count": 45,
+        "id": "117562565336773778",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 12,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117562565336773778",
+        "url": "https://mastodon.social/@bagder/117562565336773778",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117565964920163732": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UNR3Wgt7?bt7xuxaNGay~qxuIoay?bWBf6of",
+          "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/005/026/059/original/5eb787eb88ace472.png",
+          "image_description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Issues · curl/curl",
+          "type": "link",
+          "url": "https://github.com/curl/curl/issues?q=is:issue+state:open+label:vuln:ASSESS",
+          "width": 678
+        },
+        "content": "<p>They will trickle in visible here: <a href=\"https://github.com/curl/curl/issues?q=is%3Aissue+state%3Aopen+label%3Avuln%3AASSESS\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/curl/curl/issues?q=</span><span class=\"invisible\">is%3Aissue+state%3Aopen+label%3Avuln%3AASSESS</span></a></p>",
+        "created_at": "2026-11-05T21:30:59.645Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117565964920163732",
+        "in_reply_to_account_id": "39207",
+        "in_reply_to_id": "117562565336773778",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117565964920163732",
+        "url": "https://mastodon.social/@bagder/117565964920163732",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117566075296462170": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UNR3Wgt7?bt7xuxaNGay~qxuIoay?bWBf6of",
+          "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/005/026/059/original/5eb787eb88ace472.png",
+          "image_description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Issues · curl/curl",
+          "type": "link",
+          "url": "https://github.com/curl/curl/issues?q=is:issue+state:open+label:vuln:ASSESS",
+          "width": 678
+        },
+        "content": "<p>I&#39;ve copied over the 10 first vuln reports from Anthropic to <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a>&#39;s GitHub issue tracker, keeping the remaining 35 off a little while to not drown us at once. Now you can get a good insight into what our lives look like these days:</p><p><a href=\"https://github.com/curl/curl/issues?q=is%3Aissue+state%3Aopen+label%3Avuln%3AASSESS\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/curl/curl/issues?q=</span><span class=\"invisible\">is%3Aissue+state%3Aopen+label%3Avuln%3AASSESS</span></a></p>",
+        "created_at": "2026-11-05T21:59:03.857Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 32,
+        "id": "117566075296462170",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 6,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117566075296462170",
+        "url": "https://mastodon.social/@bagder/117566075296462170",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117568699871943056": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>toilet cleaning duties all day. Again.</p>",
+        "created_at": "2026-11-06T09:06:31.702Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 25,
+        "id": "117568699871943056",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 3,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117568699871943056",
+        "url": "https://mastodon.social/@bagder/117568699871943056",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117568797962422586": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>Assuming we spend an average of 4 hours per vuln report, we just yesterday got ourselves **four weeks** of full-time work.</p>",
+        "created_at": "2026-11-06T09:31:28.443Z",
+        "edited_at": "2026-11-06T09:31:52.523Z",
+        "emojis": [],
+        "favourites_count": 109,
+        "id": "117568797962422586",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 48,
+        "replies_count": 9,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117568797962422586",
+        "url": "https://mastodon.social/@bagder/117568797962422586",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117568901646038693": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "hugojosealmeida",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "hugojosealmeida",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Clarify that quiche writes QLOGDIR files only on non-Windows builds with qlog file support in the quiche library. ngtcp2 does not have these restrictions.\nFound while investigating CI test failures...",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "Clarify that quiche writes QLOGDIR files only on non-Windows builds with qlog file support in the quiche library. ngtcp2 does not have these restrictions.\nFound while investigating CI test failures...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "docs: clarify QLOGDIR backend support by hugojosealmeida · Pull Request #23784 · curl/curl",
+          "type": "link",
+          "url": "https://github.com/curl/curl/issues/23784",
+          "width": 0
+        },
+        "content": "<p>Welcome hja as <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> commit author 1573: <a href=\"https://github.com/curl/curl/issues/23784\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/curl/curl/issues/23</span><span class=\"invisible\">784</span></a></p>",
+        "created_at": "2026-11-06T09:57:50.539Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 9,
+        "id": "117568901646038693",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117568901646038693",
+        "url": "https://mastodon.social/@bagder/117568901646038693",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117574693373969068": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>Aggressively closing <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> vulnerability reports on a Saturday. Again.</p>",
+        "created_at": "2026-11-07T10:30:45.286Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 30,
+        "id": "117574693373969068",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117574693373969068",
+        "url": "https://mastodon.social/@bagder/117574693373969068",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117574695411328454": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UNR3Wgt7?bt7xuxaNGay~qxuIoay?bWBf6of",
+          "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/005/026/059/original/5eb787eb88ace472.png",
+          "image_description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP,...",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Issues · curl/curl",
+          "type": "link",
+          "url": "https://github.com/curl/curl/issues?q=is:issue+label:vuln:NONE",
+          "width": 678
+        },
+        "content": "<p><a href=\"https://github.com/curl/curl/issues?q=is%3Aissue+label%3Avuln%3ANONE\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/curl/curl/issues?q=</span><span class=\"invisible\">is%3Aissue+label%3Avuln%3ANONE</span></a></p>",
+        "created_at": "2026-11-07T10:31:16.370Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 7,
+        "id": "117574695411328454",
+        "in_reply_to_account_id": "39207",
+        "in_reply_to_id": "117574693373969068",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117574695411328454",
+        "url": "https://mastodon.social/@bagder/117574695411328454",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117574777187362175": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UPSiX2s:Wq%LyEW=jFozMdjEf+oK_NW=s.R+",
+          "description": "The curl.se website. Contribute to curl/curl-www development by creating an account on GitHub.",
+          "embed_url": "",
+          "height": 339,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/082/035/623/original/925dfcd7bafcbf97.png",
+          "image_description": "The curl.se website. Contribute to curl/curl-www development by creating an account on GitHub.",
+          "language": "en",
+          "provider_name": "GitHub",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Issues · curl/curl-www",
+          "type": "link",
+          "url": "https://github.com/curl/curl-www/issues?q=is:issue+state:open+label:vuln:LOW",
+          "width": 678
+        },
+        "content": "<p>so far, we have four LOW <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> vulns confirmed from Anthropic&#39;s last batch, but we have over two dozens of findings left to dig through: <a href=\"https://github.com/curl/curl-www/issues?q=is%3Aissue+state%3Aopen+label%3Avuln%3ALOW\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">github.com/curl/curl-www/issue</span><span class=\"invisible\">s?q=is%3Aissue+state%3Aopen+label%3Avuln%3ALOW</span></a></p>",
+        "created_at": "2026-11-07T10:52:04.184Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 16,
+        "id": "117574777187362175",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 4,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117574777187362175",
+        "url": "https://mastodon.social/@bagder/117574777187362175",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117574806159359411": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>The trillion dollar monsters are all focusing on *finding* issues at high speed in large volumes. Hardly any of them care about *fixing* these problems with any sense of quality.</p>",
+        "created_at": "2026-11-07T10:59:26.250Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 596,
+        "id": "117574806159359411",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 6,
+        "reblog": null,
+        "reblogs_count": 397,
+        "replies_count": 31,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117574806159359411",
+        "url": "https://mastodon.social/@bagder/117574806159359411",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117574897470285517": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55443,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-07",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13245,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>at 17 confirmed <a href=\"https://mastodon.social/tags/curl\" class=\"mention hashtag\" rel=\"tag\">#<span>curl</span></a> vulns since the previous release, 24 days ago</p>",
+        "created_at": "2026-11-07T11:22:39.561Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 21,
+        "id": "117574897470285517",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [
+          {
+            "name": "curl",
+            "url": "https://mastodon.social/tags/curl"
+          }
+        ],
+        "uri": "https://mastodon.social/users/bagder/statuses/117574897470285517",
+        "url": "https://mastodon.social/@bagder/117574897470285517",
+        "visibility": "public"
+      }
+    }
+  },
+  "sources": {
+    "bagder@mastodon.social": "117574897470285517"
+  }
+}
