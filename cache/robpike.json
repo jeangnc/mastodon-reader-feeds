@@ -690,7 +690,7 @@
                   "verified_at": null
                 }
               ],
-              "followers_count": 233731,
+              "followers_count": 233831,
               "following_count": 6,
               "group": false,
               "header": "https://m.f-h.co/cosocial-ca/cache/accounts/headers/110/272/491/897/322/318/original/fa3bd2f9b19b6e4c.jpg",
@@ -699,13 +699,13 @@
               "hide_collections": false,
               "id": "110272491897322318",
               "indexable": false,
-              "last_status_at": "2026-11-07",
+              "last_status_at": "2026-11-08",
               "locked": false,
               "note": "<p>Original news, reviews, analysis of tech trends, and expert advice on the most fundamental aspects of tech.</p><p>Official Ars Technica account. 🟠</p>",
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13539,
+              "statuses_count": 13540,
               "uri": "https://mastodon.social/users/arstechnica",
               "url": "https://mastodon.social/@arstechnica",
               "username": "arstechnica"
