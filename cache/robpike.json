@@ -4,7 +4,7 @@
     "name": "@robpike.io",
     "user": "robpike"
   },
-  "last_success": "2026-11-09",
+  "last_success": "2026-11-10",
   "posts": {
     "cosocial.ca/117260147453883348": {
       "host": "cosocial.ca",
@@ -705,7 +705,7 @@
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13548,
+              "statuses_count": 13550,
               "uri": "https://mastodon.social/users/arstechnica",
               "url": "https://mastodon.social/@arstechnica",
               "username": "arstechnica"
