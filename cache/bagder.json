@@ -4,7 +4,7 @@
     "name": "daniel:// stenberg://",
     "user": "bagder"
   },
-  "last_success": "2026-11-10",
+  "last_success": "2026-11-11",
   "posts": {
     "mastodon.social/117551753117506903": {
       "host": "mastodon.social",
@@ -2296,7 +2296,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2313,7 +2313,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -2398,7 +2398,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2415,7 +2415,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -2500,7 +2500,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2517,7 +2517,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -2556,7 +2556,7 @@
         "created_at": "2026-11-08T11:18:07.027Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 32,
+        "favourites_count": 33,
         "id": "117580541921019858",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -2622,7 +2622,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2639,7 +2639,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -2769,7 +2769,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2786,7 +2786,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -2901,7 +2901,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -2918,7 +2918,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3003,7 +3003,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3020,7 +3020,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3053,7 +3053,7 @@
         "created_at": "2026-11-09T15:25:18.541Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 15,
+        "favourites_count": 16,
         "id": "117587176228673299",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -3124,7 +3124,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3141,7 +3141,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3251,7 +3251,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3268,7 +3268,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3301,7 +3301,7 @@
         "created_at": "2026-11-09T22:34:20.628Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 53,
+        "favourites_count": 54,
         "id": "117588863262976036",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -3319,7 +3319,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 9,
+        "reblogs_count": 12,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -3367,7 +3367,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3384,7 +3384,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3423,7 +3423,7 @@
         "created_at": "2026-11-09T23:01:22.183Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 12,
+        "favourites_count": 13,
         "id": "117588969532994640",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -3494,7 +3494,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3511,7 +3511,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3621,7 +3621,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3638,7 +3638,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3652,7 +3652,7 @@
         "created_at": "2026-11-10T07:25:58.679Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 17,
+        "favourites_count": 19,
         "id": "117590953732388718",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -3696,7 +3696,7 @@
                   "verified_at": null
                 }
               ],
-              "followers_count": 55556,
+              "followers_count": 55568,
               "following_count": 286,
               "group": false,
               "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3713,7 +3713,7 @@
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13287,
+              "statuses_count": 13290,
               "uri": "https://mastodon.social/users/bagder",
               "url": "https://mastodon.social/@bagder",
               "username": "bagder"
@@ -3824,7 +3824,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3841,7 +3841,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3926,7 +3926,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -3943,7 +3943,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -3957,7 +3957,7 @@
         "created_at": "2026-11-10T08:55:45.277Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 38,
+        "favourites_count": 41,
         "id": "117591306749257888",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -4028,7 +4028,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -4045,7 +4045,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -4059,7 +4059,7 @@
         "created_at": "2026-11-10T10:04:33.151Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 45,
+        "favourites_count": 46,
         "id": "117591577273633706",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -4130,7 +4130,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -4147,7 +4147,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -4161,7 +4161,7 @@
         "created_at": "2026-11-10T10:05:55.245Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 83,
+        "favourites_count": 95,
         "id": "117591582653888175",
         "in_reply_to_account_id": "39207",
         "in_reply_to_id": "117591577273633706",
@@ -4179,7 +4179,7 @@
         },
         "quotes_count": 2,
         "reblog": null,
-        "reblogs_count": 53,
+        "reblogs_count": 54,
         "replies_count": 4,
         "sensitive": false,
         "spoiler_text": "",
@@ -4232,7 +4232,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -4249,7 +4249,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -4263,7 +4263,7 @@
         "created_at": "2026-11-10T11:15:49.242Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 56,
+        "favourites_count": 61,
         "id": "117591857511922003",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -4311,7 +4311,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 34,
+        "reblogs_count": 36,
         "replies_count": 3,
         "sensitive": false,
         "spoiler_text": "",
@@ -4359,7 +4359,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 55556,
+          "followers_count": 55568,
           "following_count": 286,
           "group": false,
           "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
@@ -4376,7 +4376,7 @@
           "show_featured": true,
           "show_media": true,
           "show_media_replies": true,
-          "statuses_count": 13287,
+          "statuses_count": 13290,
           "uri": "https://mastodon.social/users/bagder",
           "url": "https://mastodon.social/@bagder",
           "username": "bagder"
@@ -4390,7 +4390,7 @@
         "created_at": "2026-11-10T15:20:36.692Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 98,
+        "favourites_count": 111,
         "id": "117592820067911746",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -4434,7 +4434,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 11,
+        "reblogs_count": 12,
         "replies_count": 2,
         "sensitive": false,
         "spoiler_text": "",
@@ -4444,9 +4444,222 @@
         "url": "https://mastodon.social/@bagder/117592820067911746",
         "visibility": "public"
       }
+    },
+    "mastodon.social/117594651616803190": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55568,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-10",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13290,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": "UJEW8[E3^FoJ~qIVMwxanMIVS6WVitRj%ikE",
+          "description": "Thirty years ago, on November 11, 1996 the young Brazilian student Rafael Sagula posted the source code for his tiny HTTP download tool online. That was httpget 0.1: a little over 100 lines of C code. Bare bones source code with almost no error checks and limited functionality. httpget When I found the source code … Continue reading 30 years of Internet transfers with curl →",
+          "embed_url": "",
+          "height": 340,
+          "html": "",
+          "image": "https://files.mastodon.social/cache/preview_cards/images/214/299/079/original/368eea3f060ac0b0.jpg",
+          "image_description": "",
+          "language": "en",
+          "provider_name": "daniel.haxx.se",
+          "provider_url": "",
+          "published_at": "2026-11-10T23:05:57.000Z",
+          "title": "30 years of Internet transfers with curl",
+          "type": "link",
+          "url": "https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/",
+          "width": 678
+        },
+        "content": "<p>30 years of Internet transfers with curl</p><p><a href=\"https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">daniel.haxx.se/blog/2026/11/11</span><span class=\"invisible\">/30-years-of-internet-transfers-with-curl/</span></a></p>",
+        "created_at": "2026-11-10T23:06:23.898Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 60,
+        "id": "117594651616803190",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 3,
+        "reblog": null,
+        "reblogs_count": 52,
+        "replies_count": 4,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117594651616803190",
+        "url": "https://mastodon.social/@bagder/117594651616803190",
+        "visibility": "public"
+      }
+    },
+    "mastodon.social/117594711282517750": {
+      "host": "mastodon.social",
+      "status": {
+        "account": {
+          "acct": "bagder",
+          "avatar": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "avatar_description": "",
+          "avatar_static": "https://files.mastodon.social/accounts/avatars/000/039/207/original/972a88b4292b90af.jpg",
+          "bot": false,
+          "created_at": "2017-04-03T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "daniel:// stenberg://",
+          "emojis": [],
+          "feature_approval": {
+            "automatic": [
+              "public"
+            ],
+            "current_user": "denied",
+            "manual": []
+          },
+          "fields": [
+            {
+              "name": "website",
+              "value": "<a href=\"https://daniel.haxx.se/\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2022-11-10T22:47:00.998+00:00"
+            },
+            {
+              "name": "github",
+              "value": "<a href=\"https://github.com/bagder\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">github.com/bagder</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-02-02T09:32:48.852+00:00"
+            },
+            {
+              "name": "GPG key : 27ED EAF2 2F3A BCEB 50DB 9A12 5CC9 08FD B71E 12C2",
+              "value": "<a href=\"https://daniel.haxx.se/mykey.asc\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">daniel.haxx.se/mykey.asc</span><span class=\"invisible\"></span></a>",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 55568,
+          "following_count": 286,
+          "group": false,
+          "header": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "header_description": "",
+          "header_static": "https://files.mastodon.social/accounts/headers/000/039/207/original/14b6fb808cf09ba2.jpg",
+          "hide_collections": false,
+          "id": "39207",
+          "indexable": true,
+          "last_status_at": "2026-11-10",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>I write curl. I don&#39;t know anything.</p>",
+          "roles": [],
+          "show_featured": true,
+          "show_media": true,
+          "show_media_replies": true,
+          "statuses_count": 13290,
+          "uri": "https://mastodon.social/users/bagder",
+          "url": "https://mastodon.social/@bagder",
+          "username": "bagder"
+        },
+        "application": {
+          "name": "Web",
+          "website": null
+        },
+        "card": null,
+        "content": "<p>I hope you can excuse me for the 4,500 words, but man, thirty years!!</p>",
+        "created_at": "2026-11-10T23:21:34.324Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 20,
+        "id": "117594711282517750",
+        "in_reply_to_account_id": "39207",
+        "in_reply_to_id": "117594651616803190",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 3,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tagged_collections": [],
+        "tags": [],
+        "uri": "https://mastodon.social/users/bagder/statuses/117594711282517750",
+        "url": "https://mastodon.social/@bagder/117594711282517750",
+        "visibility": "public"
+      }
     }
   },
   "sources": {
-    "bagder@mastodon.social": "117592820067911746"
+    "bagder@mastodon.social": "117594711282517750"
   }
 }
