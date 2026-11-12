@@ -4,7 +4,7 @@
     "name": "@robpike.io",
     "user": "robpike"
   },
-  "last_success": "2026-11-11",
+  "last_success": "2026-11-12",
   "posts": {
     "cosocial.ca/117260147453883348": {
       "host": "cosocial.ca",
@@ -705,7 +705,7 @@
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13578,
+              "statuses_count": 13579,
               "uri": "https://mastodon.social/users/arstechnica",
               "url": "https://mastodon.social/@arstechnica",
               "username": "arstechnica"
@@ -2118,7 +2118,7 @@
         "created_at": "2026-11-03T01:14:03.438Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 41,
+        "favourites_count": 42,
         "id": "117549855108938728",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
