@@ -8049,9 +8049,2010 @@
         "url": "https://mastodon.xyz/@rms/117599106885442045",
         "visibility": "public"
       }
+    },
+    "mastodon.xyz/117612330450202503": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": null,
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "CAPTCHA check",
+          "type": "link",
+          "url": "https://actionnetwork.org/letters/tell-congress-protect-head-start-from-the-trump-administrations-attacks?nowrapper=true",
+          "width": 0
+        },
+        "content": "<p>[1/2] <a href=\"https://actionnetwork.org/letters/tell-congress-protect-head-start-from-the-trump-administrations-attacks?nowrapper=true\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">actionnetwork.org/letters/tell</span><span class=\"invisible\">-congress-protect-head-start-from-the-trump-administrations-attacks?nowrapper=true</span></a><br /><a href=\"https://stallman.org/actionnetwork-letter-instructions.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">stallman.org/actionnetwork-let</span><span class=\"invisible\">ter-instructions.html</span></a></p><p>US citizens: call on your congresscritter and senators to protect Head Start from the executive branch sabotage. See the instructions for how to sign this letter campaign without running any nonfree JavaScript code--not trivial, but not hard. US citizens: Join with this campaign to address this issue. To</p>",
+        "created_at": "2026-11-14T02:02:21.488Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117612330450202503",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612330450202503",
+        "url": "https://mastodon.xyz/@rms/117612330450202503",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612330546039291": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>[2/2] phone your congresscritter about this, the main switchboard is +1-202-224-3121. Please spread the word.</p>",
+        "created_at": "2026-11-14T02:02:22.950Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117612330546039291",
+        "in_reply_to_account_id": "110426658158664185",
+        "in_reply_to_id": "117612330450202503",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612330546039291",
+        "url": "https://mastodon.xyz/@rms/117612330546039291",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612411771967852": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Jon Brodkin",
+          "author_url": "https://arstechnica.com/author/jon-brodkin/",
+          "authors": [
+            {
+              "account": null,
+              "name": "Jon Brodkin",
+              "url": "https://arstechnica.com/author/jon-brodkin/"
+            }
+          ],
+          "blurhash": "UCM*dU~q%gI9F{?ax]D$TLxZRja#SkD%My-;",
+          "description": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+          "embed_url": "",
+          "height": 360,
+          "html": "",
+          "image": "https://6-28.mastodon.xyz/cache/preview_cards/images/043/481/751/original/c1a34a9da360142e.jpg",
+          "image_description": "Illustration of a robot wearing a headset for talking on the phone.",
+          "language": "en",
+          "provider_name": "Ars Technica",
+          "provider_url": "",
+          "published_at": "2026-10-27T21:50:04.000Z",
+          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+          "type": "link",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+          "width": 640
+        },
+        "content": "<p><a href=\"https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">arstechnica.com/tech-policy/20</span><span class=\"invisible\">26/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/</span></a></p><p>*&quot;No human at the helm&quot;: Delaware plan would let AI agents run entire businesses.* If the agents direct the business to commit crimes, no one could be punished. Could the shareholders profit from that outcome? It is crucial to ensure that no one who has control can gain from that.</p>",
+        "created_at": "2026-11-14T02:23:02.360Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "117612411771967852",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612411771967852",
+        "url": "https://mastodon.xyz/@rms/117612411771967852",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612507521897801": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": null,
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Glossary",
+          "type": "link",
+          "url": "https://stallman.org/glossary.html#bullshitter",
+          "width": 0
+        },
+        "content": "<p>[1/2] <a href=\"https://stallman.org/glossary.html#bullshitter\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">stallman.org/glossary.html#bul</span><span class=\"invisible\">lshitter</span></a><br /><a href=\"https://theintercept.com/2026/11/03/trump-us-military-aid-israel-el-sayed/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">theintercept.com/2026/11/03/tr</span><span class=\"invisible\">ump-us-military-aid-israel-el-sayed/</span></a></p><p>The bullshitter said he would cease military aid to Israel to deprive senator-elect El-Sayed of a criticism to make. If he really does this, it would be a step forward. But the bullshitter&#39;s statements of future plans are hardly serious, so we should not take his statement seriously. It is meant as manipulation, like his other statements to the public. (I suppose</p>",
+        "created_at": "2026-11-14T02:47:23.388Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117612507521897801",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612507521897801",
+        "url": "https://mastodon.xyz/@rms/117612507521897801",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612507617152664": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>[2/2] he does make serious commitments to billionaires.)</p>",
+        "created_at": "2026-11-14T02:47:24.840Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117612507617152664",
+        "in_reply_to_account_id": "110426658158664185",
+        "in_reply_to_id": "117612507521897801",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612507617152664",
+        "url": "https://mastodon.xyz/@rms/117612507617152664",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612598313382058": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": null,
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Glossary",
+          "type": "link",
+          "url": "https://stallman.org/glossary.html#s-i-c",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://stallman.org/glossary.html#s-i-c\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">stallman.org/glossary.html#s-i</span><span class=\"invisible\">-c</span></a><br /><a href=\"https://www.exposedbycmd.org/2026/11/02/anti-union-crusader-tilts-labor-department-towards-big-business/\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">exposedbycmd.org/2026/11/02/an</span><span class=\"invisible\">ti-union-crusader-tilts-labor-department-towards-big-business/</span></a></p><p>The saboteur in chief appointed to the Department of Labor a saboteur to head the department&#39;s Office of Labor-Management Standards. Between her and her spouse, they had been paid $750k by an anti-union organization.</p>",
+        "created_at": "2026-11-14T03:10:28.755Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117612598313382058",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612598313382058",
+        "url": "https://mastodon.xyz/@rms/117612598313382058",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612682967438063": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Ben Doherty",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Ben Doherty",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Analysis by human rights organisation Global Echo shows 85 of 132 shipments over eight years contained more than US$5m of organic dates grown in settlements",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-11-04T20:00:43.000Z",
+          "title": "Food grown in illegal West Bank settlements being sold in Australia as ‘produce of Israel’",
+          "type": "link",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/04/food-grown-in-settlements-west-bank-sold-in-australia-produce-of-israel-ntwnfb",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/australia-news/2026/nov/04/food-grown-in-settlements-west-bank-sold-in-australia-produce-of-israel-ntwnfb\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/australia-news</span><span class=\"invisible\">/2026/nov/04/food-grown-in-settlements-west-bank-sold-in-australia-produce-of-israel-ntwnfb</span></a></p><p>Calling on Australia to ban the importation of products (including dates) from Israel&#39;s colonies in the West Bank.</p>",
+        "created_at": "2026-11-14T03:32:00.474Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 6,
+        "id": "117612682967438063",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612682967438063",
+        "url": "https://mastodon.xyz/@rms/117612682967438063",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612781006072724": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Rebecca Bailey",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Rebecca Bailey",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Former US secretary of state says most nations are ‘stumbling along’ while Beijing has ‘hugely accelerated’",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-11-10T12:08:23.000Z",
+          "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "type": "link",
+          "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/environment/20</span><span class=\"invisible\">26/nov/10/china-green-energy-john-kerry-cop31</span></a></p><p>*US and rest of world must follow China&#39;s lead on green energy.*</p>",
+        "created_at": "2026-11-14T03:56:56.425Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117612781006072724",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612781006072724",
+        "url": "https://mastodon.xyz/@rms/117612781006072724",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612872214646919": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "George Monbiot",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "George Monbiot",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Mink farms are the perfect petri dishes for deadly flu strains to emerge. Yet officials appear to be protecting business interests over human lives, says Guardian columnist George Monbiot",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-11-04T06:00:26.000Z",
+          "title": "The next global pandemic could be brewing on a mink farm in Utah – and little is being done to stop it",
+          "type": "link",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/04/global-pandemic-mink-farm-utah-farming-livestock",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/commentisfree/2026/nov/04/global-pandemic-mink-farm-utah-farming-livestock\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/commentisfree/</span><span class=\"invisible\">2026/nov/04/global-pandemic-mink-farm-utah-farming-livestock</span></a></p><p>Mink farms can act as incubators, developing new virus strains that humans can catch. This article suggests monitoring them carefully, but Utah doesn&#39;t want to talk about it.</p>",
+        "created_at": "2026-11-14T04:20:08.158Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117612872214646919",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612872214646919",
+        "url": "https://mastodon.xyz/@rms/117612872214646919",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117612973609555929": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Amy Hawkins",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Amy Hawkins",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Activists fear Bangkok will give in to pressure from Beijing despite reports of torture and human rights abuses against the mostly muslim ethnic minority",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-11-08T03:00:28.000Z",
+          "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+          "type": "link",
+          "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/global-develop</span><span class=\"invisible\">ment/2026/nov/08/uyghurs-thailand-china-forced-deportation</span></a></p><p>China has ordered Thailand to deport to China some Uyghur refugees who fled China and criticize China for persecuting Uyghurs. Thailand is so completely under China&#39;s thumb that it intends to obey that order even though these refugees have been offered asylum in Canada, which ought to be safe. Shame on you, Thailand!</p>",
+        "created_at": "2026-11-14T04:45:55.320Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "117612973609555929",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 6,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117612973609555929",
+        "url": "https://mastodon.xyz/@rms/117612973609555929",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613086099493963": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "David Sirota",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "David Sirota",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Overturning Citizens United is not enough. Campaigns must be funded with public money rather than private donations",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-11-05T11:00:22.000Z",
+          "title": "Democrats promised to end corruption. Here’s how they can do that",
+          "type": "link",
+          "url": "https://www.theguardian.com/commentisfree/2026/nov/05/democrats-corruption-money-private-donations",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/commentisfree/2026/nov/05/democrats-corruption-money-private-donations\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/commentisfree/</span><span class=\"invisible\">2026/nov/05/democrats-corruption-money-private-donations</span></a></p><p>Corporate Democrats now advocate &quot;getting money out of politics&quot;, but the measures they advocate are to weak to achieve the goal.</p>",
+        "created_at": "2026-11-14T05:14:31.781Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117613086099493963",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613086099493963",
+        "url": "https://mastodon.xyz/@rms/117613086099493963",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613151616496027": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Ajit Niranjan",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Ajit Niranjan",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Past and present leaders of wealthy nations such as UK and Germany have argued their actions are insignificant",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-06-30T15:53:00.000Z",
+          "title": "‘But we’re just 1% of emissions’: do smaller countries’ climate efforts matter?",
+          "type": "link",
+          "url": "https://www.theguardian.com/environment/2026/jun/30/emissions-do-smaller-countries-climate-efforts-matter",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/environment/2026/jun/30/emissions-do-smaller-countries-climate-efforts-matter\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/environment/20</span><span class=\"invisible\">26/jun/30/emissions-do-smaller-countries-climate-efforts-matter</span></a></p><p>Countries that emit less than 1% of the world&#39;s greenhouse gas emissions are not negligible - they add up to almost 1/3 of the total emissions. Thus, the argument that emitting less than 1% is an excuse for the country to do nothing to reduce its emissions is a bogus excuse.</p>",
+        "created_at": "2026-11-14T05:31:11.491Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 4,
+        "id": "117613151616496027",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613151616496027",
+        "url": "https://mastodon.xyz/@rms/117613151616496027",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613262507343938": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Jillian Ambrose",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Jillian Ambrose",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "The public accounts committee has said the risk to billpayers is ‘extraordinary’",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-10-28T00:01:47.000Z",
+          "title": "Plan for multibillion-pound Sizewell nuclear plant a ‘terrible deal’ for UK taxpayers, MPs say",
+          "type": "link",
+          "url": "https://www.theguardian.com/business/2026/oct/28/plan-for-multibillion-pound-sizewell-nuclear-plant-a-terrible-deal-for-uk-taxpayers-mps-say",
+          "width": 0
+        },
+        "content": "<p>[1/2] <a href=\"https://www.theguardian.com/business/2026/oct/28/plan-for-multibillion-pound-sizewell-nuclear-plant-a-terrible-deal-for-uk-taxpayers-mps-say\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/business/2026/</span><span class=\"invisible\">oct/28/plan-for-multibillion-pound-sizewell-nuclear-plant-a-terrible-deal-for-uk-taxpayers-mps-say</span></a></p><p>A group of UK parliamentarians acknowledge that the Sizewell C nuclear power plant would be a terrible deal for the taxpayers. Nuclear power tends to be a bad deal, because it is more expensive and takes far longer than renewable generation. That being so, it provokes suspicion that the government has some hidden reasons for pushing the nuclear</p>",
+        "created_at": "2026-11-14T05:59:23.552Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117613262507343938",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 2,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613262507343938",
+        "url": "https://mastodon.xyz/@rms/117613262507343938",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613262594827649": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>[2/2] plan.</p>",
+        "created_at": "2026-11-14T05:59:24.885Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117613262594827649",
+        "in_reply_to_account_id": "110426658158664185",
+        "in_reply_to_id": "117613262507343938",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613262594827649",
+        "url": "https://mastodon.xyz/@rms/117613262594827649",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613328822601688": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>Richard Stallman hará una conferencia en Quito al evento INCISCOS en la Universidad Central del Ecuador, el 19 de noviembre a las 10:00. \t El público está invitado. \t El software libre y la libertad en la sociedad digital. \t Richard stallman will give a talk in Quito to the INCISCOS event at Central University of Ecuador, November 19 at 10:00. Free Software and freedom in digital society The talk is in Spanish in Quito at Central University of Ecuador.</p>",
+        "created_at": "2026-11-14T06:16:15.442Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 2,
+        "id": "117613328822601688",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613328822601688",
+        "url": "https://mastodon.xyz/@rms/117613328822601688",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613445447793809": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Guardian staff reporter",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Guardian staff reporter",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Despite structural differences between countries, protests are a reminder of what makes demonstrations so powerful",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-10-29T11:00:32.000Z",
+          "title": "Four lessons the US can learn from the youth protests in France",
+          "type": "link",
+          "url": "https://www.theguardian.com/us-news/2026/oct/29/france-protests-lessons",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/us-news/2026/oct/29/france-protests-lessons\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/us-news/2026/o</span><span class=\"invisible\">ct/29/france-protests-lessons</span></a></p><p>What has made French student protests so powerful?</p>",
+        "created_at": "2026-11-14T06:45:55.001Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117613445447793809",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613445447793809",
+        "url": "https://mastodon.xyz/@rms/117613445447793809",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613546223346915": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Guardian staff reporter",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Guardian staff reporter",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "In Jamestown, Virginia, one of the most important places in American history is in a race against time from rising waters",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-07-02T18:00:06.000Z",
+          "title": "As seas rise, American history could be washed away",
+          "type": "link",
+          "url": "https://www.theguardian.com/environment/2026/jul/02/sea-level-rise-jamestown-virginia",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/environment/2026/jul/02/sea-level-rise-jamestown-virginia\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/environment/20</span><span class=\"invisible\">26/jul/02/sea-level-rise-jamestown-virginia</span></a><br /><a href=\"https://stallman.org/glossary.html#global%20heating\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">stallman.org/glossary.html#glo</span><span class=\"invisible\">bal%20heating</span></a></p><p>Jamestown is slowly but steadily being inundated by the rising Atlantic Ocean, due to global heating.</p>",
+        "created_at": "2026-11-14T07:11:32.714Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117613546223346915",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613546223346915",
+        "url": "https://mastodon.xyz/@rms/117613546223346915",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613621713094199": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>Richard Stallman hará una conferencia en Quito a la Universidad Central del Ecuador el 17 de noviembre a las 08:30. \t El público está invitado. \t El software libre y la libertad en la sociedad digital. \t Richard Stallman will giva a talk in Quito at Central University of Ecuador, November 17 at 08:30. Free software and freedom in the digital society. The talk is in Spanish at Central University of Ecuador in Quito</p>",
+        "created_at": "2026-11-14T07:30:44.595Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 3,
+        "id": "117613621713094199",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 2,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613621713094199",
+        "url": "https://mastodon.xyz/@rms/117613621713094199",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613725785905383": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "",
+          "author_url": "",
+          "authors": [],
+          "blurhash": null,
+          "description": "",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": null,
+          "provider_name": "",
+          "provider_url": "",
+          "published_at": null,
+          "title": "Glossary",
+          "type": "link",
+          "url": "https://stallman.org/glossary.html#s-i-c",
+          "width": 0
+        },
+        "content": "<p>[1/2] <a href=\"https://stallman.org/glossary.html#s-i-c\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">stallman.org/glossary.html#s-i</span><span class=\"invisible\">-c</span></a><br /><a href=\"https://www.theguardian.com/us-news/2026/nov/05/trump-election-interference-midterm-results\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/us-news/2026/n</span><span class=\"invisible\">ov/05/trump-election-interference-midterm-results</span></a></p><p>Despite all his blustering and threats, the saboteur in chief ultimately did nothing drastic on election day to attack the election. It&#39;s good news when one of his threats and attacks turns out to be a bluff, but many of them have done long-term harm. His attacks against human rights, human health, Earth&#39;s climate, Earth&#39;s ecosystems, US news media, US</p>",
+        "created_at": "2026-11-14T07:57:12.621Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117613725785905383",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 1,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613725785905383",
+        "url": "https://mastodon.xyz/@rms/117613725785905383",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613725873207744": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>[2/2] economic competition, and honest enforcement of laws, have been devastating.</p>",
+        "created_at": "2026-11-14T07:57:13.952Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 0,
+        "id": "117613725873207744",
+        "in_reply_to_account_id": "110426658158664185",
+        "in_reply_to_id": "117613725785905383",
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613725873207744",
+        "url": "https://mastodon.xyz/@rms/117613725873207744",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613816213621339": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": {
+          "author_name": "Sarah Johnson",
+          "author_url": "",
+          "authors": [
+            {
+              "account": null,
+              "name": "Sarah Johnson",
+              "url": ""
+            }
+          ],
+          "blurhash": null,
+          "description": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment",
+          "embed_url": "",
+          "height": 0,
+          "html": "",
+          "image": null,
+          "image_description": "",
+          "language": "en",
+          "provider_name": "The Guardian",
+          "provider_url": "",
+          "published_at": "2026-10-28T09:37:49.000Z",
+          "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+          "type": "link",
+          "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+          "width": 0
+        },
+        "content": "<p><a href=\"https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"ellipsis\">theguardian.com/global-develop</span><span class=\"invisible\">ment/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official</span></a></p><p>Warning that the current Ebola outbreak, the broadest ever, could spread to countries outside Africa. Rich countries that have not given money to get the outbreak under control for Africans&#39; sake must now help fund getting the outbreak under control so as to protect their own populations.</p>",
+        "created_at": "2026-11-14T08:20:12.438Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117613816213621339",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 5,
+        "replies_count": 1,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613816213621339",
+        "url": "https://mastodon.xyz/@rms/117613816213621339",
+        "visibility": "public"
+      }
+    },
+    "mastodon.xyz/117613896434292139": {
+      "host": "mastodon.xyz",
+      "status": {
+        "account": {
+          "acct": "rms",
+          "avatar": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "avatar_static": "https://6-28.mastodon.xyz/accounts/avatars/110/426/658/158/664/185/original/f85652a785470404.png",
+          "bot": false,
+          "created_at": "2023-05-25T00:00:00.000Z",
+          "discoverable": true,
+          "display_name": "Richard Stallman",
+          "emojis": [],
+          "fields": [
+            {
+              "name": "Website",
+              "value": "<a href=\"https://stallman.org\" target=\"_blank\" rel=\"nofollow noopener me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org</span><span class=\"invisible\"></span></a>",
+              "verified_at": "2023-06-01T00:06:27.502+00:00"
+            },
+            {
+              "name": "Email",
+              "value": "rms@gnu.org",
+              "verified_at": null
+            }
+          ],
+          "followers_count": 8197,
+          "following_count": 0,
+          "group": false,
+          "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "header_static": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
+          "hide_collections": false,
+          "id": "110426658158664185",
+          "indexable": false,
+          "last_status_at": "2026-11-14",
+          "locked": false,
+          "noindex": false,
+          "note": "<p>This is the Mastodon account for Richard Stallman.</p><p>I founded GNU &amp; the <span class=\"h-card\" translate=\"no\"><a href=\"https://hostux.social/@fsf\" class=\"u-url mention\">@<span>fsf</span></a></span> and with them launched the Free Software Movement. Please join or donate to the FSF: <a href=\"https://www.fsf.org\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">fsf.org</span><span class=\"invisible\"></span></a></p><p>I use this account to mirror the political notes from my web site, stallman.org.</p><p>Read my linking policy: <a href=\"https://stallman.org/linkpolicy.html\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">stallman.org/linkpolicy.html</span><span class=\"invisible\"></span></a></p><p>The views expressed here, as in stallman.org, are my personal views, not those of the Free Software Foundation or the GNU Project. <a href=\"https://mastodon.xyz/tags/FSF\" class=\"mention hashtag\" rel=\"tag\">#<span>FSF</span></a> <a href=\"https://mastodon.xyz/tags/GNU\" class=\"mention hashtag\" rel=\"tag\">#<span>GNU</span></a> <a href=\"https://mastodon.xyz/tags/FreeSoftware\" class=\"mention hashtag\" rel=\"tag\">#<span>FreeSoftware</span></a></p>",
+          "roles": [],
+          "statuses_count": 16316,
+          "uri": "https://mastodon.xyz/users/rms",
+          "url": "https://mastodon.xyz/@rms",
+          "username": "rms"
+        },
+        "card": null,
+        "content": "<p>Richard Stallman hará una conferencia en Guayaquil a la Universidad Central del Ecuador el 23 de november a las 10:00. \t El público está invitado. \t El software libre y la libertad en la sociedad digital. \tRichard Stallman will give a talk at Central University of Ecuador, November 10 \tat 10:00. \tFree Software and freedom in digital society \tThe talk is in Spanish in Guayaquil at Central University of Ecuador</p>",
+        "created_at": "2026-11-14T08:40:36.508Z",
+        "edited_at": null,
+        "emojis": [],
+        "favourites_count": 1,
+        "id": "117613896434292139",
+        "in_reply_to_account_id": null,
+        "in_reply_to_id": null,
+        "language": "en",
+        "media_attachments": [],
+        "mentions": [],
+        "poll": null,
+        "quote": null,
+        "quote_approval": {
+          "automatic": [
+            "public"
+          ],
+          "current_user": "denied",
+          "manual": []
+        },
+        "quotes_count": 0,
+        "reblog": null,
+        "reblogs_count": 0,
+        "replies_count": 0,
+        "sensitive": false,
+        "spoiler_text": "",
+        "tags": [],
+        "uri": "https://mastodon.xyz/users/rms/statuses/117613896434292139",
+        "url": "https://mastodon.xyz/@rms/117613896434292139",
+        "visibility": "public"
+      }
     }
   },
   "sources": {
-    "rms@mastodon.xyz": "117599106885442045"
+    "rms@mastodon.xyz": "117613896434292139"
   }
 }
