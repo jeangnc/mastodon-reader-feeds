@@ -4,7 +4,7 @@
     "name": "daniel:// stenberg://",
     "user": "bagder"
   },
-  "last_success": "2026-11-15",
+  "last_success": "2026-11-16",
   "posts": {
     "mastodon.social/117551753117506903": {
       "host": "mastodon.social",
@@ -5507,7 +5507,7 @@
         "created_at": "2026-11-12T13:02:52.045Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 90,
+        "favourites_count": 91,
         "id": "117603603057639659",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -6462,7 +6462,7 @@
         "created_at": "2026-11-13T23:08:38.478Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 34,
+        "favourites_count": 35,
         "id": "117611647366746246",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -7110,7 +7110,7 @@
         "created_at": "2026-11-14T22:22:36.235Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 70,
+        "favourites_count": 71,
         "id": "117617128651812043",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
