@@ -4,7 +4,7 @@
     "name": "@robpike.io",
     "user": "robpike"
   },
-  "last_success": "2026-11-16",
+  "last_success": "2026-11-17",
   "posts": {
     "cosocial.ca/117260147453883348": {
       "host": "cosocial.ca",
@@ -365,7 +365,7 @@
         "created_at": "2026-09-30T09:48:22.200Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 383,
+        "favourites_count": 384,
         "id": "117359358914733827",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -705,7 +705,7 @@
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13615,
+              "statuses_count": 13625,
               "uri": "https://mastodon.social/users/arstechnica",
               "url": "https://mastodon.social/@arstechnica",
               "username": "arstechnica"
@@ -2331,7 +2331,7 @@
         "created_at": "2026-11-15T01:44:35.888Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 115,
+        "favourites_count": 117,
         "id": "117617922925185574",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -2380,7 +2380,7 @@
               "show_featured": true,
               "show_media": true,
               "show_media_replies": true,
-              "statuses_count": 13615,
+              "statuses_count": 13625,
               "uri": "https://mastodon.social/users/arstechnica",
               "url": "https://mastodon.social/@arstechnica",
               "username": "arstechnica"
