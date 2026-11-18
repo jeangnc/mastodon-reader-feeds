@@ -4,7 +4,7 @@
     "name": "Mitchell Hashimoto",
     "user": "mitchellh"
   },
-  "last_success": "2026-11-17",
+  "last_success": "2026-11-18",
   "posts": {
     "hachyderm.io/117108873196299801": {
       "host": "hachyderm.io",
@@ -2760,7 +2760,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 16,
+        "reblogs_count": 15,
         "replies_count": 3,
         "sensitive": false,
         "spoiler_text": "",
@@ -3096,7 +3096,7 @@
         "created_at": "2026-11-16T22:58:51.838Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 43,
+        "favourites_count": 45,
         "id": "117628595852925836",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -3114,7 +3114,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 9,
+        "reblogs_count": 10,
         "replies_count": 7,
         "sensitive": false,
         "spoiler_text": "",
