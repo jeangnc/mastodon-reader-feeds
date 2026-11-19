@@ -1,43 +1,43 @@
 {
-  "checked_on": "2026-11-18",
+  "checked_on": "2026-11-19",
   "sources": {
     "bagder": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 81
     },
     "dhh": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 0
     },
     "matz": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 20
     },
     "mitchellh": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 22
     },
     "rms": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 151
     },
     "robpike": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 21
     },
     "rsc": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 20
     },
     "tenderlove": {
-      "last_success": "2026-11-18",
+      "last_success": "2026-11-19",
       "ok": true,
       "posts": 20
     }
