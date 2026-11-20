@@ -4,7 +4,7 @@
     "name": "Russ Cox",
     "user": "rsc"
   },
-  "last_success": "2026-11-19",
+  "last_success": "2026-11-20",
   "posts": {
     "hachyderm.io/112372232894250612": {
       "host": "hachyderm.io",
@@ -1914,7 +1914,7 @@
         "created_at": "2026-01-21T01:11:08.599Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 42,
+        "favourites_count": 43,
         "id": "115930422876397275",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
