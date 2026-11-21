@@ -4,7 +4,7 @@
     "name": "Mitchell Hashimoto",
     "user": "mitchellh"
   },
-  "last_success": "2026-11-20",
+  "last_success": "2026-11-21",
   "posts": {
     "hachyderm.io/117108873196299801": {
       "host": "hachyderm.io",
@@ -2619,7 +2619,7 @@
         "created_at": "2026-11-03T17:17:39.006Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 39,
+        "favourites_count": 40,
         "id": "117553644110176246",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
