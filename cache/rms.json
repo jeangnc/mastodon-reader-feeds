@@ -4,7 +4,7 @@
     "name": "Richard Stallman",
     "user": "rms"
   },
-  "last_success": "2026-11-23",
+  "last_success": "2026-11-24",
   "posts": {
     "mastodon.xyz/117539115199619282": {
       "host": "mastodon.xyz",
@@ -17598,7 +17598,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 7,
+        "reblogs_count": 8,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
