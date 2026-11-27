@@ -4,7 +4,7 @@
     "name": "Richard Stallman",
     "user": "rms"
   },
-  "last_success": "2026-11-26",
+  "last_success": "2026-11-27",
   "posts": {
     "mastodon.xyz/117539115199619282": {
       "host": "mastodon.xyz",
@@ -19958,7 +19958,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20033,7 +20033,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20081,7 +20081,7 @@
         "created_at": "2026-11-26T09:04:30.709Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 1,
+        "favourites_count": 2,
         "id": "117681938150829601",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20099,7 +20099,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 2,
+        "reblogs_count": 3,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -20133,7 +20133,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20175,7 +20175,7 @@
         "created_at": "2026-11-26T09:27:22.262Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 3,
+        "favourites_count": 4,
         "id": "117682028036906414",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20193,7 +20193,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 0,
+        "reblogs_count": 1,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -20227,7 +20227,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20275,7 +20275,7 @@
         "created_at": "2026-11-26T09:51:33.689Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 1,
+        "favourites_count": 2,
         "id": "117682123157608399",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20293,7 +20293,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 0,
+        "reblogs_count": 2,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -20327,7 +20327,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20375,7 +20375,7 @@
         "created_at": "2026-11-26T10:11:04.940Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 1,
+        "favourites_count": 2,
         "id": "117682199916730065",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20393,7 +20393,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 4,
+        "reblogs_count": 5,
         "replies_count": 1,
         "sensitive": false,
         "spoiler_text": "",
@@ -20427,7 +20427,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20469,7 +20469,7 @@
         "created_at": "2026-11-26T10:41:03.295Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 0,
+        "favourites_count": 1,
         "id": "117682317773713266",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20487,7 +20487,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 0,
+        "reblogs_count": 1,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -20521,7 +20521,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20569,7 +20569,7 @@
         "created_at": "2026-11-26T11:08:52.186Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 6,
+        "favourites_count": 8,
         "id": "117682427146181739",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20621,7 +20621,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20663,7 +20663,7 @@
         "created_at": "2026-11-26T11:30:37.618Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 2,
+        "favourites_count": 3,
         "id": "117682512698990256",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20715,7 +20715,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20775,7 +20775,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 1,
+        "reblogs_count": 2,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -20809,7 +20809,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20851,7 +20851,7 @@
         "created_at": "2026-11-26T12:14:54.845Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 1,
+        "favourites_count": 2,
         "id": "117682686843004596",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -20869,7 +20869,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 1,
+        "reblogs_count": 2,
         "replies_count": 1,
         "sensitive": false,
         "spoiler_text": "",
@@ -20903,7 +20903,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -20978,7 +20978,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21020,7 +21020,7 @@
         "created_at": "2026-11-26T12:38:43.530Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 2,
+        "favourites_count": 3,
         "id": "117682780473270218",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21038,7 +21038,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 2,
+        "reblogs_count": 3,
         "replies_count": 1,
         "sensitive": false,
         "spoiler_text": "",
@@ -21072,7 +21072,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21147,7 +21147,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21189,7 +21189,7 @@
         "created_at": "2026-11-26T13:02:17.422Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 1,
+        "favourites_count": 2,
         "id": "117682873134196359",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21207,7 +21207,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 1,
+        "reblogs_count": 2,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -21241,7 +21241,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21289,7 +21289,7 @@
         "created_at": "2026-11-26T13:23:33.700Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 6,
+        "favourites_count": 7,
         "id": "117682956776274954",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21307,7 +21307,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 3,
+        "reblogs_count": 4,
         "replies_count": 1,
         "sensitive": false,
         "spoiler_text": "",
@@ -21341,7 +21341,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21383,7 +21383,7 @@
         "created_at": "2026-11-26T13:39:53.883Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 9,
+        "favourites_count": 12,
         "id": "117683021013547250",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21399,9 +21399,9 @@
           "current_user": "denied",
           "manual": []
         },
-        "quotes_count": 0,
+        "quotes_count": 1,
         "reblog": null,
-        "reblogs_count": 2,
+        "reblogs_count": 4,
         "replies_count": 1,
         "sensitive": false,
         "spoiler_text": "",
@@ -21435,7 +21435,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21483,7 +21483,7 @@
         "created_at": "2026-11-26T13:56:28.254Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 5,
+        "favourites_count": 6,
         "id": "117683086180677254",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21501,7 +21501,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 2,
+        "reblogs_count": 4,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -21535,7 +21535,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21577,7 +21577,7 @@
         "created_at": "2026-11-26T14:15:58.500Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 0,
+        "favourites_count": 2,
         "id": "117683162873897984",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21595,7 +21595,7 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 0,
+        "reblogs_count": 2,
         "replies_count": 0,
         "sensitive": false,
         "spoiler_text": "",
@@ -21629,7 +21629,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
@@ -21671,7 +21671,7 @@
         "created_at": "2026-11-26T14:40:13.957Z",
         "edited_at": null,
         "emojis": [],
-        "favourites_count": 3,
+        "favourites_count": 4,
         "id": "117683258258761223",
         "in_reply_to_account_id": null,
         "in_reply_to_id": null,
@@ -21689,8 +21689,8 @@
         },
         "quotes_count": 0,
         "reblog": null,
-        "reblogs_count": 0,
-        "replies_count": 1,
+        "reblogs_count": 2,
+        "replies_count": 2,
         "sensitive": false,
         "spoiler_text": "",
         "tags": [],
@@ -21723,7 +21723,7 @@
               "verified_at": null
             }
           ],
-          "followers_count": 8243,
+          "followers_count": 8250,
           "following_count": 0,
           "group": false,
           "header": "https://6-28.mastodon.xyz/accounts/headers/110/426/658/158/664/185/original/8d7c7a460c317a76.png",
